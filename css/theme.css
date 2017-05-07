@@ -1,0 +1,75 @@
+body{
+	background-color:rgb(220,220,220);/*this applies a light grey colour to the entire background of the web-pages*/
+}
+
+h1{
+	color:rgb(23,54,93);/*sets the colour of the header to be a dark blue*/
+}
+
+h2{
+	font-size: 20px;
+	font-family:serif;
+	margin: 15px 0px 5px 0px;
+}
+
+h3{
+	color:rgb(79,129,189);/*sets the colour of the h3 headers to be a lighter blue than the h1 header and gives them serifs*/
+	font-family:serif;
+	margin: 5px 0px 5px 0px;
+}
+
+p{
+	font-family:sans-serif;/*removes the serifs from everything within the "p"*/
+}
+
+.center-children{
+	text-align: center;
+}
+
+.align-left{
+	position: relative;
+	display: inline-block;
+	width: 0px;
+	height: 0px;
+	vertical-align:top;
+	margin: 140px 75px 0px 0px;
+}
+
+#Y-title{
+	display: inline-block;
+	position: absolute;
+	width: 30px;
+	text-align: left;
+}
+
+
+#dataCanvas{
+	width:600px;
+	height:360px;
+	background-color: rgb(220,220,220);
+	/*border: 1px solid black;*/
+	display: inline-block;
+
+	display:inline;
+	top: 0;
+	left: 0;
+
+	z-index: 1;
+
+	/*padding and border included in total width/height*/
+	-webkit-box-sizing: border-box;/*chrome,safari*/
+	-moz-box-sizing: border-box;/*firefox*/
+	box-sizing: border-box;
+
+	/*these three properties prevent the canvas from being highlighted when clicking quickly*/
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+
+select{
+	display: inline;
+}
+select option[disabled] {
+    display: none;
+}

@@ -169,6 +169,11 @@
         logToFile("unknown file title format, title: ".$fileName);
         break;
       }
+      //if the day is already in the database, break
+      if(getDataFromTable("magnetometer", $folderName, $day)){
+        logToFile("data for year " . $folderName . ", day " . $day . ", is already in the database");
+        break;
+      }
       $fullPath = "$filepath$fileName";
 
       $row = 1;

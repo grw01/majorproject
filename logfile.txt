@@ -1,68 +1,946 @@
-[05/08/2017 11:58:01 am]: query : SELECT * FROM magnetometer WHERE `day` = 33 AND `year` = 2017
-[05/08/2017 11:58:01 am]: data already in table: FILE: 2017, 033, 3568924714.103, 27908.000    Database: 724011, 2017, 33, 3568875217, 27593
-[05/08/2017 11:58:02 am]: query : SELECT * FROM magnetometer WHERE `day` = 34 AND `year` = 2017
-[05/08/2017 11:58:02 am]: data already in table: FILE: 2017, 034, 3569011064.014, 28513.000    Database: 724287, 2017, 34, 3568924981, 27917
-[05/08/2017 11:58:03 am]: query : SELECT * FROM magnetometer WHERE `day` = 35 AND `year` = 2017
-[05/08/2017 11:58:03 am]: data already in table: FILE: 2017, 035, 3569097595.565, 28462.000    Database: 724766, 2017, 35, 3569011382, 28517
-[05/08/2017 11:58:04 am]: query : SELECT * FROM magnetometer WHERE `day` = 36 AND `year` = 2017
-[05/08/2017 11:58:04 am]: data already in table: FILE: 2017, 036, 3569183994.872, 28382.000    Database: 725246, 2017, 36, 3569097782, 28463
-[05/08/2017 11:58:04 am]: query : SELECT * FROM magnetometer WHERE `day` = 37 AND `year` = 2017
-[05/08/2017 11:58:05 am]: data already in table: FILE: 2017, 037, 3569270394.494, 28309.000    Database: 725726, 2017, 37, 3569184181, 28387
-[05/08/2017 11:58:05 am]: query : SELECT * FROM magnetometer WHERE `day` = 38 AND `year` = 2017
-[05/08/2017 11:58:06 am]: data already in table: FILE: 2017, 038, 3569356630.419, 28061.000    Database: 726206, 2017, 38, 3569270580, 28306
-[05/08/2017 11:58:06 am]: query : SELECT * FROM magnetometer WHERE `day` = 39 AND `year` = 2017
-[05/08/2017 11:58:06 am]: data already in table: FILE: 2017, 039, 3569443023.004, 28271.000    Database: 726685, 2017, 39, 3569356981, 28070
-[05/08/2017 11:58:07 am]: query : SELECT * FROM magnetometer WHERE `day` = 40 AND `year` = 2017
-[05/08/2017 11:58:07 am]: data already in table: FILE: 2017, 040, 3569497199.342, 28940.000    Database: 727164, 2017, 40, 3569443380, 28284
-[05/08/2017 11:58:07 am]: query : SELECT * FROM magnetometer WHERE `day` = 80 AND `year` = 2017
-[05/08/2017 11:58:08 am]: data already in table: FILE: 2017, 080, 3572985456.107, 28158.000    Database: 727464, 2017, 80, 3572940254, 27273
-[05/08/2017 11:58:08 am]: query : SELECT * FROM magnetometer WHERE `day` = 81 AND `year` = 2017
-[05/08/2017 11:58:08 am]: data already in table: FILE: 2017, 081, 3573071848.162, 27553.000    Database: 727716, 2017, 81, 3572985780, 28163
-[05/08/2017 11:58:09 am]: query : SELECT * FROM magnetometer WHERE `day` = 82 AND `year` = 2017
-[05/08/2017 11:58:09 am]: data already in table: FILE: 2017, 082, 3573158290.641, 27512.000    Database: 728195, 2017, 82, 3573072182, 27566
-[05/08/2017 11:58:10 am]: query : SELECT * FROM magnetometer WHERE `day` = 83 AND `year` = 2017
-[05/08/2017 11:58:10 am]: data already in table: FILE: 2017, 083, 3573500274.861, 26624.000    Database: 728674, 2017, 83, 3573158582, 27522
-[05/08/2017 11:58:11 am]: query : SELECT * FROM magnetometer WHERE `day` = 87 AND `year` = 2017
-[05/08/2017 11:58:11 am]: data already in table: FILE: 2017, 087, 3573586624.876, 26987.000    Database: 729179, 2017, 87, 3573500581, 26623
-[05/08/2017 11:58:11 am]: query : SELECT * FROM magnetometer WHERE `day` = 88 AND `year` = 2017
-[05/08/2017 11:58:12 am]: data already in table: FILE: 2017, 088, 3573673088.938, 26904.000    Database: 729658, 2017, 88, 3573586982, 26994
-[05/08/2017 11:58:12 am]: query : SELECT * FROM magnetometer WHERE `day` = 89 AND `year` = 2017
-[05/08/2017 11:58:13 am]: data already in table: FILE: 2017, 089, 3573759454.469, 26913.000    Database: 730137, 2017, 89, 3573673383, 26913
-[05/08/2017 11:58:13 am]: query : SELECT * FROM magnetometer WHERE `day` = 90 AND `year` = 2017
-[05/08/2017 11:58:13 am]: data already in table: FILE: 2017, 090, 3573845857.238, 27039.000    Database: 730616, 2017, 90, 3573759801, 26916
-[05/08/2017 11:58:14 am]: query : SELECT * FROM magnetometer WHERE `day` = 91 AND `year` = 2017
-[05/08/2017 11:58:14 am]: data already in table: FILE: 2017, 091, 3573932223.852, 26947.000    Database: 731095, 2017, 91, 3573846181, 27043
-[05/08/2017 11:58:15 am]: query : SELECT * FROM magnetometer WHERE `day` = 92 AND `year` = 2017
-[05/08/2017 11:58:15 am]: data already in table: FILE: 2017, 092, 3574018664.969, 26947.000    Database: 731574, 2017, 92, 3573932581, 26960
-[05/08/2017 11:58:15 am]: query : SELECT * FROM magnetometer WHERE `day` = 93 AND `year` = 2017
-[05/08/2017 11:58:16 am]: data already in table: FILE: 2017, 093, 3574105070.616, 27097.000    Database: 732053, 2017, 93, 3574018983, 26965
-[05/08/2017 11:58:16 am]: query : SELECT * FROM magnetometer WHERE `day` = 94 AND `year` = 2017
-[05/08/2017 11:58:17 am]: data already in table: FILE: 2017, 094, 3574191514.472, 27340.000    Database: 732532, 2017, 94, 3574105383, 27097
-[05/08/2017 11:58:17 am]: query : SELECT * FROM magnetometer WHERE `day` = 95 AND `year` = 2017
-[05/08/2017 11:58:17 am]: data already in table: FILE: 2017, 095, 3574252641.112, 26507.000    Database: 733011, 2017, 95, 3574191781, 27348
-[05/08/2017 11:58:18 am]: query : SELECT * FROM magnetometer WHERE `day` = 116 AND `year` = 2017
-[05/08/2017 11:58:18 am]: data not in table: 2017, 116, 3576092322.568, 27522.000
-[05/08/2017 11:58:18 am]: query : SELECT * FROM magnetometer WHERE `day` = 117 AND `year` = 2017
-[05/08/2017 11:58:19 am]: data not in table: 2017, 117, 3576178647.082, 27146.000
-[05/08/2017 11:58:19 am]: query : SELECT * FROM magnetometer WHERE `day` = 118 AND `year` = 2017
-[05/08/2017 11:58:19 am]: data not in table: 2017, 118, 3576265045.783, 27035.000
-[05/08/2017 11:58:20 am]: query : SELECT * FROM magnetometer WHERE `day` = 119 AND `year` = 2017
-[05/08/2017 11:58:20 am]: data not in table: 2017, 119, 3576351594.855, 26977.000
-[05/08/2017 11:58:21 am]: query : SELECT * FROM magnetometer WHERE `day` = 120 AND `year` = 2017
-[05/08/2017 11:58:21 am]: data not in table: 2017, 120, 3576437841.072, 26840.000
-[05/08/2017 11:58:22 am]: query : SELECT * FROM magnetometer WHERE `day` = 121 AND `year` = 2017
-[05/08/2017 11:58:22 am]: data not in table: 2017, 121, 3576524402.193, 26641.000
-[05/08/2017 11:58:22 am]: query : SELECT * FROM magnetometer WHERE `day` = 122 AND `year` = 2017
-[05/08/2017 11:58:23 am]: data not in table: 2017, 122, 3576610794.937, 26228.000
-[05/08/2017 11:58:23 am]: query : SELECT * FROM magnetometer WHERE `day` = 123 AND `year` = 2017
-[05/08/2017 11:58:23 am]: data not in table: 2017, 123, 3576697197.313, 26204.000
-[05/08/2017 11:58:24 am]: query : SELECT * FROM magnetometer WHERE `day` = 124 AND `year` = 2017
-[05/08/2017 11:58:24 am]: data not in table: 2017, 124, 3576783433.300, 26405.000
-[05/08/2017 11:58:24 am]: query : SELECT * FROM magnetometer WHERE `day` = 125 AND `year` = 2017
-[05/08/2017 11:58:25 am]: data not in table: 2017, 125, 3576869994.495, 26388.000
-[05/08/2017 11:58:25 am]: query : SELECT * FROM magnetometer WHERE `day` = 126 AND `year` = 2017
-[05/08/2017 11:58:26 am]: data not in table: 2017, 126, 3576956233.525, 26423.000
-[05/08/2017 11:58:26 am]: query : SELECT * FROM magnetometer WHERE `day` = 127 AND `year` = 2017
-[05/08/2017 11:58:27 am]: data not in table: 2017, 127, 3577042636.277, 26230.000
-[05/08/2017 11:58:27 am]: query : SELECT * FROM magnetometer WHERE `day` = 128 AND `year` = 2017
-[05/08/2017 11:58:27 am]: data not in table: 2017, 128, 3577085637.977, 25845.000
+[05/08/2017 12:38:21 pm]: file count: 35
+[05/08/2017 12:38:21 pm]: file count: 33
+[05/08/2017 12:38:21 pm]: end file: DATA127.csv
+[05/08/2017 12:38:21 pm]: end file: DATA127.csv
+[05/08/2017 12:38:21 pm]: query : SELECT * FROM magnetometer WHERE `day` = 33 AND `year` = 2017
+[05/08/2017 12:38:22 pm]: data already in table: FILE: 2017, 033, 3568924714.103, 27908.000    Database: 724011, 2017, 33, 3568875217, 27593
+[05/08/2017 12:38:22 pm]: query : SELECT * FROM magnetometer WHERE `day` = 34 AND `year` = 2017
+[05/08/2017 12:38:23 pm]: data already in table: FILE: 2017, 034, 3569011064.014, 28513.000    Database: 724287, 2017, 34, 3568924981, 27917
+[05/08/2017 12:38:23 pm]: query : SELECT * FROM magnetometer WHERE `day` = 35 AND `year` = 2017
+[05/08/2017 12:38:23 pm]: data already in table: FILE: 2017, 035, 3569097595.565, 28462.000    Database: 724766, 2017, 35, 3569011382, 28517
+[05/08/2017 12:38:24 pm]: query : SELECT * FROM magnetometer WHERE `day` = 36 AND `year` = 2017
+[05/08/2017 12:38:24 pm]: data already in table: FILE: 2017, 036, 3569183994.872, 28382.000    Database: 725246, 2017, 36, 3569097782, 28463
+[05/08/2017 12:38:24 pm]: query : SELECT * FROM magnetometer WHERE `day` = 37 AND `year` = 2017
+[05/08/2017 12:38:25 pm]: data already in table: FILE: 2017, 037, 3569270394.494, 28309.000    Database: 725726, 2017, 37, 3569184181, 28387
+[05/08/2017 12:38:25 pm]: query : SELECT * FROM magnetometer WHERE `day` = 38 AND `year` = 2017
+[05/08/2017 12:38:26 pm]: data already in table: FILE: 2017, 038, 3569356630.419, 28061.000    Database: 726206, 2017, 38, 3569270580, 28306
+[05/08/2017 12:38:26 pm]: query : SELECT * FROM magnetometer WHERE `day` = 39 AND `year` = 2017
+[05/08/2017 12:38:27 pm]: data already in table: FILE: 2017, 039, 3569443023.004, 28271.000    Database: 726685, 2017, 39, 3569356981, 28070
+[05/08/2017 12:38:27 pm]: query : SELECT * FROM magnetometer WHERE `day` = 40 AND `year` = 2017
+[05/08/2017 12:38:27 pm]: data already in table: FILE: 2017, 040, 3569497199.342, 28940.000    Database: 727164, 2017, 40, 3569443380, 28284
+[05/08/2017 12:38:28 pm]: query : SELECT * FROM magnetometer WHERE `day` = 80 AND `year` = 2017
+[05/08/2017 12:38:28 pm]: data already in table: FILE: 2017, 080, 3572985456.107, 28158.000    Database: 727464, 2017, 80, 3572940254, 27273
+[05/08/2017 12:38:29 pm]: query : SELECT * FROM magnetometer WHERE `day` = 81 AND `year` = 2017
+[05/08/2017 12:38:29 pm]: data already in table: FILE: 2017, 081, 3573071848.162, 27553.000    Database: 727716, 2017, 81, 3572985780, 28163
+[05/08/2017 12:38:30 pm]: query : SELECT * FROM magnetometer WHERE `day` = 82 AND `year` = 2017
+[05/08/2017 12:38:30 pm]: data already in table: FILE: 2017, 082, 3573158290.641, 27512.000    Database: 728195, 2017, 82, 3573072182, 27566
+[05/08/2017 12:38:30 pm]: query : SELECT * FROM magnetometer WHERE `day` = 83 AND `year` = 2017
+[05/08/2017 12:38:31 pm]: data already in table: FILE: 2017, 083, 3573500274.861, 26624.000    Database: 728674, 2017, 83, 3573158582, 27522
+[05/08/2017 12:38:31 pm]: query : SELECT * FROM magnetometer WHERE `day` = 87 AND `year` = 2017
+[05/08/2017 12:38:32 pm]: data already in table: FILE: 2017, 087, 3573586624.876, 26987.000    Database: 729179, 2017, 87, 3573500581, 26623
+[05/08/2017 12:38:32 pm]: query : SELECT * FROM magnetometer WHERE `day` = 88 AND `year` = 2017
+[05/08/2017 12:38:32 pm]: data already in table: FILE: 2017, 088, 3573673088.938, 26904.000    Database: 729658, 2017, 88, 3573586982, 26994
+[05/08/2017 12:38:33 pm]: query : SELECT * FROM magnetometer WHERE `day` = 89 AND `year` = 2017
+[05/08/2017 12:38:33 pm]: data already in table: FILE: 2017, 089, 3573759454.469, 26913.000    Database: 730137, 2017, 89, 3573673383, 26913
+[05/08/2017 12:38:33 pm]: query : SELECT * FROM magnetometer WHERE `day` = 90 AND `year` = 2017
+[05/08/2017 12:38:34 pm]: data already in table: FILE: 2017, 090, 3573845857.238, 27039.000    Database: 730616, 2017, 90, 3573759801, 26916
+[05/08/2017 12:38:34 pm]: query : SELECT * FROM magnetometer WHERE `day` = 91 AND `year` = 2017
+[05/08/2017 12:38:35 pm]: data already in table: FILE: 2017, 091, 3573932223.852, 26947.000    Database: 731095, 2017, 91, 3573846181, 27043
+[05/08/2017 12:38:35 pm]: query : SELECT * FROM magnetometer WHERE `day` = 92 AND `year` = 2017
+[05/08/2017 12:38:35 pm]: data already in table: FILE: 2017, 092, 3574018664.969, 26947.000    Database: 731574, 2017, 92, 3573932581, 26960
+[05/08/2017 12:38:36 pm]: query : SELECT * FROM magnetometer WHERE `day` = 93 AND `year` = 2017
+[05/08/2017 12:38:36 pm]: data already in table: FILE: 2017, 093, 3574105070.616, 27097.000    Database: 732053, 2017, 93, 3574018983, 26965
+[05/08/2017 12:38:37 pm]: query : SELECT * FROM magnetometer WHERE `day` = 94 AND `year` = 2017
+[05/08/2017 12:38:37 pm]: data already in table: FILE: 2017, 094, 3574191514.472, 27340.000    Database: 732532, 2017, 94, 3574105383, 27097
+[05/08/2017 12:38:37 pm]: query : SELECT * FROM magnetometer WHERE `day` = 95 AND `year` = 2017
+[05/08/2017 12:38:38 pm]: data already in table: FILE: 2017, 095, 3574252641.112, 26507.000    Database: 733011, 2017, 95, 3574191781, 27348
+[05/08/2017 12:38:38 pm]: query : SELECT * FROM magnetometer WHERE `day` = 116 AND `year` = 2017
+[05/08/2017 12:38:39 pm]: data already in table: FILE: 2017, 116, 3576092322.568, 27522.000    Database: 733350, 2017, 116, 3576038867, 27933
+[05/08/2017 12:38:39 pm]: query : SELECT * FROM magnetometer WHERE `day` = 117 AND `year` = 2017
+[05/08/2017 12:38:39 pm]: data already in table: FILE: 2017, 117, 3576178647.082, 27146.000    Database: 733648, 2017, 117, 3576092581, 27535
+[05/08/2017 12:38:40 pm]: query : SELECT * FROM magnetometer WHERE `day` = 118 AND `year` = 2017
+[05/08/2017 12:38:41 pm]: data already in table: FILE: 2017, 118, 3576265045.783, 27035.000    Database: 734127, 2017, 118, 3576178980, 27154
+[05/08/2017 12:38:41 pm]: query : SELECT * FROM magnetometer WHERE `day` = 119 AND `year` = 2017
+[05/08/2017 12:38:41 pm]: data already in table: FILE: 2017, 119, 3576351594.855, 26977.000    Database: 734606, 2017, 119, 3576265382, 27031
+[05/08/2017 12:38:42 pm]: query : SELECT * FROM magnetometer WHERE `day` = 120 AND `year` = 2017
+[05/08/2017 12:38:42 pm]: data already in table: FILE: 2017, 120, 3576437841.072, 26840.000    Database: 735086, 2017, 120, 3576351781, 26983
+[05/08/2017 12:38:42 pm]: query : SELECT * FROM magnetometer WHERE `day` = 121 AND `year` = 2017
+[05/08/2017 12:38:43 pm]: data already in table: FILE: 2017, 121, 3576524402.193, 26641.000    Database: 735565, 2017, 121, 3576438180, 26835
+[05/08/2017 12:38:43 pm]: query : SELECT * FROM magnetometer WHERE `day` = 122 AND `year` = 2017
+[05/08/2017 12:38:44 pm]: data already in table: FILE: 2017, 122, 3576610794.937, 26228.000    Database: 736045, 2017, 122, 3576524582, 26644
+[05/08/2017 12:38:44 pm]: query : SELECT * FROM magnetometer WHERE `day` = 123 AND `year` = 2017
+[05/08/2017 12:38:44 pm]: data already in table: FILE: 2017, 123, 3576697197.313, 26204.000    Database: 736525, 2017, 123, 3576610981, 26234
+[05/08/2017 12:38:45 pm]: query : SELECT * FROM magnetometer WHERE `day` = 124 AND `year` = 2017
+[05/08/2017 12:38:45 pm]: data already in table: FILE: 2017, 124, 3576783433.300, 26405.000    Database: 737005, 2017, 124, 3576697380, 26209
+[05/08/2017 12:38:45 pm]: query : SELECT * FROM magnetometer WHERE `day` = 126 AND `year` = 2017
+[05/08/2017 12:38:46 pm]: data already in table: FILE: 2017, 126, 3576956233.525, 26423.000    Database: 737964, 2017, 126, 3576870180, 26395
+[05/08/2017 12:38:46 pm]: query : SELECT * FROM magnetometer WHERE `day` = 127 AND `year` = 2017
+[05/08/2017 12:38:47 pm]: data already in table: FILE: 2017, 127, 3577042636.277, 26230.000    Database: 738443, 2017, 127, 3576956582, 26432
+[05/08/2017 12:40:25 pm]: file count: 35
+[05/08/2017 12:40:25 pm]: file count: 33
+[05/08/2017 12:40:25 pm]: end file: DATA127.csv
+[05/08/2017 12:40:25 pm]: end file: DATA127.csv
+[05/08/2017 12:40:25 pm]: query : SELECT * FROM magnetometer WHERE `day` = 33 AND `year` = 2017
+[05/08/2017 12:40:26 pm]: data already in table: FILE: 2017, 033, 3568924714.103, 27908.000    Database: 724011, 2017, 33, 3568875217, 27593
+[05/08/2017 12:40:26 pm]: query : SELECT * FROM magnetometer WHERE `day` = 34 AND `year` = 2017
+[05/08/2017 12:40:27 pm]: data already in table: FILE: 2017, 034, 3569011064.014, 28513.000    Database: 724287, 2017, 34, 3568924981, 27917
+[05/08/2017 12:40:27 pm]: query : SELECT * FROM magnetometer WHERE `day` = 35 AND `year` = 2017
+[05/08/2017 12:40:27 pm]: data already in table: FILE: 2017, 035, 3569097595.565, 28462.000    Database: 724766, 2017, 35, 3569011382, 28517
+[05/08/2017 12:40:28 pm]: query : SELECT * FROM magnetometer WHERE `day` = 36 AND `year` = 2017
+[05/08/2017 12:40:28 pm]: data already in table: FILE: 2017, 036, 3569183994.872, 28382.000    Database: 725246, 2017, 36, 3569097782, 28463
+[05/08/2017 12:40:29 pm]: query : SELECT * FROM magnetometer WHERE `day` = 37 AND `year` = 2017
+[05/08/2017 12:40:29 pm]: data already in table: FILE: 2017, 037, 3569270394.494, 28309.000    Database: 725726, 2017, 37, 3569184181, 28387
+[05/08/2017 12:40:29 pm]: query : SELECT * FROM magnetometer WHERE `day` = 38 AND `year` = 2017
+[05/08/2017 12:40:30 pm]: data already in table: FILE: 2017, 038, 3569356630.419, 28061.000    Database: 726206, 2017, 38, 3569270580, 28306
+[05/08/2017 12:40:30 pm]: query : SELECT * FROM magnetometer WHERE `day` = 39 AND `year` = 2017
+[05/08/2017 12:40:31 pm]: data already in table: FILE: 2017, 039, 3569443023.004, 28271.000    Database: 726685, 2017, 39, 3569356981, 28070
+[05/08/2017 12:40:31 pm]: query : SELECT * FROM magnetometer WHERE `day` = 40 AND `year` = 2017
+[05/08/2017 12:40:31 pm]: data already in table: FILE: 2017, 040, 3569497199.342, 28940.000    Database: 727164, 2017, 40, 3569443380, 28284
+[05/08/2017 12:40:32 pm]: query : SELECT * FROM magnetometer WHERE `day` = 80 AND `year` = 2017
+[05/08/2017 12:40:33 pm]: data already in table: FILE: 2017, 080, 3572985456.107, 28158.000    Database: 727464, 2017, 80, 3572940254, 27273
+[05/08/2017 12:40:33 pm]: query : SELECT * FROM magnetometer WHERE `day` = 81 AND `year` = 2017
+[05/08/2017 12:40:33 pm]: data already in table: FILE: 2017, 081, 3573071848.162, 27553.000    Database: 727716, 2017, 81, 3572985780, 28163
+[05/08/2017 12:40:34 pm]: query : SELECT * FROM magnetometer WHERE `day` = 82 AND `year` = 2017
+[05/08/2017 12:40:34 pm]: data already in table: FILE: 2017, 082, 3573158290.641, 27512.000    Database: 728195, 2017, 82, 3573072182, 27566
+[05/08/2017 12:40:34 pm]: query : SELECT * FROM magnetometer WHERE `day` = 83 AND `year` = 2017
+[05/08/2017 12:40:35 pm]: data already in table: FILE: 2017, 083, 3573500274.861, 26624.000    Database: 728674, 2017, 83, 3573158582, 27522
+[05/08/2017 12:40:35 pm]: query : SELECT * FROM magnetometer WHERE `day` = 87 AND `year` = 2017
+[05/08/2017 12:40:36 pm]: data already in table: FILE: 2017, 087, 3573586624.876, 26987.000    Database: 729179, 2017, 87, 3573500581, 26623
+[05/08/2017 12:40:36 pm]: query : SELECT * FROM magnetometer WHERE `day` = 88 AND `year` = 2017
+[05/08/2017 12:40:37 pm]: data already in table: FILE: 2017, 088, 3573673088.938, 26904.000    Database: 729658, 2017, 88, 3573586982, 26994
+[05/08/2017 12:40:37 pm]: query : SELECT * FROM magnetometer WHERE `day` = 89 AND `year` = 2017
+[05/08/2017 12:40:37 pm]: data already in table: FILE: 2017, 089, 3573759454.469, 26913.000    Database: 730137, 2017, 89, 3573673383, 26913
+[05/08/2017 12:40:38 pm]: query : SELECT * FROM magnetometer WHERE `day` = 90 AND `year` = 2017
+[05/08/2017 12:40:38 pm]: data already in table: FILE: 2017, 090, 3573845857.238, 27039.000    Database: 730616, 2017, 90, 3573759801, 26916
+[05/08/2017 12:40:38 pm]: query : SELECT * FROM magnetometer WHERE `day` = 91 AND `year` = 2017
+[05/08/2017 12:40:39 pm]: data already in table: FILE: 2017, 091, 3573932223.852, 26947.000    Database: 731095, 2017, 91, 3573846181, 27043
+[05/08/2017 12:40:40 pm]: query : SELECT * FROM magnetometer WHERE `day` = 92 AND `year` = 2017
+[05/08/2017 12:40:40 pm]: data already in table: FILE: 2017, 092, 3574018664.969, 26947.000    Database: 731574, 2017, 92, 3573932581, 26960
+[05/08/2017 12:40:41 pm]: query : SELECT * FROM magnetometer WHERE `day` = 93 AND `year` = 2017
+[05/08/2017 12:40:41 pm]: data already in table: FILE: 2017, 093, 3574105070.616, 27097.000    Database: 732053, 2017, 93, 3574018983, 26965
+[05/08/2017 12:40:41 pm]: query : SELECT * FROM magnetometer WHERE `day` = 94 AND `year` = 2017
+[05/08/2017 12:40:42 pm]: data already in table: FILE: 2017, 094, 3574191514.472, 27340.000    Database: 732532, 2017, 94, 3574105383, 27097
+[05/08/2017 12:40:42 pm]: query : SELECT * FROM magnetometer WHERE `day` = 95 AND `year` = 2017
+[05/08/2017 12:40:43 pm]: data already in table: FILE: 2017, 095, 3574252641.112, 26507.000    Database: 733011, 2017, 95, 3574191781, 27348
+[05/08/2017 12:40:43 pm]: query : SELECT * FROM magnetometer WHERE `day` = 116 AND `year` = 2017
+[05/08/2017 12:40:44 pm]: data already in table: FILE: 2017, 116, 3576092322.568, 27522.000    Database: 733350, 2017, 116, 3576038867, 27933
+[05/08/2017 12:40:44 pm]: query : SELECT * FROM magnetometer WHERE `day` = 117 AND `year` = 2017
+[05/08/2017 12:40:44 pm]: data already in table: FILE: 2017, 117, 3576178647.082, 27146.000    Database: 733648, 2017, 117, 3576092581, 27535
+[05/08/2017 12:40:45 pm]: query : SELECT * FROM magnetometer WHERE `day` = 118 AND `year` = 2017
+[05/08/2017 12:40:45 pm]: data already in table: FILE: 2017, 118, 3576265045.783, 27035.000    Database: 734127, 2017, 118, 3576178980, 27154
+[05/08/2017 12:40:45 pm]: query : SELECT * FROM magnetometer WHERE `day` = 119 AND `year` = 2017
+[05/08/2017 12:40:46 pm]: data already in table: FILE: 2017, 119, 3576351594.855, 26977.000    Database: 734606, 2017, 119, 3576265382, 27031
+[05/08/2017 12:40:46 pm]: query : SELECT * FROM magnetometer WHERE `day` = 120 AND `year` = 2017
+[05/08/2017 12:40:47 pm]: data already in table: FILE: 2017, 120, 3576437841.072, 26840.000    Database: 735086, 2017, 120, 3576351781, 26983
+[05/08/2017 12:40:47 pm]: query : SELECT * FROM magnetometer WHERE `day` = 121 AND `year` = 2017
+[05/08/2017 12:40:47 pm]: data already in table: FILE: 2017, 121, 3576524402.193, 26641.000    Database: 735565, 2017, 121, 3576438180, 26835
+[05/08/2017 12:40:48 pm]: query : SELECT * FROM magnetometer WHERE `day` = 122 AND `year` = 2017
+[05/08/2017 12:40:48 pm]: data already in table: FILE: 2017, 122, 3576610794.937, 26228.000    Database: 736045, 2017, 122, 3576524582, 26644
+[05/08/2017 12:40:49 pm]: query : SELECT * FROM magnetometer WHERE `day` = 123 AND `year` = 2017
+[05/08/2017 12:40:49 pm]: data already in table: FILE: 2017, 123, 3576697197.313, 26204.000    Database: 736525, 2017, 123, 3576610981, 26234
+[05/08/2017 12:40:50 pm]: query : SELECT * FROM magnetometer WHERE `day` = 124 AND `year` = 2017
+[05/08/2017 12:40:50 pm]: data already in table: FILE: 2017, 124, 3576783433.300, 26405.000    Database: 737005, 2017, 124, 3576697380, 26209
+[05/08/2017 12:40:51 pm]: query : SELECT * FROM magnetometer WHERE `day` = 126 AND `year` = 2017
+[05/08/2017 12:40:51 pm]: data already in table: FILE: 2017, 126, 3576956233.525, 26423.000    Database: 737964, 2017, 126, 3576870180, 26395
+[05/08/2017 12:40:51 pm]: query : SELECT * FROM magnetometer WHERE `day` = 127 AND `year` = 2017
+[05/08/2017 12:40:52 pm]: data already in table: FILE: 2017, 127, 3577042636.277, 26230.000    Database: 738443, 2017, 127, 3576956582, 26432
+[05/08/2017 12:41:06 pm]: file count: 35
+[05/08/2017 12:41:06 pm]: file count: 33
+[05/08/2017 12:41:06 pm]: end file: DATA127.csv
+[05/08/2017 12:41:06 pm]: end file: DATA127.csv
+[05/08/2017 12:41:07 pm]: query : SELECT * FROM magnetometer WHERE `day` = 33 AND `year` = 2017
+[05/08/2017 12:41:07 pm]: data already in table: FILE: 2017, 033, 3568924714.103, 27908.000    Database: 724011, 2017, 33, 3568875217, 27593
+[05/08/2017 12:41:08 pm]: query : SELECT * FROM magnetometer WHERE `day` = 34 AND `year` = 2017
+[05/08/2017 12:41:08 pm]: data already in table: FILE: 2017, 034, 3569011064.014, 28513.000    Database: 724287, 2017, 34, 3568924981, 27917
+[05/08/2017 12:41:08 pm]: query : SELECT * FROM magnetometer WHERE `day` = 35 AND `year` = 2017
+[05/08/2017 12:41:09 pm]: data already in table: FILE: 2017, 035, 3569097595.565, 28462.000    Database: 724766, 2017, 35, 3569011382, 28517
+[05/08/2017 12:41:09 pm]: query : SELECT * FROM magnetometer WHERE `day` = 36 AND `year` = 2017
+[05/08/2017 12:41:10 pm]: data already in table: FILE: 2017, 036, 3569183994.872, 28382.000    Database: 725246, 2017, 36, 3569097782, 28463
+[05/08/2017 12:41:10 pm]: query : SELECT * FROM magnetometer WHERE `day` = 37 AND `year` = 2017
+[05/08/2017 12:41:10 pm]: data already in table: FILE: 2017, 037, 3569270394.494, 28309.000    Database: 725726, 2017, 37, 3569184181, 28387
+[05/08/2017 12:41:11 pm]: query : SELECT * FROM magnetometer WHERE `day` = 38 AND `year` = 2017
+[05/08/2017 12:41:11 pm]: data already in table: FILE: 2017, 038, 3569356630.419, 28061.000    Database: 726206, 2017, 38, 3569270580, 28306
+[05/08/2017 12:41:12 pm]: query : SELECT * FROM magnetometer WHERE `day` = 39 AND `year` = 2017
+[05/08/2017 12:41:13 pm]: data already in table: FILE: 2017, 039, 3569443023.004, 28271.000    Database: 726685, 2017, 39, 3569356981, 28070
+[05/08/2017 12:41:13 pm]: query : SELECT * FROM magnetometer WHERE `day` = 40 AND `year` = 2017
+[05/08/2017 12:41:13 pm]: data already in table: FILE: 2017, 040, 3569497199.342, 28940.000    Database: 727164, 2017, 40, 3569443380, 28284
+[05/08/2017 12:41:14 pm]: query : SELECT * FROM magnetometer WHERE `day` = 80 AND `year` = 2017
+[05/08/2017 12:41:14 pm]: data already in table: FILE: 2017, 080, 3572985456.107, 28158.000    Database: 727464, 2017, 80, 3572940254, 27273
+[05/08/2017 12:41:14 pm]: query : SELECT * FROM magnetometer WHERE `day` = 81 AND `year` = 2017
+[05/08/2017 12:41:15 pm]: data already in table: FILE: 2017, 081, 3573071848.162, 27553.000    Database: 727716, 2017, 81, 3572985780, 28163
+[05/08/2017 12:41:16 pm]: query : SELECT * FROM magnetometer WHERE `day` = 82 AND `year` = 2017
+[05/08/2017 12:41:16 pm]: data already in table: FILE: 2017, 082, 3573158290.641, 27512.000    Database: 728195, 2017, 82, 3573072182, 27566
+[05/08/2017 12:41:17 pm]: query : SELECT * FROM magnetometer WHERE `day` = 83 AND `year` = 2017
+[05/08/2017 12:41:17 pm]: data already in table: FILE: 2017, 083, 3573500274.861, 26624.000    Database: 728674, 2017, 83, 3573158582, 27522
+[05/08/2017 12:41:18 pm]: query : SELECT * FROM magnetometer WHERE `day` = 87 AND `year` = 2017
+[05/08/2017 12:41:18 pm]: data already in table: FILE: 2017, 087, 3573586624.876, 26987.000    Database: 729179, 2017, 87, 3573500581, 26623
+[05/08/2017 12:41:18 pm]: query : SELECT * FROM magnetometer WHERE `day` = 88 AND `year` = 2017
+[05/08/2017 12:41:19 pm]: data already in table: FILE: 2017, 088, 3573673088.938, 26904.000    Database: 729658, 2017, 88, 3573586982, 26994
+[05/08/2017 12:41:19 pm]: query : SELECT * FROM magnetometer WHERE `day` = 89 AND `year` = 2017
+[05/08/2017 12:41:20 pm]: data already in table: FILE: 2017, 089, 3573759454.469, 26913.000    Database: 730137, 2017, 89, 3573673383, 26913
+[05/08/2017 12:41:20 pm]: query : SELECT * FROM magnetometer WHERE `day` = 90 AND `year` = 2017
+[05/08/2017 12:41:20 pm]: data already in table: FILE: 2017, 090, 3573845857.238, 27039.000    Database: 730616, 2017, 90, 3573759801, 26916
+[05/08/2017 12:41:21 pm]: query : SELECT * FROM magnetometer WHERE `day` = 91 AND `year` = 2017
+[05/08/2017 12:41:21 pm]: data already in table: FILE: 2017, 091, 3573932223.852, 26947.000    Database: 731095, 2017, 91, 3573846181, 27043
+[05/08/2017 12:41:22 pm]: query : SELECT * FROM magnetometer WHERE `day` = 92 AND `year` = 2017
+[05/08/2017 12:41:22 pm]: data already in table: FILE: 2017, 092, 3574018664.969, 26947.000    Database: 731574, 2017, 92, 3573932581, 26960
+[05/08/2017 12:41:23 pm]: query : SELECT * FROM magnetometer WHERE `day` = 93 AND `year` = 2017
+[05/08/2017 12:41:23 pm]: data already in table: FILE: 2017, 093, 3574105070.616, 27097.000    Database: 732053, 2017, 93, 3574018983, 26965
+[05/08/2017 12:41:24 pm]: query : SELECT * FROM magnetometer WHERE `day` = 94 AND `year` = 2017
+[05/08/2017 12:41:24 pm]: data already in table: FILE: 2017, 094, 3574191514.472, 27340.000    Database: 732532, 2017, 94, 3574105383, 27097
+[05/08/2017 12:41:25 pm]: query : SELECT * FROM magnetometer WHERE `day` = 95 AND `year` = 2017
+[05/08/2017 12:41:25 pm]: data already in table: FILE: 2017, 095, 3574252641.112, 26507.000    Database: 733011, 2017, 95, 3574191781, 27348
+[05/08/2017 12:41:25 pm]: query : SELECT * FROM magnetometer WHERE `day` = 116 AND `year` = 2017
+[05/08/2017 12:41:26 pm]: data already in table: FILE: 2017, 116, 3576092322.568, 27522.000    Database: 733350, 2017, 116, 3576038867, 27933
+[05/08/2017 12:41:26 pm]: query : SELECT * FROM magnetometer WHERE `day` = 117 AND `year` = 2017
+[05/08/2017 12:41:27 pm]: data already in table: FILE: 2017, 117, 3576178647.082, 27146.000    Database: 733648, 2017, 117, 3576092581, 27535
+[05/08/2017 12:41:27 pm]: query : SELECT * FROM magnetometer WHERE `day` = 118 AND `year` = 2017
+[05/08/2017 12:41:27 pm]: data already in table: FILE: 2017, 118, 3576265045.783, 27035.000    Database: 734127, 2017, 118, 3576178980, 27154
+[05/08/2017 12:41:28 pm]: query : SELECT * FROM magnetometer WHERE `day` = 119 AND `year` = 2017
+[05/08/2017 12:41:28 pm]: data already in table: FILE: 2017, 119, 3576351594.855, 26977.000    Database: 734606, 2017, 119, 3576265382, 27031
+[05/08/2017 12:41:29 pm]: query : SELECT * FROM magnetometer WHERE `day` = 120 AND `year` = 2017
+[05/08/2017 12:41:29 pm]: data already in table: FILE: 2017, 120, 3576437841.072, 26840.000    Database: 735086, 2017, 120, 3576351781, 26983
+[05/08/2017 12:41:29 pm]: query : SELECT * FROM magnetometer WHERE `day` = 121 AND `year` = 2017
+[05/08/2017 12:41:30 pm]: data already in table: FILE: 2017, 121, 3576524402.193, 26641.000    Database: 735565, 2017, 121, 3576438180, 26835
+[05/08/2017 12:41:30 pm]: query : SELECT * FROM magnetometer WHERE `day` = 122 AND `year` = 2017
+[05/08/2017 12:41:31 pm]: data already in table: FILE: 2017, 122, 3576610794.937, 26228.000    Database: 736045, 2017, 122, 3576524582, 26644
+[05/08/2017 12:41:31 pm]: query : SELECT * FROM magnetometer WHERE `day` = 123 AND `year` = 2017
+[05/08/2017 12:41:32 pm]: data already in table: FILE: 2017, 123, 3576697197.313, 26204.000    Database: 736525, 2017, 123, 3576610981, 26234
+[05/08/2017 12:41:32 pm]: query : SELECT * FROM magnetometer WHERE `day` = 124 AND `year` = 2017
+[05/08/2017 12:41:32 pm]: data already in table: FILE: 2017, 124, 3576783433.300, 26405.000    Database: 737005, 2017, 124, 3576697380, 26209
+[05/08/2017 12:41:33 pm]: query : SELECT * FROM magnetometer WHERE `day` = 125 AND `year` = 2017
+[05/08/2017 12:41:33 pm]: data already in table: FILE: 2017, 125, 3576869994.495, 26388.000    Database: 737484, 2017, 125, 3576783781, 26417
+[05/08/2017 12:41:34 pm]: query : SELECT * FROM magnetometer WHERE `day` = 127 AND `year` = 2017
+[05/08/2017 12:41:34 pm]: data already in table: FILE: 2017, 127, 3577042636.277, 26230.000    Database: 738443, 2017, 127, 3576956582, 26432
+[05/08/2017 12:42:12 pm]: file count: 35
+[05/08/2017 12:42:12 pm]: .
+[05/08/2017 12:42:12 pm]: 
+[05/08/2017 12:42:12 pm]: file count: 33
+[05/08/2017 12:42:12 pm]: end file: DATA127.csv
+[05/08/2017 12:42:12 pm]: end file: DATA127.csv
+[05/08/2017 12:42:12 pm]: query : SELECT * FROM magnetometer WHERE `day` = 33 AND `year` = 2017
+[05/08/2017 12:42:12 pm]: data already in table: FILE: 2017, 033, 3568924714.103, 27908.000    Database: 724011, 2017, 33, 3568875217, 27593
+[05/08/2017 12:42:13 pm]: query : SELECT * FROM magnetometer WHERE `day` = 34 AND `year` = 2017
+[05/08/2017 12:42:13 pm]: data already in table: FILE: 2017, 034, 3569011064.014, 28513.000    Database: 724287, 2017, 34, 3568924981, 27917
+[05/08/2017 12:42:13 pm]: query : SELECT * FROM magnetometer WHERE `day` = 35 AND `year` = 2017
+[05/08/2017 12:42:14 pm]: data already in table: FILE: 2017, 035, 3569097595.565, 28462.000    Database: 724766, 2017, 35, 3569011382, 28517
+[05/08/2017 12:42:14 pm]: query : SELECT * FROM magnetometer WHERE `day` = 36 AND `year` = 2017
+[05/08/2017 12:42:14 pm]: data already in table: FILE: 2017, 036, 3569183994.872, 28382.000    Database: 725246, 2017, 36, 3569097782, 28463
+[05/08/2017 12:42:15 pm]: query : SELECT * FROM magnetometer WHERE `day` = 37 AND `year` = 2017
+[05/08/2017 12:42:15 pm]: data already in table: FILE: 2017, 037, 3569270394.494, 28309.000    Database: 725726, 2017, 37, 3569184181, 28387
+[05/08/2017 12:42:15 pm]: query : SELECT * FROM magnetometer WHERE `day` = 38 AND `year` = 2017
+[05/08/2017 12:42:16 pm]: data already in table: FILE: 2017, 038, 3569356630.419, 28061.000    Database: 726206, 2017, 38, 3569270580, 28306
+[05/08/2017 12:42:16 pm]: query : SELECT * FROM magnetometer WHERE `day` = 39 AND `year` = 2017
+[05/08/2017 12:42:16 pm]: data already in table: FILE: 2017, 039, 3569443023.004, 28271.000    Database: 726685, 2017, 39, 3569356981, 28070
+[05/08/2017 12:42:17 pm]: query : SELECT * FROM magnetometer WHERE `day` = 40 AND `year` = 2017
+[05/08/2017 12:42:17 pm]: data already in table: FILE: 2017, 040, 3569497199.342, 28940.000    Database: 727164, 2017, 40, 3569443380, 28284
+[05/08/2017 12:42:17 pm]: query : SELECT * FROM magnetometer WHERE `day` = 80 AND `year` = 2017
+[05/08/2017 12:42:17 pm]: data already in table: FILE: 2017, 080, 3572985456.107, 28158.000    Database: 727464, 2017, 80, 3572940254, 27273
+[05/08/2017 12:42:18 pm]: query : SELECT * FROM magnetometer WHERE `day` = 81 AND `year` = 2017
+[05/08/2017 12:42:18 pm]: data already in table: FILE: 2017, 081, 3573071848.162, 27553.000    Database: 727716, 2017, 81, 3572985780, 28163
+[05/08/2017 12:42:19 pm]: query : SELECT * FROM magnetometer WHERE `day` = 82 AND `year` = 2017
+[05/08/2017 12:42:19 pm]: data already in table: FILE: 2017, 082, 3573158290.641, 27512.000    Database: 728195, 2017, 82, 3573072182, 27566
+[05/08/2017 12:42:19 pm]: query : SELECT * FROM magnetometer WHERE `day` = 83 AND `year` = 2017
+[05/08/2017 12:42:20 pm]: data already in table: FILE: 2017, 083, 3573500274.861, 26624.000    Database: 728674, 2017, 83, 3573158582, 27522
+[05/08/2017 12:42:21 pm]: query : SELECT * FROM magnetometer WHERE `day` = 87 AND `year` = 2017
+[05/08/2017 12:42:21 pm]: data already in table: FILE: 2017, 087, 3573586624.876, 26987.000    Database: 729179, 2017, 87, 3573500581, 26623
+[05/08/2017 12:42:21 pm]: query : SELECT * FROM magnetometer WHERE `day` = 88 AND `year` = 2017
+[05/08/2017 12:42:22 pm]: data already in table: FILE: 2017, 088, 3573673088.938, 26904.000    Database: 729658, 2017, 88, 3573586982, 26994
+[05/08/2017 12:42:22 pm]: query : SELECT * FROM magnetometer WHERE `day` = 89 AND `year` = 2017
+[05/08/2017 12:42:22 pm]: data already in table: FILE: 2017, 089, 3573759454.469, 26913.000    Database: 730137, 2017, 89, 3573673383, 26913
+[05/08/2017 12:42:23 pm]: query : SELECT * FROM magnetometer WHERE `day` = 90 AND `year` = 2017
+[05/08/2017 12:42:23 pm]: data already in table: FILE: 2017, 090, 3573845857.238, 27039.000    Database: 730616, 2017, 90, 3573759801, 26916
+[05/08/2017 12:42:23 pm]: query : SELECT * FROM magnetometer WHERE `day` = 91 AND `year` = 2017
+[05/08/2017 12:42:24 pm]: data already in table: FILE: 2017, 091, 3573932223.852, 26947.000    Database: 731095, 2017, 91, 3573846181, 27043
+[05/08/2017 12:42:24 pm]: query : SELECT * FROM magnetometer WHERE `day` = 92 AND `year` = 2017
+[05/08/2017 12:42:25 pm]: data already in table: FILE: 2017, 092, 3574018664.969, 26947.000    Database: 731574, 2017, 92, 3573932581, 26960
+[05/08/2017 12:42:25 pm]: query : SELECT * FROM magnetometer WHERE `day` = 93 AND `year` = 2017
+[05/08/2017 12:42:26 pm]: data already in table: FILE: 2017, 093, 3574105070.616, 27097.000    Database: 732053, 2017, 93, 3574018983, 26965
+[05/08/2017 12:42:26 pm]: query : SELECT * FROM magnetometer WHERE `day` = 94 AND `year` = 2017
+[05/08/2017 12:42:26 pm]: data already in table: FILE: 2017, 094, 3574191514.472, 27340.000    Database: 732532, 2017, 94, 3574105383, 27097
+[05/08/2017 12:42:27 pm]: query : SELECT * FROM magnetometer WHERE `day` = 95 AND `year` = 2017
+[05/08/2017 12:42:27 pm]: data already in table: FILE: 2017, 095, 3574252641.112, 26507.000    Database: 733011, 2017, 95, 3574191781, 27348
+[05/08/2017 12:42:27 pm]: query : SELECT * FROM magnetometer WHERE `day` = 116 AND `year` = 2017
+[05/08/2017 12:42:28 pm]: data already in table: FILE: 2017, 116, 3576092322.568, 27522.000    Database: 733350, 2017, 116, 3576038867, 27933
+[05/08/2017 12:42:28 pm]: query : SELECT * FROM magnetometer WHERE `day` = 117 AND `year` = 2017
+[05/08/2017 12:42:28 pm]: data already in table: FILE: 2017, 117, 3576178647.082, 27146.000    Database: 733648, 2017, 117, 3576092581, 27535
+[05/08/2017 12:42:29 pm]: query : SELECT * FROM magnetometer WHERE `day` = 118 AND `year` = 2017
+[05/08/2017 12:42:29 pm]: data already in table: FILE: 2017, 118, 3576265045.783, 27035.000    Database: 734127, 2017, 118, 3576178980, 27154
+[05/08/2017 12:42:30 pm]: query : SELECT * FROM magnetometer WHERE `day` = 119 AND `year` = 2017
+[05/08/2017 12:42:30 pm]: data already in table: FILE: 2017, 119, 3576351594.855, 26977.000    Database: 734606, 2017, 119, 3576265382, 27031
+[05/08/2017 12:42:30 pm]: query : SELECT * FROM magnetometer WHERE `day` = 120 AND `year` = 2017
+[05/08/2017 12:42:31 pm]: data already in table: FILE: 2017, 120, 3576437841.072, 26840.000    Database: 735086, 2017, 120, 3576351781, 26983
+[05/08/2017 12:42:31 pm]: query : SELECT * FROM magnetometer WHERE `day` = 121 AND `year` = 2017
+[05/08/2017 12:42:32 pm]: data already in table: FILE: 2017, 121, 3576524402.193, 26641.000    Database: 735565, 2017, 121, 3576438180, 26835
+[05/08/2017 12:42:32 pm]: query : SELECT * FROM magnetometer WHERE `day` = 122 AND `year` = 2017
+[05/08/2017 12:42:32 pm]: data already in table: FILE: 2017, 122, 3576610794.937, 26228.000    Database: 736045, 2017, 122, 3576524582, 26644
+[05/08/2017 12:42:33 pm]: query : SELECT * FROM magnetometer WHERE `day` = 123 AND `year` = 2017
+[05/08/2017 12:42:34 pm]: data already in table: FILE: 2017, 123, 3576697197.313, 26204.000    Database: 736525, 2017, 123, 3576610981, 26234
+[05/08/2017 12:42:34 pm]: query : SELECT * FROM magnetometer WHERE `day` = 124 AND `year` = 2017
+[05/08/2017 12:42:35 pm]: data already in table: FILE: 2017, 124, 3576783433.300, 26405.000    Database: 737005, 2017, 124, 3576697380, 26209
+[05/08/2017 12:42:35 pm]: query : SELECT * FROM magnetometer WHERE `day` = 125 AND `year` = 2017
+[05/08/2017 12:42:35 pm]: data already in table: FILE: 2017, 125, 3576869994.495, 26388.000    Database: 737484, 2017, 125, 3576783781, 26417
+[05/08/2017 12:42:36 pm]: query : SELECT * FROM magnetometer WHERE `day` = 127 AND `year` = 2017
+[05/08/2017 12:42:36 pm]: data already in table: FILE: 2017, 127, 3577042636.277, 26230.000    Database: 738443, 2017, 127, 3576956582, 26432
+[05/08/2017 12:42:54 pm]: file count: 35
+[05/08/2017 12:42:54 pm]: .
+[05/08/2017 12:42:54 pm]: 
+[05/08/2017 12:42:54 pm]: file count: 33
+[05/08/2017 12:42:54 pm]: end file: DATA127.csv
+[05/08/2017 12:42:54 pm]: 
+[05/08/2017 12:42:54 pm]: end file: DATA127.csv
+[05/08/2017 12:42:54 pm]: 
+[05/08/2017 12:42:55 pm]: query : SELECT * FROM magnetometer WHERE `day` = 33 AND `year` = 2017
+[05/08/2017 12:42:55 pm]: data already in table: FILE: 2017, 033, 3568924714.103, 27908.000    Database: 724011, 2017, 33, 3568875217, 27593
+[05/08/2017 12:42:55 pm]: query : SELECT * FROM magnetometer WHERE `day` = 34 AND `year` = 2017
+[05/08/2017 12:42:56 pm]: data already in table: FILE: 2017, 034, 3569011064.014, 28513.000    Database: 724287, 2017, 34, 3568924981, 27917
+[05/08/2017 12:42:56 pm]: query : SELECT * FROM magnetometer WHERE `day` = 35 AND `year` = 2017
+[05/08/2017 12:42:56 pm]: data already in table: FILE: 2017, 035, 3569097595.565, 28462.000    Database: 724766, 2017, 35, 3569011382, 28517
+[05/08/2017 12:42:57 pm]: query : SELECT * FROM magnetometer WHERE `day` = 36 AND `year` = 2017
+[05/08/2017 12:42:57 pm]: data already in table: FILE: 2017, 036, 3569183994.872, 28382.000    Database: 725246, 2017, 36, 3569097782, 28463
+[05/08/2017 12:42:57 pm]: query : SELECT * FROM magnetometer WHERE `day` = 37 AND `year` = 2017
+[05/08/2017 12:42:58 pm]: data already in table: FILE: 2017, 037, 3569270394.494, 28309.000    Database: 725726, 2017, 37, 3569184181, 28387
+[05/08/2017 12:42:58 pm]: query : SELECT * FROM magnetometer WHERE `day` = 38 AND `year` = 2017
+[05/08/2017 12:42:59 pm]: data already in table: FILE: 2017, 038, 3569356630.419, 28061.000    Database: 726206, 2017, 38, 3569270580, 28306
+[05/08/2017 12:42:59 pm]: query : SELECT * FROM magnetometer WHERE `day` = 39 AND `year` = 2017
+[05/08/2017 12:43:00 pm]: data already in table: FILE: 2017, 039, 3569443023.004, 28271.000    Database: 726685, 2017, 39, 3569356981, 28070
+[05/08/2017 12:43:00 pm]: query : SELECT * FROM magnetometer WHERE `day` = 40 AND `year` = 2017
+[05/08/2017 12:43:00 pm]: data already in table: FILE: 2017, 040, 3569497199.342, 28940.000    Database: 727164, 2017, 40, 3569443380, 28284
+[05/08/2017 12:43:00 pm]: query : SELECT * FROM magnetometer WHERE `day` = 80 AND `year` = 2017
+[05/08/2017 12:43:01 pm]: data already in table: FILE: 2017, 080, 3572985456.107, 28158.000    Database: 727464, 2017, 80, 3572940254, 27273
+[05/08/2017 12:43:01 pm]: query : SELECT * FROM magnetometer WHERE `day` = 81 AND `year` = 2017
+[05/08/2017 12:43:02 pm]: data already in table: FILE: 2017, 081, 3573071848.162, 27553.000    Database: 727716, 2017, 81, 3572985780, 28163
+[05/08/2017 12:43:02 pm]: query : SELECT * FROM magnetometer WHERE `day` = 82 AND `year` = 2017
+[05/08/2017 12:43:03 pm]: data already in table: FILE: 2017, 082, 3573158290.641, 27512.000    Database: 728195, 2017, 82, 3573072182, 27566
+[05/08/2017 12:43:03 pm]: query : SELECT * FROM magnetometer WHERE `day` = 83 AND `year` = 2017
+[05/08/2017 12:43:04 pm]: data already in table: FILE: 2017, 083, 3573500274.861, 26624.000    Database: 728674, 2017, 83, 3573158582, 27522
+[05/08/2017 12:43:04 pm]: query : SELECT * FROM magnetometer WHERE `day` = 87 AND `year` = 2017
+[05/08/2017 12:43:04 pm]: data already in table: FILE: 2017, 087, 3573586624.876, 26987.000    Database: 729179, 2017, 87, 3573500581, 26623
+[05/08/2017 12:43:05 pm]: query : SELECT * FROM magnetometer WHERE `day` = 88 AND `year` = 2017
+[05/08/2017 12:43:05 pm]: data already in table: FILE: 2017, 088, 3573673088.938, 26904.000    Database: 729658, 2017, 88, 3573586982, 26994
+[05/08/2017 12:43:06 pm]: query : SELECT * FROM magnetometer WHERE `day` = 89 AND `year` = 2017
+[05/08/2017 12:43:06 pm]: data already in table: FILE: 2017, 089, 3573759454.469, 26913.000    Database: 730137, 2017, 89, 3573673383, 26913
+[05/08/2017 12:43:07 pm]: query : SELECT * FROM magnetometer WHERE `day` = 90 AND `year` = 2017
+[05/08/2017 12:43:07 pm]: data already in table: FILE: 2017, 090, 3573845857.238, 27039.000    Database: 730616, 2017, 90, 3573759801, 26916
+[05/08/2017 12:43:08 pm]: query : SELECT * FROM magnetometer WHERE `day` = 91 AND `year` = 2017
+[05/08/2017 12:43:08 pm]: data already in table: FILE: 2017, 091, 3573932223.852, 26947.000    Database: 731095, 2017, 91, 3573846181, 27043
+[05/08/2017 12:43:08 pm]: query : SELECT * FROM magnetometer WHERE `day` = 92 AND `year` = 2017
+[05/08/2017 12:43:09 pm]: data already in table: FILE: 2017, 092, 3574018664.969, 26947.000    Database: 731574, 2017, 92, 3573932581, 26960
+[05/08/2017 12:43:09 pm]: query : SELECT * FROM magnetometer WHERE `day` = 93 AND `year` = 2017
+[05/08/2017 12:43:10 pm]: data already in table: FILE: 2017, 093, 3574105070.616, 27097.000    Database: 732053, 2017, 93, 3574018983, 26965
+[05/08/2017 12:43:10 pm]: query : SELECT * FROM magnetometer WHERE `day` = 94 AND `year` = 2017
+[05/08/2017 12:43:10 pm]: data already in table: FILE: 2017, 094, 3574191514.472, 27340.000    Database: 732532, 2017, 94, 3574105383, 27097
+[05/08/2017 12:43:11 pm]: query : SELECT * FROM magnetometer WHERE `day` = 95 AND `year` = 2017
+[05/08/2017 12:43:11 pm]: data already in table: FILE: 2017, 095, 3574252641.112, 26507.000    Database: 733011, 2017, 95, 3574191781, 27348
+[05/08/2017 12:43:11 pm]: query : SELECT * FROM magnetometer WHERE `day` = 116 AND `year` = 2017
+[05/08/2017 12:43:12 pm]: data already in table: FILE: 2017, 116, 3576092322.568, 27522.000    Database: 733350, 2017, 116, 3576038867, 27933
+[05/08/2017 12:43:12 pm]: query : SELECT * FROM magnetometer WHERE `day` = 117 AND `year` = 2017
+[05/08/2017 12:43:12 pm]: data already in table: FILE: 2017, 117, 3576178647.082, 27146.000    Database: 733648, 2017, 117, 3576092581, 27535
+[05/08/2017 12:43:13 pm]: query : SELECT * FROM magnetometer WHERE `day` = 118 AND `year` = 2017
+[05/08/2017 12:43:13 pm]: data already in table: FILE: 2017, 118, 3576265045.783, 27035.000    Database: 734127, 2017, 118, 3576178980, 27154
+[05/08/2017 12:43:14 pm]: query : SELECT * FROM magnetometer WHERE `day` = 119 AND `year` = 2017
+[05/08/2017 12:43:14 pm]: data already in table: FILE: 2017, 119, 3576351594.855, 26977.000    Database: 734606, 2017, 119, 3576265382, 27031
+[05/08/2017 12:43:14 pm]: query : SELECT * FROM magnetometer WHERE `day` = 120 AND `year` = 2017
+[05/08/2017 12:43:15 pm]: data already in table: FILE: 2017, 120, 3576437841.072, 26840.000    Database: 735086, 2017, 120, 3576351781, 26983
+[05/08/2017 12:43:15 pm]: query : SELECT * FROM magnetometer WHERE `day` = 121 AND `year` = 2017
+[05/08/2017 12:43:15 pm]: data already in table: FILE: 2017, 121, 3576524402.193, 26641.000    Database: 735565, 2017, 121, 3576438180, 26835
+[05/08/2017 12:43:16 pm]: query : SELECT * FROM magnetometer WHERE `day` = 122 AND `year` = 2017
+[05/08/2017 12:43:16 pm]: data already in table: FILE: 2017, 122, 3576610794.937, 26228.000    Database: 736045, 2017, 122, 3576524582, 26644
+[05/08/2017 12:43:17 pm]: query : SELECT * FROM magnetometer WHERE `day` = 123 AND `year` = 2017
+[05/08/2017 12:43:17 pm]: data already in table: FILE: 2017, 123, 3576697197.313, 26204.000    Database: 736525, 2017, 123, 3576610981, 26234
+[05/08/2017 12:43:17 pm]: query : SELECT * FROM magnetometer WHERE `day` = 124 AND `year` = 2017
+[05/08/2017 12:43:18 pm]: data already in table: FILE: 2017, 124, 3576783433.300, 26405.000    Database: 737005, 2017, 124, 3576697380, 26209
+[05/08/2017 12:43:18 pm]: query : SELECT * FROM magnetometer WHERE `day` = 125 AND `year` = 2017
+[05/08/2017 12:43:19 pm]: data already in table: FILE: 2017, 125, 3576869994.495, 26388.000    Database: 737484, 2017, 125, 3576783781, 26417
+[05/08/2017 12:43:19 pm]: query : SELECT * FROM magnetometer WHERE `day` = 127 AND `year` = 2017
+[05/08/2017 12:43:20 pm]: data already in table: FILE: 2017, 127, 3577042636.277, 26230.000    Database: 738443, 2017, 127, 3576956582, 26432
+[05/08/2017 12:44:54 pm]: 
+[05/08/2017 12:44:54 pm]: 
+[05/08/2017 12:44:54 pm]: query : SELECT * FROM magnetometer WHERE `day` = 33 AND `year` = 2017
+[05/08/2017 12:44:54 pm]: data already in table: FILE: 2017, 033, 3568924714.103, 27908.000    Database: 724011, 2017, 33, 3568875217, 27593
+[05/08/2017 12:44:55 pm]: query : SELECT * FROM magnetometer WHERE `day` = 34 AND `year` = 2017
+[05/08/2017 12:44:55 pm]: data already in table: FILE: 2017, 034, 3569011064.014, 28513.000    Database: 724287, 2017, 34, 3568924981, 27917
+[05/08/2017 12:44:56 pm]: query : SELECT * FROM magnetometer WHERE `day` = 35 AND `year` = 2017
+[05/08/2017 12:44:56 pm]: data already in table: FILE: 2017, 035, 3569097595.565, 28462.000    Database: 724766, 2017, 35, 3569011382, 28517
+[05/08/2017 12:44:56 pm]: query : SELECT * FROM magnetometer WHERE `day` = 36 AND `year` = 2017
+[05/08/2017 12:44:57 pm]: data already in table: FILE: 2017, 036, 3569183994.872, 28382.000    Database: 725246, 2017, 36, 3569097782, 28463
+[05/08/2017 12:44:57 pm]: query : SELECT * FROM magnetometer WHERE `day` = 37 AND `year` = 2017
+[05/08/2017 12:44:58 pm]: data already in table: FILE: 2017, 037, 3569270394.494, 28309.000    Database: 725726, 2017, 37, 3569184181, 28387
+[05/08/2017 12:44:58 pm]: query : SELECT * FROM magnetometer WHERE `day` = 38 AND `year` = 2017
+[05/08/2017 12:44:59 pm]: data already in table: FILE: 2017, 038, 3569356630.419, 28061.000    Database: 726206, 2017, 38, 3569270580, 28306
+[05/08/2017 12:44:59 pm]: query : SELECT * FROM magnetometer WHERE `day` = 39 AND `year` = 2017
+[05/08/2017 12:44:59 pm]: data already in table: FILE: 2017, 039, 3569443023.004, 28271.000    Database: 726685, 2017, 39, 3569356981, 28070
+[05/08/2017 12:45:00 pm]: query : SELECT * FROM magnetometer WHERE `day` = 40 AND `year` = 2017
+[05/08/2017 12:45:00 pm]: data already in table: FILE: 2017, 040, 3569497199.342, 28940.000    Database: 727164, 2017, 40, 3569443380, 28284
+[05/08/2017 12:45:00 pm]: query : SELECT * FROM magnetometer WHERE `day` = 80 AND `year` = 2017
+[05/08/2017 12:45:01 pm]: data already in table: FILE: 2017, 080, 3572985456.107, 28158.000    Database: 727464, 2017, 80, 3572940254, 27273
+[05/08/2017 12:45:01 pm]: query : SELECT * FROM magnetometer WHERE `day` = 81 AND `year` = 2017
+[05/08/2017 12:45:02 pm]: data already in table: FILE: 2017, 081, 3573071848.162, 27553.000    Database: 727716, 2017, 81, 3572985780, 28163
+[05/08/2017 12:45:02 pm]: query : SELECT * FROM magnetometer WHERE `day` = 82 AND `year` = 2017
+[05/08/2017 12:45:02 pm]: data already in table: FILE: 2017, 082, 3573158290.641, 27512.000    Database: 728195, 2017, 82, 3573072182, 27566
+[05/08/2017 12:45:03 pm]: query : SELECT * FROM magnetometer WHERE `day` = 83 AND `year` = 2017
+[05/08/2017 12:45:03 pm]: data already in table: FILE: 2017, 083, 3573500274.861, 26624.000    Database: 728674, 2017, 83, 3573158582, 27522
+[05/08/2017 12:45:03 pm]: query : SELECT * FROM magnetometer WHERE `day` = 87 AND `year` = 2017
+[05/08/2017 12:45:04 pm]: data already in table: FILE: 2017, 087, 3573586624.876, 26987.000    Database: 729179, 2017, 87, 3573500581, 26623
+[05/08/2017 12:45:04 pm]: query : SELECT * FROM magnetometer WHERE `day` = 88 AND `year` = 2017
+[05/08/2017 12:45:04 pm]: data already in table: FILE: 2017, 088, 3573673088.938, 26904.000    Database: 729658, 2017, 88, 3573586982, 26994
+[05/08/2017 12:45:05 pm]: query : SELECT * FROM magnetometer WHERE `day` = 89 AND `year` = 2017
+[05/08/2017 12:45:05 pm]: data already in table: FILE: 2017, 089, 3573759454.469, 26913.000    Database: 730137, 2017, 89, 3573673383, 26913
+[05/08/2017 12:45:05 pm]: query : SELECT * FROM magnetometer WHERE `day` = 90 AND `year` = 2017
+[05/08/2017 12:45:06 pm]: data already in table: FILE: 2017, 090, 3573845857.238, 27039.000    Database: 730616, 2017, 90, 3573759801, 26916
+[05/08/2017 12:45:06 pm]: query : SELECT * FROM magnetometer WHERE `day` = 91 AND `year` = 2017
+[05/08/2017 12:45:06 pm]: data already in table: FILE: 2017, 091, 3573932223.852, 26947.000    Database: 731095, 2017, 91, 3573846181, 27043
+[05/08/2017 12:45:07 pm]: query : SELECT * FROM magnetometer WHERE `day` = 92 AND `year` = 2017
+[05/08/2017 12:45:07 pm]: data already in table: FILE: 2017, 092, 3574018664.969, 26947.000    Database: 731574, 2017, 92, 3573932581, 26960
+[05/08/2017 12:45:07 pm]: query : SELECT * FROM magnetometer WHERE `day` = 93 AND `year` = 2017
+[05/08/2017 12:45:08 pm]: data already in table: FILE: 2017, 093, 3574105070.616, 27097.000    Database: 732053, 2017, 93, 3574018983, 26965
+[05/08/2017 12:45:08 pm]: query : SELECT * FROM magnetometer WHERE `day` = 94 AND `year` = 2017
+[05/08/2017 12:45:08 pm]: data already in table: FILE: 2017, 094, 3574191514.472, 27340.000    Database: 732532, 2017, 94, 3574105383, 27097
+[05/08/2017 12:45:09 pm]: query : SELECT * FROM magnetometer WHERE `day` = 95 AND `year` = 2017
+[05/08/2017 12:45:09 pm]: data already in table: FILE: 2017, 095, 3574252641.112, 26507.000    Database: 733011, 2017, 95, 3574191781, 27348
+[05/08/2017 12:45:09 pm]: query : SELECT * FROM magnetometer WHERE `day` = 116 AND `year` = 2017
+[05/08/2017 12:45:09 pm]: data already in table: FILE: 2017, 116, 3576092322.568, 27522.000    Database: 733350, 2017, 116, 3576038867, 27933
+[05/08/2017 12:45:10 pm]: query : SELECT * FROM magnetometer WHERE `day` = 117 AND `year` = 2017
+[05/08/2017 12:45:10 pm]: data already in table: FILE: 2017, 117, 3576178647.082, 27146.000    Database: 733648, 2017, 117, 3576092581, 27535
+[05/08/2017 12:45:11 pm]: query : SELECT * FROM magnetometer WHERE `day` = 118 AND `year` = 2017
+[05/08/2017 12:45:11 pm]: data already in table: FILE: 2017, 118, 3576265045.783, 27035.000    Database: 734127, 2017, 118, 3576178980, 27154
+[05/08/2017 12:45:11 pm]: query : SELECT * FROM magnetometer WHERE `day` = 119 AND `year` = 2017
+[05/08/2017 12:45:12 pm]: data already in table: FILE: 2017, 119, 3576351594.855, 26977.000    Database: 734606, 2017, 119, 3576265382, 27031
+[05/08/2017 12:45:12 pm]: query : SELECT * FROM magnetometer WHERE `day` = 120 AND `year` = 2017
+[05/08/2017 12:45:13 pm]: data already in table: FILE: 2017, 120, 3576437841.072, 26840.000    Database: 735086, 2017, 120, 3576351781, 26983
+[05/08/2017 12:45:14 pm]: query : SELECT * FROM magnetometer WHERE `day` = 121 AND `year` = 2017
+[05/08/2017 12:45:14 pm]: data already in table: FILE: 2017, 121, 3576524402.193, 26641.000    Database: 735565, 2017, 121, 3576438180, 26835
+[05/08/2017 12:45:14 pm]: query : SELECT * FROM magnetometer WHERE `day` = 122 AND `year` = 2017
+[05/08/2017 12:45:15 pm]: data already in table: FILE: 2017, 122, 3576610794.937, 26228.000    Database: 736045, 2017, 122, 3576524582, 26644
+[05/08/2017 12:45:15 pm]: query : SELECT * FROM magnetometer WHERE `day` = 123 AND `year` = 2017
+[05/08/2017 12:45:15 pm]: data already in table: FILE: 2017, 123, 3576697197.313, 26204.000    Database: 736525, 2017, 123, 3576610981, 26234
+[05/08/2017 12:45:16 pm]: query : SELECT * FROM magnetometer WHERE `day` = 124 AND `year` = 2017
+[05/08/2017 12:45:16 pm]: data already in table: FILE: 2017, 124, 3576783433.300, 26405.000    Database: 737005, 2017, 124, 3576697380, 26209
+[05/08/2017 12:45:17 pm]: query : SELECT * FROM magnetometer WHERE `day` = 125 AND `year` = 2017
+[05/08/2017 12:45:17 pm]: data already in table: FILE: 2017, 125, 3576869994.495, 26388.000    Database: 737484, 2017, 125, 3576783781, 26417
+[05/08/2017 12:45:18 pm]: query : SELECT * FROM magnetometer WHERE `day` = 126 AND `year` = 2017
+[05/08/2017 12:45:18 pm]: data already in table: FILE: 2017, 126, 3576956233.525, 26423.000    Database: 737964, 2017, 126, 3576870180, 26395
+[05/08/2017 12:45:18 pm]: query : SELECT * FROM magnetometer WHERE `day` = 127 AND `year` = 2017
+[05/08/2017 12:45:19 pm]: data already in table: FILE: 2017, 127, 3577042636.277, 26230.000    Database: 738443, 2017, 127, 3576956582, 26432
+[05/08/2017 12:45:51 pm]: DATA125.csv
+[05/08/2017 12:45:51 pm]: DATA124.csv
+[05/08/2017 12:45:51 pm]: query : SELECT * FROM magnetometer WHERE `day` = 33 AND `year` = 2017
+[05/08/2017 12:45:52 pm]: data already in table: FILE: 2017, 033, 3568924714.103, 27908.000    Database: 724011, 2017, 33, 3568875217, 27593
+[05/08/2017 12:45:52 pm]: query : SELECT * FROM magnetometer WHERE `day` = 34 AND `year` = 2017
+[05/08/2017 12:45:53 pm]: data already in table: FILE: 2017, 034, 3569011064.014, 28513.000    Database: 724287, 2017, 34, 3568924981, 27917
+[05/08/2017 12:45:53 pm]: query : SELECT * FROM magnetometer WHERE `day` = 35 AND `year` = 2017
+[05/08/2017 12:45:54 pm]: data already in table: FILE: 2017, 035, 3569097595.565, 28462.000    Database: 724766, 2017, 35, 3569011382, 28517
+[05/08/2017 12:45:54 pm]: query : SELECT * FROM magnetometer WHERE `day` = 36 AND `year` = 2017
+[05/08/2017 12:45:55 pm]: data already in table: FILE: 2017, 036, 3569183994.872, 28382.000    Database: 725246, 2017, 36, 3569097782, 28463
+[05/08/2017 12:45:55 pm]: query : SELECT * FROM magnetometer WHERE `day` = 37 AND `year` = 2017
+[05/08/2017 12:45:56 pm]: data already in table: FILE: 2017, 037, 3569270394.494, 28309.000    Database: 725726, 2017, 37, 3569184181, 28387
+[05/08/2017 12:45:56 pm]: query : SELECT * FROM magnetometer WHERE `day` = 38 AND `year` = 2017
+[05/08/2017 12:45:57 pm]: data already in table: FILE: 2017, 038, 3569356630.419, 28061.000    Database: 726206, 2017, 38, 3569270580, 28306
+[05/08/2017 12:45:57 pm]: query : SELECT * FROM magnetometer WHERE `day` = 39 AND `year` = 2017
+[05/08/2017 12:45:57 pm]: data already in table: FILE: 2017, 039, 3569443023.004, 28271.000    Database: 726685, 2017, 39, 3569356981, 28070
+[05/08/2017 12:45:58 pm]: query : SELECT * FROM magnetometer WHERE `day` = 40 AND `year` = 2017
+[05/08/2017 12:45:58 pm]: data already in table: FILE: 2017, 040, 3569497199.342, 28940.000    Database: 727164, 2017, 40, 3569443380, 28284
+[05/08/2017 12:45:58 pm]: query : SELECT * FROM magnetometer WHERE `day` = 80 AND `year` = 2017
+[05/08/2017 12:45:59 pm]: data already in table: FILE: 2017, 080, 3572985456.107, 28158.000    Database: 727464, 2017, 80, 3572940254, 27273
+[05/08/2017 12:45:59 pm]: query : SELECT * FROM magnetometer WHERE `day` = 81 AND `year` = 2017
+[05/08/2017 12:46:00 pm]: data already in table: FILE: 2017, 081, 3573071848.162, 27553.000    Database: 727716, 2017, 81, 3572985780, 28163
+[05/08/2017 12:46:00 pm]: query : SELECT * FROM magnetometer WHERE `day` = 82 AND `year` = 2017
+[05/08/2017 12:46:01 pm]: data already in table: FILE: 2017, 082, 3573158290.641, 27512.000    Database: 728195, 2017, 82, 3573072182, 27566
+[05/08/2017 12:46:01 pm]: query : SELECT * FROM magnetometer WHERE `day` = 83 AND `year` = 2017
+[05/08/2017 12:46:02 pm]: data already in table: FILE: 2017, 083, 3573500274.861, 26624.000    Database: 728674, 2017, 83, 3573158582, 27522
+[05/08/2017 12:46:02 pm]: query : SELECT * FROM magnetometer WHERE `day` = 87 AND `year` = 2017
+[05/08/2017 12:46:03 pm]: data already in table: FILE: 2017, 087, 3573586624.876, 26987.000    Database: 729179, 2017, 87, 3573500581, 26623
+[05/08/2017 12:46:03 pm]: query : SELECT * FROM magnetometer WHERE `day` = 88 AND `year` = 2017
+[05/08/2017 12:46:03 pm]: data already in table: FILE: 2017, 088, 3573673088.938, 26904.000    Database: 729658, 2017, 88, 3573586982, 26994
+[05/08/2017 12:46:04 pm]: query : SELECT * FROM magnetometer WHERE `day` = 89 AND `year` = 2017
+[05/08/2017 12:46:04 pm]: data already in table: FILE: 2017, 089, 3573759454.469, 26913.000    Database: 730137, 2017, 89, 3573673383, 26913
+[05/08/2017 12:46:05 pm]: query : SELECT * FROM magnetometer WHERE `day` = 90 AND `year` = 2017
+[05/08/2017 12:46:05 pm]: data already in table: FILE: 2017, 090, 3573845857.238, 27039.000    Database: 730616, 2017, 90, 3573759801, 26916
+[05/08/2017 12:46:05 pm]: query : SELECT * FROM magnetometer WHERE `day` = 91 AND `year` = 2017
+[05/08/2017 12:46:06 pm]: data already in table: FILE: 2017, 091, 3573932223.852, 26947.000    Database: 731095, 2017, 91, 3573846181, 27043
+[05/08/2017 12:46:06 pm]: query : SELECT * FROM magnetometer WHERE `day` = 92 AND `year` = 2017
+[05/08/2017 12:46:06 pm]: data already in table: FILE: 2017, 092, 3574018664.969, 26947.000    Database: 731574, 2017, 92, 3573932581, 26960
+[05/08/2017 12:46:07 pm]: query : SELECT * FROM magnetometer WHERE `day` = 93 AND `year` = 2017
+[05/08/2017 12:46:07 pm]: data already in table: FILE: 2017, 093, 3574105070.616, 27097.000    Database: 732053, 2017, 93, 3574018983, 26965
+[05/08/2017 12:46:08 pm]: query : SELECT * FROM magnetometer WHERE `day` = 94 AND `year` = 2017
+[05/08/2017 12:46:08 pm]: data already in table: FILE: 2017, 094, 3574191514.472, 27340.000    Database: 732532, 2017, 94, 3574105383, 27097
+[05/08/2017 12:46:09 pm]: query : SELECT * FROM magnetometer WHERE `day` = 95 AND `year` = 2017
+[05/08/2017 12:46:09 pm]: data already in table: FILE: 2017, 095, 3574252641.112, 26507.000    Database: 733011, 2017, 95, 3574191781, 27348
+[05/08/2017 12:46:09 pm]: query : SELECT * FROM magnetometer WHERE `day` = 116 AND `year` = 2017
+[05/08/2017 12:46:10 pm]: data already in table: FILE: 2017, 116, 3576092322.568, 27522.000    Database: 733350, 2017, 116, 3576038867, 27933
+[05/08/2017 12:46:10 pm]: query : SELECT * FROM magnetometer WHERE `day` = 117 AND `year` = 2017
+[05/08/2017 12:46:10 pm]: data already in table: FILE: 2017, 117, 3576178647.082, 27146.000    Database: 733648, 2017, 117, 3576092581, 27535
+[05/08/2017 12:46:11 pm]: query : SELECT * FROM magnetometer WHERE `day` = 118 AND `year` = 2017
+[05/08/2017 12:46:11 pm]: data already in table: FILE: 2017, 118, 3576265045.783, 27035.000    Database: 734127, 2017, 118, 3576178980, 27154
+[05/08/2017 12:46:12 pm]: query : SELECT * FROM magnetometer WHERE `day` = 119 AND `year` = 2017
+[05/08/2017 12:46:12 pm]: data already in table: FILE: 2017, 119, 3576351594.855, 26977.000    Database: 734606, 2017, 119, 3576265382, 27031
+[05/08/2017 12:46:13 pm]: query : SELECT * FROM magnetometer WHERE `day` = 120 AND `year` = 2017
+[05/08/2017 12:46:13 pm]: data already in table: FILE: 2017, 120, 3576437841.072, 26840.000    Database: 735086, 2017, 120, 3576351781, 26983
+[05/08/2017 12:46:14 pm]: query : SELECT * FROM magnetometer WHERE `day` = 121 AND `year` = 2017
+[05/08/2017 12:46:14 pm]: data already in table: FILE: 2017, 121, 3576524402.193, 26641.000    Database: 735565, 2017, 121, 3576438180, 26835
+[05/08/2017 12:46:14 pm]: query : SELECT * FROM magnetometer WHERE `day` = 122 AND `year` = 2017
+[05/08/2017 12:46:15 pm]: data already in table: FILE: 2017, 122, 3576610794.937, 26228.000    Database: 736045, 2017, 122, 3576524582, 26644
+[05/08/2017 12:46:15 pm]: query : SELECT * FROM magnetometer WHERE `day` = 123 AND `year` = 2017
+[05/08/2017 12:46:16 pm]: data already in table: FILE: 2017, 123, 3576697197.313, 26204.000    Database: 736525, 2017, 123, 3576610981, 26234
+[05/08/2017 12:46:16 pm]: query : SELECT * FROM magnetometer WHERE `day` = 124 AND `year` = 2017
+[05/08/2017 12:46:17 pm]: data already in table: FILE: 2017, 124, 3576783433.300, 26405.000    Database: 737005, 2017, 124, 3576697380, 26209
+[05/08/2017 12:46:17 pm]: query : SELECT * FROM magnetometer WHERE `day` = 126 AND `year` = 2017
+[05/08/2017 12:46:18 pm]: data already in table: FILE: 2017, 126, 3576956233.525, 26423.000    Database: 737964, 2017, 126, 3576870180, 26395
+[05/08/2017 12:46:18 pm]: query : SELECT * FROM magnetometer WHERE `day` = 127 AND `year` = 2017
+[05/08/2017 12:46:18 pm]: data already in table: FILE: 2017, 127, 3577042636.277, 26230.000    Database: 738443, 2017, 127, 3576956582, 26432
+[05/08/2017 12:47:17 pm]: DATA125.csv
+[05/08/2017 12:47:17 pm]: DATA127.csv
+[05/08/2017 12:47:17 pm]: DATA124.csv
+[05/08/2017 12:47:18 pm]: query : SELECT * FROM magnetometer WHERE `day` = 33 AND `year` = 2017
+[05/08/2017 12:47:18 pm]: data already in table: FILE: 2017, 033, 3568924714.103, 27908.000    Database: 724011, 2017, 33, 3568875217, 27593
+[05/08/2017 12:47:19 pm]: query : SELECT * FROM magnetometer WHERE `day` = 34 AND `year` = 2017
+[05/08/2017 12:47:19 pm]: data already in table: FILE: 2017, 034, 3569011064.014, 28513.000    Database: 724287, 2017, 34, 3568924981, 27917
+[05/08/2017 12:47:20 pm]: query : SELECT * FROM magnetometer WHERE `day` = 35 AND `year` = 2017
+[05/08/2017 12:47:20 pm]: data already in table: FILE: 2017, 035, 3569097595.565, 28462.000    Database: 724766, 2017, 35, 3569011382, 28517
+[05/08/2017 12:47:20 pm]: query : SELECT * FROM magnetometer WHERE `day` = 36 AND `year` = 2017
+[05/08/2017 12:47:21 pm]: data already in table: FILE: 2017, 036, 3569183994.872, 28382.000    Database: 725246, 2017, 36, 3569097782, 28463
+[05/08/2017 12:47:21 pm]: query : SELECT * FROM magnetometer WHERE `day` = 37 AND `year` = 2017
+[05/08/2017 12:47:22 pm]: data already in table: FILE: 2017, 037, 3569270394.494, 28309.000    Database: 725726, 2017, 37, 3569184181, 28387
+[05/08/2017 12:47:23 pm]: query : SELECT * FROM magnetometer WHERE `day` = 38 AND `year` = 2017
+[05/08/2017 12:47:23 pm]: data already in table: FILE: 2017, 038, 3569356630.419, 28061.000    Database: 726206, 2017, 38, 3569270580, 28306
+[05/08/2017 12:47:23 pm]: query : SELECT * FROM magnetometer WHERE `day` = 39 AND `year` = 2017
+[05/08/2017 12:47:24 pm]: data already in table: FILE: 2017, 039, 3569443023.004, 28271.000    Database: 726685, 2017, 39, 3569356981, 28070
+[05/08/2017 12:47:24 pm]: query : SELECT * FROM magnetometer WHERE `day` = 40 AND `year` = 2017
+[05/08/2017 12:47:24 pm]: data already in table: FILE: 2017, 040, 3569497199.342, 28940.000    Database: 727164, 2017, 40, 3569443380, 28284
+[05/08/2017 12:47:25 pm]: query : SELECT * FROM magnetometer WHERE `day` = 80 AND `year` = 2017
+[05/08/2017 12:47:25 pm]: data already in table: FILE: 2017, 080, 3572985456.107, 28158.000    Database: 727464, 2017, 80, 3572940254, 27273
+[05/08/2017 12:47:25 pm]: query : SELECT * FROM magnetometer WHERE `day` = 81 AND `year` = 2017
+[05/08/2017 12:47:26 pm]: data already in table: FILE: 2017, 081, 3573071848.162, 27553.000    Database: 727716, 2017, 81, 3572985780, 28163
+[05/08/2017 12:47:26 pm]: query : SELECT * FROM magnetometer WHERE `day` = 82 AND `year` = 2017
+[05/08/2017 12:47:27 pm]: data already in table: FILE: 2017, 082, 3573158290.641, 27512.000    Database: 728195, 2017, 82, 3573072182, 27566
+[05/08/2017 12:47:27 pm]: query : SELECT * FROM magnetometer WHERE `day` = 83 AND `year` = 2017
+[05/08/2017 12:47:28 pm]: data already in table: FILE: 2017, 083, 3573500274.861, 26624.000    Database: 728674, 2017, 83, 3573158582, 27522
+[05/08/2017 12:47:28 pm]: query : SELECT * FROM magnetometer WHERE `day` = 87 AND `year` = 2017
+[05/08/2017 12:47:29 pm]: data already in table: FILE: 2017, 087, 3573586624.876, 26987.000    Database: 729179, 2017, 87, 3573500581, 26623
+[05/08/2017 12:47:29 pm]: query : SELECT * FROM magnetometer WHERE `day` = 88 AND `year` = 2017
+[05/08/2017 12:47:30 pm]: data already in table: FILE: 2017, 088, 3573673088.938, 26904.000    Database: 729658, 2017, 88, 3573586982, 26994
+[05/08/2017 12:47:30 pm]: query : SELECT * FROM magnetometer WHERE `day` = 89 AND `year` = 2017
+[05/08/2017 12:47:31 pm]: data already in table: FILE: 2017, 089, 3573759454.469, 26913.000    Database: 730137, 2017, 89, 3573673383, 26913
+[05/08/2017 12:47:31 pm]: query : SELECT * FROM magnetometer WHERE `day` = 90 AND `year` = 2017
+[05/08/2017 12:47:31 pm]: data already in table: FILE: 2017, 090, 3573845857.238, 27039.000    Database: 730616, 2017, 90, 3573759801, 26916
+[05/08/2017 12:47:32 pm]: query : SELECT * FROM magnetometer WHERE `day` = 91 AND `year` = 2017
+[05/08/2017 12:47:32 pm]: data already in table: FILE: 2017, 091, 3573932223.852, 26947.000    Database: 731095, 2017, 91, 3573846181, 27043
+[05/08/2017 12:47:33 pm]: query : SELECT * FROM magnetometer WHERE `day` = 92 AND `year` = 2017
+[05/08/2017 12:47:33 pm]: data already in table: FILE: 2017, 092, 3574018664.969, 26947.000    Database: 731574, 2017, 92, 3573932581, 26960
+[05/08/2017 12:47:34 pm]: query : SELECT * FROM magnetometer WHERE `day` = 93 AND `year` = 2017
+[05/08/2017 12:47:34 pm]: data already in table: FILE: 2017, 093, 3574105070.616, 27097.000    Database: 732053, 2017, 93, 3574018983, 26965
+[05/08/2017 12:47:35 pm]: query : SELECT * FROM magnetometer WHERE `day` = 94 AND `year` = 2017
+[05/08/2017 12:47:35 pm]: data already in table: FILE: 2017, 094, 3574191514.472, 27340.000    Database: 732532, 2017, 94, 3574105383, 27097
+[05/08/2017 12:47:35 pm]: query : SELECT * FROM magnetometer WHERE `day` = 95 AND `year` = 2017
+[05/08/2017 12:47:36 pm]: data already in table: FILE: 2017, 095, 3574252641.112, 26507.000    Database: 733011, 2017, 95, 3574191781, 27348
+[05/08/2017 12:47:36 pm]: query : SELECT * FROM magnetometer WHERE `day` = 116 AND `year` = 2017
+[05/08/2017 12:47:37 pm]: data already in table: FILE: 2017, 116, 3576092322.568, 27522.000    Database: 733350, 2017, 116, 3576038867, 27933
+[05/08/2017 12:47:37 pm]: query : SELECT * FROM magnetometer WHERE `day` = 117 AND `year` = 2017
+[05/08/2017 12:47:38 pm]: data already in table: FILE: 2017, 117, 3576178647.082, 27146.000    Database: 733648, 2017, 117, 3576092581, 27535
+[05/08/2017 12:47:38 pm]: query : SELECT * FROM magnetometer WHERE `day` = 118 AND `year` = 2017
+[05/08/2017 12:47:38 pm]: data already in table: FILE: 2017, 118, 3576265045.783, 27035.000    Database: 734127, 2017, 118, 3576178980, 27154
+[05/08/2017 12:47:39 pm]: query : SELECT * FROM magnetometer WHERE `day` = 119 AND `year` = 2017
+[05/08/2017 12:47:39 pm]: data already in table: FILE: 2017, 119, 3576351594.855, 26977.000    Database: 734606, 2017, 119, 3576265382, 27031
+[05/08/2017 12:47:40 pm]: query : SELECT * FROM magnetometer WHERE `day` = 120 AND `year` = 2017
+[05/08/2017 12:47:40 pm]: data already in table: FILE: 2017, 120, 3576437841.072, 26840.000    Database: 735086, 2017, 120, 3576351781, 26983
+[05/08/2017 12:47:40 pm]: query : SELECT * FROM magnetometer WHERE `day` = 121 AND `year` = 2017
+[05/08/2017 12:47:41 pm]: data already in table: FILE: 2017, 121, 3576524402.193, 26641.000    Database: 735565, 2017, 121, 3576438180, 26835
+[05/08/2017 12:47:41 pm]: query : SELECT * FROM magnetometer WHERE `day` = 122 AND `year` = 2017
+[05/08/2017 12:47:42 pm]: data already in table: FILE: 2017, 122, 3576610794.937, 26228.000    Database: 736045, 2017, 122, 3576524582, 26644
+[05/08/2017 12:47:42 pm]: query : SELECT * FROM magnetometer WHERE `day` = 123 AND `year` = 2017
+[05/08/2017 12:47:42 pm]: data already in table: FILE: 2017, 123, 3576697197.313, 26204.000    Database: 736525, 2017, 123, 3576610981, 26234
+[05/08/2017 12:47:43 pm]: query : SELECT * FROM magnetometer WHERE `day` = 124 AND `year` = 2017
+[05/08/2017 12:47:44 pm]: data already in table: FILE: 2017, 124, 3576783433.300, 26405.000    Database: 737005, 2017, 124, 3576697380, 26209
+[05/08/2017 12:47:44 pm]: query : SELECT * FROM magnetometer WHERE `day` = 126 AND `year` = 2017
+[05/08/2017 12:47:44 pm]: data already in table: FILE: 2017, 126, 3576956233.525, 26423.000    Database: 737964, 2017, 126, 3576870180, 26395
+[05/08/2017 12:47:44 pm]: query : SELECT * FROM magnetometer WHERE `day` = 127 AND `year` = 2017
+[05/08/2017 12:47:45 pm]: data already in table: FILE: 2017, 127, 3577042636.277, 26230.000    Database: 738443, 2017, 127, 3576956582, 26432
+[05/08/2017 12:51:13 pm]: DATA124.csv
+[05/08/2017 12:51:13 pm]: DATA127.csv
+[05/08/2017 12:51:13 pm]: DATA124.csv
+[05/08/2017 12:51:13 pm]: query : SELECT * FROM magnetometer WHERE `day` = 33 AND `year` = 2017
+[05/08/2017 12:51:14 pm]: data already in table: FILE: 2017, 033, 3568924714.103, 27908.000    Database: 724011, 2017, 33, 3568875217, 27593
+[05/08/2017 12:51:14 pm]: query : SELECT * FROM magnetometer WHERE `day` = 34 AND `year` = 2017
+[05/08/2017 12:51:15 pm]: data already in table: FILE: 2017, 034, 3569011064.014, 28513.000    Database: 724287, 2017, 34, 3568924981, 27917
+[05/08/2017 12:51:15 pm]: query : SELECT * FROM magnetometer WHERE `day` = 35 AND `year` = 2017
+[05/08/2017 12:51:15 pm]: data already in table: FILE: 2017, 035, 3569097595.565, 28462.000    Database: 724766, 2017, 35, 3569011382, 28517
+[05/08/2017 12:51:16 pm]: query : SELECT * FROM magnetometer WHERE `day` = 36 AND `year` = 2017
+[05/08/2017 12:51:16 pm]: data already in table: FILE: 2017, 036, 3569183994.872, 28382.000    Database: 725246, 2017, 36, 3569097782, 28463
+[05/08/2017 12:51:16 pm]: query : SELECT * FROM magnetometer WHERE `day` = 37 AND `year` = 2017
+[05/08/2017 12:51:17 pm]: data already in table: FILE: 2017, 037, 3569270394.494, 28309.000    Database: 725726, 2017, 37, 3569184181, 28387
+[05/08/2017 12:51:17 pm]: query : SELECT * FROM magnetometer WHERE `day` = 38 AND `year` = 2017
+[05/08/2017 12:51:18 pm]: data already in table: FILE: 2017, 038, 3569356630.419, 28061.000    Database: 726206, 2017, 38, 3569270580, 28306
+[05/08/2017 12:51:18 pm]: query : SELECT * FROM magnetometer WHERE `day` = 39 AND `year` = 2017
+[05/08/2017 12:51:18 pm]: data already in table: FILE: 2017, 039, 3569443023.004, 28271.000    Database: 726685, 2017, 39, 3569356981, 28070
+[05/08/2017 12:51:19 pm]: query : SELECT * FROM magnetometer WHERE `day` = 40 AND `year` = 2017
+[05/08/2017 12:51:19 pm]: data already in table: FILE: 2017, 040, 3569497199.342, 28940.000    Database: 727164, 2017, 40, 3569443380, 28284
+[05/08/2017 12:51:19 pm]: query : SELECT * FROM magnetometer WHERE `day` = 80 AND `year` = 2017
+[05/08/2017 12:51:20 pm]: data already in table: FILE: 2017, 080, 3572985456.107, 28158.000    Database: 727464, 2017, 80, 3572940254, 27273
+[05/08/2017 12:51:20 pm]: query : SELECT * FROM magnetometer WHERE `day` = 81 AND `year` = 2017
+[05/08/2017 12:51:20 pm]: data already in table: FILE: 2017, 081, 3573071848.162, 27553.000    Database: 727716, 2017, 81, 3572985780, 28163
+[05/08/2017 12:51:21 pm]: query : SELECT * FROM magnetometer WHERE `day` = 82 AND `year` = 2017
+[05/08/2017 12:51:22 pm]: data already in table: FILE: 2017, 082, 3573158290.641, 27512.000    Database: 728195, 2017, 82, 3573072182, 27566
+[05/08/2017 12:51:22 pm]: query : SELECT * FROM magnetometer WHERE `day` = 83 AND `year` = 2017
+[05/08/2017 12:51:23 pm]: data already in table: FILE: 2017, 083, 3573500274.861, 26624.000    Database: 728674, 2017, 83, 3573158582, 27522
+[05/08/2017 12:51:23 pm]: query : SELECT * FROM magnetometer WHERE `day` = 87 AND `year` = 2017
+[05/08/2017 12:51:24 pm]: data already in table: FILE: 2017, 087, 3573586624.876, 26987.000    Database: 729179, 2017, 87, 3573500581, 26623
+[05/08/2017 12:51:24 pm]: query : SELECT * FROM magnetometer WHERE `day` = 88 AND `year` = 2017
+[05/08/2017 12:51:24 pm]: data already in table: FILE: 2017, 088, 3573673088.938, 26904.000    Database: 729658, 2017, 88, 3573586982, 26994
+[05/08/2017 12:51:25 pm]: query : SELECT * FROM magnetometer WHERE `day` = 89 AND `year` = 2017
+[05/08/2017 12:51:25 pm]: data already in table: FILE: 2017, 089, 3573759454.469, 26913.000    Database: 730137, 2017, 89, 3573673383, 26913
+[05/08/2017 12:51:25 pm]: query : SELECT * FROM magnetometer WHERE `day` = 90 AND `year` = 2017
+[05/08/2017 12:51:26 pm]: data already in table: FILE: 2017, 090, 3573845857.238, 27039.000    Database: 730616, 2017, 90, 3573759801, 26916
+[05/08/2017 12:51:26 pm]: query : SELECT * FROM magnetometer WHERE `day` = 91 AND `year` = 2017
+[05/08/2017 12:51:27 pm]: data already in table: FILE: 2017, 091, 3573932223.852, 26947.000    Database: 731095, 2017, 91, 3573846181, 27043
+[05/08/2017 12:51:27 pm]: query : SELECT * FROM magnetometer WHERE `day` = 92 AND `year` = 2017
+[05/08/2017 12:51:28 pm]: data already in table: FILE: 2017, 092, 3574018664.969, 26947.000    Database: 731574, 2017, 92, 3573932581, 26960
+[05/08/2017 12:51:28 pm]: query : SELECT * FROM magnetometer WHERE `day` = 93 AND `year` = 2017
+[05/08/2017 12:51:29 pm]: data already in table: FILE: 2017, 093, 3574105070.616, 27097.000    Database: 732053, 2017, 93, 3574018983, 26965
+[05/08/2017 12:51:29 pm]: query : SELECT * FROM magnetometer WHERE `day` = 94 AND `year` = 2017
+[05/08/2017 12:51:29 pm]: data already in table: FILE: 2017, 094, 3574191514.472, 27340.000    Database: 732532, 2017, 94, 3574105383, 27097
+[05/08/2017 12:51:29 pm]: query : SELECT * FROM magnetometer WHERE `day` = 95 AND `year` = 2017
+[05/08/2017 12:51:30 pm]: data already in table: FILE: 2017, 095, 3574252641.112, 26507.000    Database: 733011, 2017, 95, 3574191781, 27348
+[05/08/2017 12:51:30 pm]: query : SELECT * FROM magnetometer WHERE `day` = 116 AND `year` = 2017
+[05/08/2017 12:51:31 pm]: data already in table: FILE: 2017, 116, 3576092322.568, 27522.000    Database: 733350, 2017, 116, 3576038867, 27933
+[05/08/2017 12:51:31 pm]: query : SELECT * FROM magnetometer WHERE `day` = 117 AND `year` = 2017
+[05/08/2017 12:51:32 pm]: data already in table: FILE: 2017, 117, 3576178647.082, 27146.000    Database: 733648, 2017, 117, 3576092581, 27535
+[05/08/2017 12:51:32 pm]: query : SELECT * FROM magnetometer WHERE `day` = 118 AND `year` = 2017
+[05/08/2017 12:51:33 pm]: data already in table: FILE: 2017, 118, 3576265045.783, 27035.000    Database: 734127, 2017, 118, 3576178980, 27154
+[05/08/2017 12:51:33 pm]: query : SELECT * FROM magnetometer WHERE `day` = 119 AND `year` = 2017
+[05/08/2017 12:51:34 pm]: data already in table: FILE: 2017, 119, 3576351594.855, 26977.000    Database: 734606, 2017, 119, 3576265382, 27031
+[05/08/2017 12:51:34 pm]: query : SELECT * FROM magnetometer WHERE `day` = 120 AND `year` = 2017
+[05/08/2017 12:51:35 pm]: data already in table: FILE: 2017, 120, 3576437841.072, 26840.000    Database: 735086, 2017, 120, 3576351781, 26983
+[05/08/2017 12:51:35 pm]: query : SELECT * FROM magnetometer WHERE `day` = 121 AND `year` = 2017
+[05/08/2017 12:51:36 pm]: data already in table: FILE: 2017, 121, 3576524402.193, 26641.000    Database: 735565, 2017, 121, 3576438180, 26835
+[05/08/2017 12:51:36 pm]: query : SELECT * FROM magnetometer WHERE `day` = 122 AND `year` = 2017
+[05/08/2017 12:51:36 pm]: data already in table: FILE: 2017, 122, 3576610794.937, 26228.000    Database: 736045, 2017, 122, 3576524582, 26644
+[05/08/2017 12:51:37 pm]: query : SELECT * FROM magnetometer WHERE `day` = 123 AND `year` = 2017
+[05/08/2017 12:51:37 pm]: data already in table: FILE: 2017, 123, 3576697197.313, 26204.000    Database: 736525, 2017, 123, 3576610981, 26234
+[05/08/2017 12:51:37 pm]: query : SELECT * FROM magnetometer WHERE `day` = 124 AND `year` = 2017
+[05/08/2017 12:51:38 pm]: data already in table: FILE: 2017, 124, 3576783433.300, 26405.000    Database: 737005, 2017, 124, 3576697380, 26209
+[05/08/2017 12:51:38 pm]: query : SELECT * FROM magnetometer WHERE `day` = 125 AND `year` = 2017
+[05/08/2017 12:51:39 pm]: data already in table: FILE: 2017, 125, 3576869994.495, 26388.000    Database: 737484, 2017, 125, 3576783781, 26417
+[05/08/2017 12:51:39 pm]: query : SELECT * FROM magnetometer WHERE `day` = 127 AND `year` = 2017
+[05/08/2017 12:51:40 pm]: data already in table: FILE: 2017, 127, 3577042636.277, 26230.000    Database: 738443, 2017, 127, 3576956582, 26432
+[05/08/2017 12:51:56 pm]: DATA127.csv
+[05/08/2017 12:51:56 pm]: DATA124.csv
+[05/08/2017 12:51:56 pm]: query : SELECT * FROM magnetometer WHERE `day` = 33 AND `year` = 2017
+[05/08/2017 12:51:57 pm]: data already in table: FILE: 2017, 033, 3568924714.103, 27908.000    Database: 724011, 2017, 33, 3568875217, 27593
+[05/08/2017 12:51:57 pm]: query : SELECT * FROM magnetometer WHERE `day` = 34 AND `year` = 2017
+[05/08/2017 12:51:57 pm]: data already in table: FILE: 2017, 034, 3569011064.014, 28513.000    Database: 724287, 2017, 34, 3568924981, 27917
+[05/08/2017 12:51:58 pm]: query : SELECT * FROM magnetometer WHERE `day` = 35 AND `year` = 2017
+[05/08/2017 12:51:58 pm]: data already in table: FILE: 2017, 035, 3569097595.565, 28462.000    Database: 724766, 2017, 35, 3569011382, 28517
+[05/08/2017 12:51:59 pm]: query : SELECT * FROM magnetometer WHERE `day` = 36 AND `year` = 2017
+[05/08/2017 12:51:59 pm]: data already in table: FILE: 2017, 036, 3569183994.872, 28382.000    Database: 725246, 2017, 36, 3569097782, 28463
+[05/08/2017 12:52:00 pm]: query : SELECT * FROM magnetometer WHERE `day` = 37 AND `year` = 2017
+[05/08/2017 12:52:00 pm]: data already in table: FILE: 2017, 037, 3569270394.494, 28309.000    Database: 725726, 2017, 37, 3569184181, 28387
+[05/08/2017 12:52:00 pm]: query : SELECT * FROM magnetometer WHERE `day` = 38 AND `year` = 2017
+[05/08/2017 12:52:01 pm]: data already in table: FILE: 2017, 038, 3569356630.419, 28061.000    Database: 726206, 2017, 38, 3569270580, 28306
+[05/08/2017 12:52:01 pm]: query : SELECT * FROM magnetometer WHERE `day` = 39 AND `year` = 2017
+[05/08/2017 12:52:02 pm]: data already in table: FILE: 2017, 039, 3569443023.004, 28271.000    Database: 726685, 2017, 39, 3569356981, 28070
+[05/08/2017 12:52:02 pm]: query : SELECT * FROM magnetometer WHERE `day` = 40 AND `year` = 2017
+[05/08/2017 12:52:03 pm]: data already in table: FILE: 2017, 040, 3569497199.342, 28940.000    Database: 727164, 2017, 40, 3569443380, 28284
+[05/08/2017 12:52:03 pm]: query : SELECT * FROM magnetometer WHERE `day` = 80 AND `year` = 2017
+[05/08/2017 12:52:03 pm]: data already in table: FILE: 2017, 080, 3572985456.107, 28158.000    Database: 727464, 2017, 80, 3572940254, 27273
+[05/08/2017 12:52:04 pm]: query : SELECT * FROM magnetometer WHERE `day` = 81 AND `year` = 2017
+[05/08/2017 12:52:04 pm]: data already in table: FILE: 2017, 081, 3573071848.162, 27553.000    Database: 727716, 2017, 81, 3572985780, 28163
+[05/08/2017 12:52:05 pm]: query : SELECT * FROM magnetometer WHERE `day` = 82 AND `year` = 2017
+[05/08/2017 12:52:05 pm]: data already in table: FILE: 2017, 082, 3573158290.641, 27512.000    Database: 728195, 2017, 82, 3573072182, 27566
+[05/08/2017 12:52:05 pm]: query : SELECT * FROM magnetometer WHERE `day` = 83 AND `year` = 2017
+[05/08/2017 12:52:06 pm]: data already in table: FILE: 2017, 083, 3573500274.861, 26624.000    Database: 728674, 2017, 83, 3573158582, 27522
+[05/08/2017 12:52:06 pm]: query : SELECT * FROM magnetometer WHERE `day` = 87 AND `year` = 2017
+[05/08/2017 12:52:07 pm]: data already in table: FILE: 2017, 087, 3573586624.876, 26987.000    Database: 729179, 2017, 87, 3573500581, 26623
+[05/08/2017 12:52:07 pm]: query : SELECT * FROM magnetometer WHERE `day` = 88 AND `year` = 2017
+[05/08/2017 12:52:07 pm]: data already in table: FILE: 2017, 088, 3573673088.938, 26904.000    Database: 729658, 2017, 88, 3573586982, 26994
+[05/08/2017 12:52:08 pm]: query : SELECT * FROM magnetometer WHERE `day` = 89 AND `year` = 2017
+[05/08/2017 12:52:08 pm]: data already in table: FILE: 2017, 089, 3573759454.469, 26913.000    Database: 730137, 2017, 89, 3573673383, 26913
+[05/08/2017 12:52:09 pm]: query : SELECT * FROM magnetometer WHERE `day` = 90 AND `year` = 2017
+[05/08/2017 12:52:09 pm]: data already in table: FILE: 2017, 090, 3573845857.238, 27039.000    Database: 730616, 2017, 90, 3573759801, 26916
+[05/08/2017 12:52:09 pm]: query : SELECT * FROM magnetometer WHERE `day` = 91 AND `year` = 2017
+[05/08/2017 12:52:10 pm]: data already in table: FILE: 2017, 091, 3573932223.852, 26947.000    Database: 731095, 2017, 91, 3573846181, 27043
+[05/08/2017 12:52:10 pm]: query : SELECT * FROM magnetometer WHERE `day` = 92 AND `year` = 2017
+[05/08/2017 12:52:11 pm]: data already in table: FILE: 2017, 092, 3574018664.969, 26947.000    Database: 731574, 2017, 92, 3573932581, 26960
+[05/08/2017 12:52:11 pm]: query : SELECT * FROM magnetometer WHERE `day` = 93 AND `year` = 2017
+[05/08/2017 12:52:11 pm]: data already in table: FILE: 2017, 093, 3574105070.616, 27097.000    Database: 732053, 2017, 93, 3574018983, 26965
+[05/08/2017 12:52:12 pm]: query : SELECT * FROM magnetometer WHERE `day` = 94 AND `year` = 2017
+[05/08/2017 12:52:12 pm]: data already in table: FILE: 2017, 094, 3574191514.472, 27340.000    Database: 732532, 2017, 94, 3574105383, 27097
+[05/08/2017 12:52:12 pm]: query : SELECT * FROM magnetometer WHERE `day` = 95 AND `year` = 2017
+[05/08/2017 12:52:13 pm]: data already in table: FILE: 2017, 095, 3574252641.112, 26507.000    Database: 733011, 2017, 95, 3574191781, 27348
+[05/08/2017 12:52:13 pm]: query : SELECT * FROM magnetometer WHERE `day` = 116 AND `year` = 2017
+[05/08/2017 12:52:14 pm]: data already in table: FILE: 2017, 116, 3576092322.568, 27522.000    Database: 733350, 2017, 116, 3576038867, 27933
+[05/08/2017 12:52:14 pm]: query : SELECT * FROM magnetometer WHERE `day` = 117 AND `year` = 2017
+[05/08/2017 12:52:14 pm]: data already in table: FILE: 2017, 117, 3576178647.082, 27146.000    Database: 733648, 2017, 117, 3576092581, 27535
+[05/08/2017 12:52:15 pm]: query : SELECT * FROM magnetometer WHERE `day` = 118 AND `year` = 2017
+[05/08/2017 12:52:15 pm]: data already in table: FILE: 2017, 118, 3576265045.783, 27035.000    Database: 734127, 2017, 118, 3576178980, 27154
+[05/08/2017 12:52:15 pm]: query : SELECT * FROM magnetometer WHERE `day` = 119 AND `year` = 2017
+[05/08/2017 12:52:16 pm]: data already in table: FILE: 2017, 119, 3576351594.855, 26977.000    Database: 734606, 2017, 119, 3576265382, 27031
+[05/08/2017 12:52:16 pm]: query : SELECT * FROM magnetometer WHERE `day` = 120 AND `year` = 2017
+[05/08/2017 12:52:17 pm]: data already in table: FILE: 2017, 120, 3576437841.072, 26840.000    Database: 735086, 2017, 120, 3576351781, 26983
+[05/08/2017 12:52:17 pm]: query : SELECT * FROM magnetometer WHERE `day` = 121 AND `year` = 2017
+[05/08/2017 12:52:18 pm]: data already in table: FILE: 2017, 121, 3576524402.193, 26641.000    Database: 735565, 2017, 121, 3576438180, 26835
+[05/08/2017 12:52:18 pm]: query : SELECT * FROM magnetometer WHERE `day` = 122 AND `year` = 2017
+[05/08/2017 12:52:19 pm]: data already in table: FILE: 2017, 122, 3576610794.937, 26228.000    Database: 736045, 2017, 122, 3576524582, 26644
+[05/08/2017 12:52:19 pm]: query : SELECT * FROM magnetometer WHERE `day` = 123 AND `year` = 2017
+[05/08/2017 12:52:20 pm]: data already in table: FILE: 2017, 123, 3576697197.313, 26204.000    Database: 736525, 2017, 123, 3576610981, 26234
+[05/08/2017 12:52:20 pm]: query : SELECT * FROM magnetometer WHERE `day` = 124 AND `year` = 2017
+[05/08/2017 12:52:21 pm]: data already in table: FILE: 2017, 124, 3576783433.300, 26405.000    Database: 737005, 2017, 124, 3576697380, 26209
+[05/08/2017 12:52:21 pm]: query : SELECT * FROM magnetometer WHERE `day` = 126 AND `year` = 2017
+[05/08/2017 12:52:21 pm]: data already in table: FILE: 2017, 126, 3576956233.525, 26423.000    Database: 737964, 2017, 126, 3576870180, 26395
+[05/08/2017 12:52:22 pm]: query : SELECT * FROM magnetometer WHERE `day` = 127 AND `year` = 2017
+[05/08/2017 12:52:22 pm]: data already in table: FILE: 2017, 127, 3577042636.277, 26230.000    Database: 738443, 2017, 127, 3576956582, 26432
+[05/08/2017 12:53:05 pm]: DATA127.csv
+[05/08/2017 12:53:05 pm]: DATA124.csv
+[05/08/2017 12:53:05 pm]: query : SELECT * FROM magnetometer WHERE `day` = 33 AND `year` = 2017
+[05/08/2017 12:53:06 pm]: data already in table: FILE: 2017, 033, 3568924714.103, 27908.000    Database: 724011, 2017, 33, 3568875217, 27593
+[05/08/2017 12:53:06 pm]: query : SELECT * FROM magnetometer WHERE `day` = 34 AND `year` = 2017
+[05/08/2017 12:53:07 pm]: data already in table: FILE: 2017, 034, 3569011064.014, 28513.000    Database: 724287, 2017, 34, 3568924981, 27917
+[05/08/2017 12:53:07 pm]: query : SELECT * FROM magnetometer WHERE `day` = 35 AND `year` = 2017
+[05/08/2017 12:53:07 pm]: data already in table: FILE: 2017, 035, 3569097595.565, 28462.000    Database: 724766, 2017, 35, 3569011382, 28517
+[05/08/2017 12:53:08 pm]: query : SELECT * FROM magnetometer WHERE `day` = 36 AND `year` = 2017
+[05/08/2017 12:53:08 pm]: data already in table: FILE: 2017, 036, 3569183994.872, 28382.000    Database: 725246, 2017, 36, 3569097782, 28463
+[05/08/2017 12:53:08 pm]: query : SELECT * FROM magnetometer WHERE `day` = 37 AND `year` = 2017
+[05/08/2017 12:53:09 pm]: data already in table: FILE: 2017, 037, 3569270394.494, 28309.000    Database: 725726, 2017, 37, 3569184181, 28387
+[05/08/2017 12:53:09 pm]: query : SELECT * FROM magnetometer WHERE `day` = 38 AND `year` = 2017
+[05/08/2017 12:53:10 pm]: data already in table: FILE: 2017, 038, 3569356630.419, 28061.000    Database: 726206, 2017, 38, 3569270580, 28306
+[05/08/2017 12:53:10 pm]: query : SELECT * FROM magnetometer WHERE `day` = 39 AND `year` = 2017
+[05/08/2017 12:53:11 pm]: data already in table: FILE: 2017, 039, 3569443023.004, 28271.000    Database: 726685, 2017, 39, 3569356981, 28070
+[05/08/2017 12:53:11 pm]: query : SELECT * FROM magnetometer WHERE `day` = 40 AND `year` = 2017
+[05/08/2017 12:53:12 pm]: data already in table: FILE: 2017, 040, 3569497199.342, 28940.000    Database: 727164, 2017, 40, 3569443380, 28284
+[05/08/2017 12:53:12 pm]: query : SELECT * FROM magnetometer WHERE `day` = 80 AND `year` = 2017
+[05/08/2017 12:53:12 pm]: data already in table: FILE: 2017, 080, 3572985456.107, 28158.000    Database: 727464, 2017, 80, 3572940254, 27273
+[05/08/2017 12:53:13 pm]: query : SELECT * FROM magnetometer WHERE `day` = 81 AND `year` = 2017
+[05/08/2017 12:53:13 pm]: data already in table: FILE: 2017, 081, 3573071848.162, 27553.000    Database: 727716, 2017, 81, 3572985780, 28163
+[05/08/2017 12:53:14 pm]: query : SELECT * FROM magnetometer WHERE `day` = 82 AND `year` = 2017
+[05/08/2017 12:53:14 pm]: data already in table: FILE: 2017, 082, 3573158290.641, 27512.000    Database: 728195, 2017, 82, 3573072182, 27566
+[05/08/2017 12:53:14 pm]: query : SELECT * FROM magnetometer WHERE `day` = 83 AND `year` = 2017
+[05/08/2017 12:53:15 pm]: data already in table: FILE: 2017, 083, 3573500274.861, 26624.000    Database: 728674, 2017, 83, 3573158582, 27522
+[05/08/2017 12:53:15 pm]: query : SELECT * FROM magnetometer WHERE `day` = 87 AND `year` = 2017
+[05/08/2017 12:53:16 pm]: data already in table: FILE: 2017, 087, 3573586624.876, 26987.000    Database: 729179, 2017, 87, 3573500581, 26623
+[05/08/2017 12:53:16 pm]: query : SELECT * FROM magnetometer WHERE `day` = 88 AND `year` = 2017
+[05/08/2017 12:53:16 pm]: data already in table: FILE: 2017, 088, 3573673088.938, 26904.000    Database: 729658, 2017, 88, 3573586982, 26994
+[05/08/2017 12:53:17 pm]: query : SELECT * FROM magnetometer WHERE `day` = 89 AND `year` = 2017
+[05/08/2017 12:53:17 pm]: data already in table: FILE: 2017, 089, 3573759454.469, 26913.000    Database: 730137, 2017, 89, 3573673383, 26913
+[05/08/2017 12:53:17 pm]: query : SELECT * FROM magnetometer WHERE `day` = 90 AND `year` = 2017
+[05/08/2017 12:53:18 pm]: data already in table: FILE: 2017, 090, 3573845857.238, 27039.000    Database: 730616, 2017, 90, 3573759801, 26916
+[05/08/2017 12:53:18 pm]: query : SELECT * FROM magnetometer WHERE `day` = 91 AND `year` = 2017
+[05/08/2017 12:53:19 pm]: data already in table: FILE: 2017, 091, 3573932223.852, 26947.000    Database: 731095, 2017, 91, 3573846181, 27043
+[05/08/2017 12:53:19 pm]: query : SELECT * FROM magnetometer WHERE `day` = 92 AND `year` = 2017
+[05/08/2017 12:53:20 pm]: data already in table: FILE: 2017, 092, 3574018664.969, 26947.000    Database: 731574, 2017, 92, 3573932581, 26960
+[05/08/2017 12:53:20 pm]: query : SELECT * FROM magnetometer WHERE `day` = 93 AND `year` = 2017
+[05/08/2017 12:53:20 pm]: data already in table: FILE: 2017, 093, 3574105070.616, 27097.000    Database: 732053, 2017, 93, 3574018983, 26965
+[05/08/2017 12:53:21 pm]: query : SELECT * FROM magnetometer WHERE `day` = 94 AND `year` = 2017
+[05/08/2017 12:53:21 pm]: data already in table: FILE: 2017, 094, 3574191514.472, 27340.000    Database: 732532, 2017, 94, 3574105383, 27097
+[05/08/2017 12:53:21 pm]: query : SELECT * FROM magnetometer WHERE `day` = 95 AND `year` = 2017
+[05/08/2017 12:53:22 pm]: data already in table: FILE: 2017, 095, 3574252641.112, 26507.000    Database: 733011, 2017, 95, 3574191781, 27348
+[05/08/2017 12:53:22 pm]: query : SELECT * FROM magnetometer WHERE `day` = 116 AND `year` = 2017
+[05/08/2017 12:53:23 pm]: data already in table: FILE: 2017, 116, 3576092322.568, 27522.000    Database: 733350, 2017, 116, 3576038867, 27933
+[05/08/2017 12:53:23 pm]: query : SELECT * FROM magnetometer WHERE `day` = 117 AND `year` = 2017
+[05/08/2017 12:53:24 pm]: data already in table: FILE: 2017, 117, 3576178647.082, 27146.000    Database: 733648, 2017, 117, 3576092581, 27535
+[05/08/2017 12:53:24 pm]: query : SELECT * FROM magnetometer WHERE `day` = 118 AND `year` = 2017
+[05/08/2017 12:53:25 pm]: data already in table: FILE: 2017, 118, 3576265045.783, 27035.000    Database: 734127, 2017, 118, 3576178980, 27154
+[05/08/2017 12:53:25 pm]: query : SELECT * FROM magnetometer WHERE `day` = 119 AND `year` = 2017
+[05/08/2017 12:53:26 pm]: data already in table: FILE: 2017, 119, 3576351594.855, 26977.000    Database: 734606, 2017, 119, 3576265382, 27031
+[05/08/2017 12:53:26 pm]: query : SELECT * FROM magnetometer WHERE `day` = 120 AND `year` = 2017
+[05/08/2017 12:53:26 pm]: data already in table: FILE: 2017, 120, 3576437841.072, 26840.000    Database: 735086, 2017, 120, 3576351781, 26983
+[05/08/2017 12:53:27 pm]: query : SELECT * FROM magnetometer WHERE `day` = 121 AND `year` = 2017
+[05/08/2017 12:53:27 pm]: data already in table: FILE: 2017, 121, 3576524402.193, 26641.000    Database: 735565, 2017, 121, 3576438180, 26835
+[05/08/2017 12:53:27 pm]: query : SELECT * FROM magnetometer WHERE `day` = 122 AND `year` = 2017
+[05/08/2017 12:53:28 pm]: data already in table: FILE: 2017, 122, 3576610794.937, 26228.000    Database: 736045, 2017, 122, 3576524582, 26644
+[05/08/2017 12:53:28 pm]: query : SELECT * FROM magnetometer WHERE `day` = 123 AND `year` = 2017
+[05/08/2017 12:53:29 pm]: data already in table: FILE: 2017, 123, 3576697197.313, 26204.000    Database: 736525, 2017, 123, 3576610981, 26234
+[05/08/2017 12:53:30 pm]: query : SELECT * FROM magnetometer WHERE `day` = 124 AND `year` = 2017
+[05/08/2017 12:53:30 pm]: data already in table: FILE: 2017, 124, 3576783433.300, 26405.000    Database: 737005, 2017, 124, 3576697380, 26209
+[05/08/2017 12:53:30 pm]: query : SELECT * FROM magnetometer WHERE `day` = 126 AND `year` = 2017
+[05/08/2017 12:53:31 pm]: data already in table: FILE: 2017, 126, 3576956233.525, 26423.000    Database: 737964, 2017, 126, 3576870180, 26395
+[05/08/2017 12:53:31 pm]: query : SELECT * FROM magnetometer WHERE `day` = 127 AND `year` = 2017
+[05/08/2017 12:53:32 pm]: data already in table: FILE: 2017, 127, 3577042636.277, 26230.000    Database: 738443, 2017, 127, 3576956582, 26432
+[05/08/2017 12:54:21 pm]: DATA126.csv
+[05/08/2017 12:54:21 pm]: DATA124.csv
+[05/08/2017 12:54:21 pm]: query : SELECT * FROM magnetometer WHERE `day` = 33 AND `year` = 2017
+[05/08/2017 12:54:22 pm]: data already in table: FILE: 2017, 033, 3568924714.103, 27908.000    Database: 724011, 2017, 33, 3568875217, 27593
+[05/08/2017 12:54:22 pm]: query : SELECT * FROM magnetometer WHERE `day` = 34 AND `year` = 2017
+[05/08/2017 12:54:23 pm]: data already in table: FILE: 2017, 034, 3569011064.014, 28513.000    Database: 724287, 2017, 34, 3568924981, 27917
+[05/08/2017 12:54:23 pm]: query : SELECT * FROM magnetometer WHERE `day` = 35 AND `year` = 2017
+[05/08/2017 12:54:24 pm]: data already in table: FILE: 2017, 035, 3569097595.565, 28462.000    Database: 724766, 2017, 35, 3569011382, 28517
+[05/08/2017 12:54:24 pm]: query : SELECT * FROM magnetometer WHERE `day` = 36 AND `year` = 2017
+[05/08/2017 12:54:25 pm]: data already in table: FILE: 2017, 036, 3569183994.872, 28382.000    Database: 725246, 2017, 36, 3569097782, 28463
+[05/08/2017 12:54:25 pm]: query : SELECT * FROM magnetometer WHERE `day` = 37 AND `year` = 2017
+[05/08/2017 12:54:26 pm]: data already in table: FILE: 2017, 037, 3569270394.494, 28309.000    Database: 725726, 2017, 37, 3569184181, 28387
+[05/08/2017 12:54:26 pm]: query : SELECT * FROM magnetometer WHERE `day` = 38 AND `year` = 2017
+[05/08/2017 12:54:27 pm]: data already in table: FILE: 2017, 038, 3569356630.419, 28061.000    Database: 726206, 2017, 38, 3569270580, 28306
+[05/08/2017 12:54:27 pm]: query : SELECT * FROM magnetometer WHERE `day` = 39 AND `year` = 2017
+[05/08/2017 12:54:27 pm]: data already in table: FILE: 2017, 039, 3569443023.004, 28271.000    Database: 726685, 2017, 39, 3569356981, 28070
+[05/08/2017 12:54:28 pm]: query : SELECT * FROM magnetometer WHERE `day` = 40 AND `year` = 2017
+[05/08/2017 12:54:28 pm]: data already in table: FILE: 2017, 040, 3569497199.342, 28940.000    Database: 727164, 2017, 40, 3569443380, 28284
+[05/08/2017 12:54:28 pm]: query : SELECT * FROM magnetometer WHERE `day` = 80 AND `year` = 2017
+[05/08/2017 12:54:29 pm]: data already in table: FILE: 2017, 080, 3572985456.107, 28158.000    Database: 727464, 2017, 80, 3572940254, 27273
+[05/08/2017 12:54:29 pm]: query : SELECT * FROM magnetometer WHERE `day` = 81 AND `year` = 2017
+[05/08/2017 12:54:30 pm]: data already in table: FILE: 2017, 081, 3573071848.162, 27553.000    Database: 727716, 2017, 81, 3572985780, 28163
+[05/08/2017 12:54:30 pm]: query : SELECT * FROM magnetometer WHERE `day` = 82 AND `year` = 2017
+[05/08/2017 12:54:31 pm]: data already in table: FILE: 2017, 082, 3573158290.641, 27512.000    Database: 728195, 2017, 82, 3573072182, 27566
+[05/08/2017 12:54:31 pm]: query : SELECT * FROM magnetometer WHERE `day` = 83 AND `year` = 2017
+[05/08/2017 12:54:32 pm]: data already in table: FILE: 2017, 083, 3573500274.861, 26624.000    Database: 728674, 2017, 83, 3573158582, 27522
+[05/08/2017 12:54:32 pm]: query : SELECT * FROM magnetometer WHERE `day` = 87 AND `year` = 2017
+[05/08/2017 12:54:33 pm]: data already in table: FILE: 2017, 087, 3573586624.876, 26987.000    Database: 729179, 2017, 87, 3573500581, 26623
+[05/08/2017 12:54:33 pm]: query : SELECT * FROM magnetometer WHERE `day` = 88 AND `year` = 2017
+[05/08/2017 12:54:34 pm]: data already in table: FILE: 2017, 088, 3573673088.938, 26904.000    Database: 729658, 2017, 88, 3573586982, 26994
+[05/08/2017 12:54:34 pm]: query : SELECT * FROM magnetometer WHERE `day` = 89 AND `year` = 2017
+[05/08/2017 12:54:34 pm]: data already in table: FILE: 2017, 089, 3573759454.469, 26913.000    Database: 730137, 2017, 89, 3573673383, 26913
+[05/08/2017 12:54:35 pm]: query : SELECT * FROM magnetometer WHERE `day` = 90 AND `year` = 2017
+[05/08/2017 12:54:35 pm]: data already in table: FILE: 2017, 090, 3573845857.238, 27039.000    Database: 730616, 2017, 90, 3573759801, 26916
+[05/08/2017 12:54:36 pm]: query : SELECT * FROM magnetometer WHERE `day` = 91 AND `year` = 2017
+[05/08/2017 12:54:36 pm]: data already in table: FILE: 2017, 091, 3573932223.852, 26947.000    Database: 731095, 2017, 91, 3573846181, 27043
+[05/08/2017 12:54:36 pm]: query : SELECT * FROM magnetometer WHERE `day` = 92 AND `year` = 2017
+[05/08/2017 12:54:37 pm]: data already in table: FILE: 2017, 092, 3574018664.969, 26947.000    Database: 731574, 2017, 92, 3573932581, 26960
+[05/08/2017 12:54:37 pm]: query : SELECT * FROM magnetometer WHERE `day` = 93 AND `year` = 2017
+[05/08/2017 12:54:38 pm]: data already in table: FILE: 2017, 093, 3574105070.616, 27097.000    Database: 732053, 2017, 93, 3574018983, 26965
+[05/08/2017 12:54:38 pm]: query : SELECT * FROM magnetometer WHERE `day` = 94 AND `year` = 2017
+[05/08/2017 12:54:39 pm]: data already in table: FILE: 2017, 094, 3574191514.472, 27340.000    Database: 732532, 2017, 94, 3574105383, 27097
+[05/08/2017 12:54:39 pm]: query : SELECT * FROM magnetometer WHERE `day` = 95 AND `year` = 2017
+[05/08/2017 12:54:40 pm]: data already in table: FILE: 2017, 095, 3574252641.112, 26507.000    Database: 733011, 2017, 95, 3574191781, 27348
+[05/08/2017 12:54:40 pm]: query : SELECT * FROM magnetometer WHERE `day` = 116 AND `year` = 2017
+[05/08/2017 12:54:40 pm]: data already in table: FILE: 2017, 116, 3576092322.568, 27522.000    Database: 733350, 2017, 116, 3576038867, 27933
+[05/08/2017 12:54:41 pm]: query : SELECT * FROM magnetometer WHERE `day` = 117 AND `year` = 2017
+[05/08/2017 12:54:41 pm]: data already in table: FILE: 2017, 117, 3576178647.082, 27146.000    Database: 733648, 2017, 117, 3576092581, 27535
+[05/08/2017 12:54:41 pm]: query : SELECT * FROM magnetometer WHERE `day` = 118 AND `year` = 2017
+[05/08/2017 12:54:42 pm]: data already in table: FILE: 2017, 118, 3576265045.783, 27035.000    Database: 734127, 2017, 118, 3576178980, 27154
+[05/08/2017 12:54:42 pm]: query : SELECT * FROM magnetometer WHERE `day` = 119 AND `year` = 2017
+[05/08/2017 12:54:43 pm]: data already in table: FILE: 2017, 119, 3576351594.855, 26977.000    Database: 734606, 2017, 119, 3576265382, 27031
+[05/08/2017 12:54:43 pm]: query : SELECT * FROM magnetometer WHERE `day` = 120 AND `year` = 2017
+[05/08/2017 12:54:44 pm]: data already in table: FILE: 2017, 120, 3576437841.072, 26840.000    Database: 735086, 2017, 120, 3576351781, 26983
+[05/08/2017 12:54:44 pm]: query : SELECT * FROM magnetometer WHERE `day` = 121 AND `year` = 2017
+[05/08/2017 12:54:44 pm]: data already in table: FILE: 2017, 121, 3576524402.193, 26641.000    Database: 735565, 2017, 121, 3576438180, 26835
+[05/08/2017 12:54:45 pm]: query : SELECT * FROM magnetometer WHERE `day` = 122 AND `year` = 2017
+[05/08/2017 12:54:45 pm]: data already in table: FILE: 2017, 122, 3576610794.937, 26228.000    Database: 736045, 2017, 122, 3576524582, 26644
+[05/08/2017 12:54:46 pm]: query : SELECT * FROM magnetometer WHERE `day` = 123 AND `year` = 2017
+[05/08/2017 12:54:46 pm]: data already in table: FILE: 2017, 123, 3576697197.313, 26204.000    Database: 736525, 2017, 123, 3576610981, 26234
+[05/08/2017 12:54:47 pm]: query : SELECT * FROM magnetometer WHERE `day` = 124 AND `year` = 2017
+[05/08/2017 12:54:47 pm]: data already in table: FILE: 2017, 124, 3576783433.300, 26405.000    Database: 737005, 2017, 124, 3576697380, 26209
+[05/08/2017 12:54:47 pm]: query : SELECT * FROM magnetometer WHERE `day` = 125 AND `year` = 2017
+[05/08/2017 12:54:48 pm]: data already in table: FILE: 2017, 125, 3576869994.495, 26388.000    Database: 737484, 2017, 125, 3576783781, 26417
+[05/08/2017 12:54:48 pm]: query : SELECT * FROM magnetometer WHERE `day` = 126 AND `year` = 2017
+[05/08/2017 12:54:49 pm]: data already in table: FILE: 2017, 126, 3576956233.525, 26423.000    Database: 737964, 2017, 126, 3576870180, 26395
+[05/08/2017 01:05:31 pm]: last record: DATA127.csv
+[05/08/2017 01:05:32 pm]: query : SELECT * FROM magnetometer WHERE `day` = 33 AND `year` = 2017
+[05/08/2017 01:05:32 pm]: data already in table: FILE: 2017, 033, 3568924714.103, 27908.000    Database: 724011, 2017, 33, 3568875217, 27593
+[05/08/2017 01:05:32 pm]: query : SELECT * FROM magnetometer WHERE `day` = 34 AND `year` = 2017
+[05/08/2017 01:05:33 pm]: data already in table: FILE: 2017, 034, 3569011064.014, 28513.000    Database: 724287, 2017, 34, 3568924981, 27917
+[05/08/2017 01:05:33 pm]: query : SELECT * FROM magnetometer WHERE `day` = 35 AND `year` = 2017
+[05/08/2017 01:05:34 pm]: data already in table: FILE: 2017, 035, 3569097595.565, 28462.000    Database: 724766, 2017, 35, 3569011382, 28517
+[05/08/2017 01:05:34 pm]: query : SELECT * FROM magnetometer WHERE `day` = 36 AND `year` = 2017
+[05/08/2017 01:05:34 pm]: data already in table: FILE: 2017, 036, 3569183994.872, 28382.000    Database: 725246, 2017, 36, 3569097782, 28463
+[05/08/2017 01:05:35 pm]: query : SELECT * FROM magnetometer WHERE `day` = 37 AND `year` = 2017
+[05/08/2017 01:05:35 pm]: data already in table: FILE: 2017, 037, 3569270394.494, 28309.000    Database: 725726, 2017, 37, 3569184181, 28387
+[05/08/2017 01:05:36 pm]: query : SELECT * FROM magnetometer WHERE `day` = 38 AND `year` = 2017
+[05/08/2017 01:05:36 pm]: data already in table: FILE: 2017, 038, 3569356630.419, 28061.000    Database: 726206, 2017, 38, 3569270580, 28306
+[05/08/2017 01:05:37 pm]: query : SELECT * FROM magnetometer WHERE `day` = 39 AND `year` = 2017
+[05/08/2017 01:05:37 pm]: data already in table: FILE: 2017, 039, 3569443023.004, 28271.000    Database: 726685, 2017, 39, 3569356981, 28070
+[05/08/2017 01:05:37 pm]: query : SELECT * FROM magnetometer WHERE `day` = 40 AND `year` = 2017
+[05/08/2017 01:05:38 pm]: data already in table: FILE: 2017, 040, 3569497199.342, 28940.000    Database: 727164, 2017, 40, 3569443380, 28284
+[05/08/2017 01:05:38 pm]: query : SELECT * FROM magnetometer WHERE `day` = 80 AND `year` = 2017
+[05/08/2017 01:05:39 pm]: data already in table: FILE: 2017, 080, 3572985456.107, 28158.000    Database: 727464, 2017, 80, 3572940254, 27273
+[05/08/2017 01:05:39 pm]: query : SELECT * FROM magnetometer WHERE `day` = 81 AND `year` = 2017
+[05/08/2017 01:05:40 pm]: data already in table: FILE: 2017, 081, 3573071848.162, 27553.000    Database: 727716, 2017, 81, 3572985780, 28163
+[05/08/2017 01:05:40 pm]: query : SELECT * FROM magnetometer WHERE `day` = 82 AND `year` = 2017
+[05/08/2017 01:05:41 pm]: data already in table: FILE: 2017, 082, 3573158290.641, 27512.000    Database: 728195, 2017, 82, 3573072182, 27566
+[05/08/2017 01:05:41 pm]: query : SELECT * FROM magnetometer WHERE `day` = 83 AND `year` = 2017
+[05/08/2017 01:05:42 pm]: data already in table: FILE: 2017, 083, 3573500274.861, 26624.000    Database: 728674, 2017, 83, 3573158582, 27522
+[05/08/2017 01:05:42 pm]: query : SELECT * FROM magnetometer WHERE `day` = 87 AND `year` = 2017
+[05/08/2017 01:05:43 pm]: data already in table: FILE: 2017, 087, 3573586624.876, 26987.000    Database: 729179, 2017, 87, 3573500581, 26623
+[05/08/2017 01:05:43 pm]: query : SELECT * FROM magnetometer WHERE `day` = 88 AND `year` = 2017
+[05/08/2017 01:05:44 pm]: data already in table: FILE: 2017, 088, 3573673088.938, 26904.000    Database: 729658, 2017, 88, 3573586982, 26994
+[05/08/2017 01:05:44 pm]: query : SELECT * FROM magnetometer WHERE `day` = 89 AND `year` = 2017
+[05/08/2017 01:05:44 pm]: data already in table: FILE: 2017, 089, 3573759454.469, 26913.000    Database: 730137, 2017, 89, 3573673383, 26913
+[05/08/2017 01:05:45 pm]: query : SELECT * FROM magnetometer WHERE `day` = 90 AND `year` = 2017
+[05/08/2017 01:05:45 pm]: data already in table: FILE: 2017, 090, 3573845857.238, 27039.000    Database: 730616, 2017, 90, 3573759801, 26916
+[05/08/2017 01:05:45 pm]: query : SELECT * FROM magnetometer WHERE `day` = 91 AND `year` = 2017
+[05/08/2017 01:05:46 pm]: data already in table: FILE: 2017, 091, 3573932223.852, 26947.000    Database: 731095, 2017, 91, 3573846181, 27043
+[05/08/2017 01:05:46 pm]: query : SELECT * FROM magnetometer WHERE `day` = 92 AND `year` = 2017
+[05/08/2017 01:05:47 pm]: data already in table: FILE: 2017, 092, 3574018664.969, 26947.000    Database: 731574, 2017, 92, 3573932581, 26960
+[05/08/2017 01:05:47 pm]: query : SELECT * FROM magnetometer WHERE `day` = 93 AND `year` = 2017
+[05/08/2017 01:05:47 pm]: data already in table: FILE: 2017, 093, 3574105070.616, 27097.000    Database: 732053, 2017, 93, 3574018983, 26965
+[05/08/2017 01:05:48 pm]: query : SELECT * FROM magnetometer WHERE `day` = 94 AND `year` = 2017
+[05/08/2017 01:05:48 pm]: data already in table: FILE: 2017, 094, 3574191514.472, 27340.000    Database: 732532, 2017, 94, 3574105383, 27097
+[05/08/2017 01:05:48 pm]: query : SELECT * FROM magnetometer WHERE `day` = 95 AND `year` = 2017
+[05/08/2017 01:05:49 pm]: data already in table: FILE: 2017, 095, 3574252641.112, 26507.000    Database: 733011, 2017, 95, 3574191781, 27348
+[05/08/2017 01:05:49 pm]: query : SELECT * FROM magnetometer WHERE `day` = 116 AND `year` = 2017
+[05/08/2017 01:05:49 pm]: data already in table: FILE: 2017, 116, 3576092322.568, 27522.000    Database: 733350, 2017, 116, 3576038867, 27933
+[05/08/2017 01:05:50 pm]: query : SELECT * FROM magnetometer WHERE `day` = 117 AND `year` = 2017
+[05/08/2017 01:05:50 pm]: data already in table: FILE: 2017, 117, 3576178647.082, 27146.000    Database: 733648, 2017, 117, 3576092581, 27535
+[05/08/2017 01:05:50 pm]: query : SELECT * FROM magnetometer WHERE `day` = 118 AND `year` = 2017
+[05/08/2017 01:05:51 pm]: data already in table: FILE: 2017, 118, 3576265045.783, 27035.000    Database: 734127, 2017, 118, 3576178980, 27154
+[05/08/2017 01:05:51 pm]: query : SELECT * FROM magnetometer WHERE `day` = 119 AND `year` = 2017
+[05/08/2017 01:05:52 pm]: data already in table: FILE: 2017, 119, 3576351594.855, 26977.000    Database: 734606, 2017, 119, 3576265382, 27031
+[05/08/2017 01:05:52 pm]: query : SELECT * FROM magnetometer WHERE `day` = 120 AND `year` = 2017
+[05/08/2017 01:05:53 pm]: data already in table: FILE: 2017, 120, 3576437841.072, 26840.000    Database: 735086, 2017, 120, 3576351781, 26983
+[05/08/2017 01:05:53 pm]: query : SELECT * FROM magnetometer WHERE `day` = 121 AND `year` = 2017
+[05/08/2017 01:05:54 pm]: data already in table: FILE: 2017, 121, 3576524402.193, 26641.000    Database: 735565, 2017, 121, 3576438180, 26835
+[05/08/2017 01:05:54 pm]: query : SELECT * FROM magnetometer WHERE `day` = 122 AND `year` = 2017
+[05/08/2017 01:05:55 pm]: data already in table: FILE: 2017, 122, 3576610794.937, 26228.000    Database: 736045, 2017, 122, 3576524582, 26644
+[05/08/2017 01:05:55 pm]: query : SELECT * FROM magnetometer WHERE `day` = 123 AND `year` = 2017
+[05/08/2017 01:05:56 pm]: data already in table: FILE: 2017, 123, 3576697197.313, 26204.000    Database: 736525, 2017, 123, 3576610981, 26234
+[05/08/2017 01:05:56 pm]: query : SELECT * FROM magnetometer WHERE `day` = 124 AND `year` = 2017
+[05/08/2017 01:05:56 pm]: data already in table: FILE: 2017, 124, 3576783433.300, 26405.000    Database: 737005, 2017, 124, 3576697380, 26209
+[05/08/2017 01:05:57 pm]: query : SELECT * FROM magnetometer WHERE `day` = 125 AND `year` = 2017
+[05/08/2017 01:05:57 pm]: data already in table: FILE: 2017, 125, 3576869994.495, 26388.000    Database: 737484, 2017, 125, 3576783781, 26417
+[05/08/2017 01:05:58 pm]: query : SELECT * FROM magnetometer WHERE `day` = 126 AND `year` = 2017
+[05/08/2017 01:05:59 pm]: data already in table: FILE: 2017, 126, 3576956233.525, 26423.000    Database: 737964, 2017, 126, 3576870180, 26395
+[05/08/2017 01:05:59 pm]: query : SELECT * FROM magnetometer WHERE `day` = 127 AND `year` = 2017
+[05/08/2017 01:05:59 pm]: data already in table: FILE: 2017, 127, 3577042636.277, 26230.000    Database: 738443, 2017, 127, 3576956582, 26432
+[05/08/2017 02:21:16 pm]: last record: DATA127.csv
+[05/08/2017 02:21:16 pm]: query : SELECT * FROM magnetometer WHERE `day` = 33 AND `year` = 2017
+[05/08/2017 02:21:16 pm]: data already in table: FILE: 2017, 033, 3568924714.103, 27908.000    Database: 724011, 2017, 33, 3568875217, 27593
+[05/08/2017 02:21:17 pm]: query : SELECT * FROM magnetometer WHERE `day` = 34 AND `year` = 2017
+[05/08/2017 02:21:17 pm]: data already in table: FILE: 2017, 034, 3569011064.014, 28513.000    Database: 724287, 2017, 34, 3568924981, 27917
+[05/08/2017 02:21:17 pm]: query : SELECT * FROM magnetometer WHERE `day` = 35 AND `year` = 2017
+[05/08/2017 02:21:18 pm]: data already in table: FILE: 2017, 035, 3569097595.565, 28462.000    Database: 724766, 2017, 35, 3569011382, 28517
+[05/08/2017 02:21:18 pm]: query : SELECT * FROM magnetometer WHERE `day` = 36 AND `year` = 2017
+[05/08/2017 02:21:19 pm]: data already in table: FILE: 2017, 036, 3569183994.872, 28382.000    Database: 725246, 2017, 36, 3569097782, 28463
+[05/08/2017 02:21:19 pm]: query : SELECT * FROM magnetometer WHERE `day` = 37 AND `year` = 2017
+[05/08/2017 02:21:20 pm]: data already in table: FILE: 2017, 037, 3569270394.494, 28309.000    Database: 725726, 2017, 37, 3569184181, 28387
+[05/08/2017 02:21:20 pm]: query : SELECT * FROM magnetometer WHERE `day` = 38 AND `year` = 2017
+[05/08/2017 02:21:20 pm]: data already in table: FILE: 2017, 038, 3569356630.419, 28061.000    Database: 726206, 2017, 38, 3569270580, 28306
+[05/08/2017 02:21:21 pm]: query : SELECT * FROM magnetometer WHERE `day` = 39 AND `year` = 2017
+[05/08/2017 02:21:21 pm]: data already in table: FILE: 2017, 039, 3569443023.004, 28271.000    Database: 726685, 2017, 39, 3569356981, 28070
+[05/08/2017 02:21:21 pm]: query : SELECT * FROM magnetometer WHERE `day` = 40 AND `year` = 2017
+[05/08/2017 02:21:22 pm]: data already in table: FILE: 2017, 040, 3569497199.342, 28940.000    Database: 727164, 2017, 40, 3569443380, 28284
+[05/08/2017 02:21:22 pm]: query : SELECT * FROM magnetometer WHERE `day` = 80 AND `year` = 2017
+[05/08/2017 02:21:22 pm]: data already in table: FILE: 2017, 080, 3572985456.107, 28158.000    Database: 727464, 2017, 80, 3572940254, 27273
+[05/08/2017 02:21:23 pm]: query : SELECT * FROM magnetometer WHERE `day` = 81 AND `year` = 2017
+[05/08/2017 02:21:23 pm]: data already in table: FILE: 2017, 081, 3573071848.162, 27553.000    Database: 727716, 2017, 81, 3572985780, 28163
+[05/08/2017 02:21:23 pm]: query : SELECT * FROM magnetometer WHERE `day` = 82 AND `year` = 2017
+[05/08/2017 02:21:24 pm]: data already in table: FILE: 2017, 082, 3573158290.641, 27512.000    Database: 728195, 2017, 82, 3573072182, 27566
+[05/08/2017 02:21:24 pm]: query : SELECT * FROM magnetometer WHERE `day` = 83 AND `year` = 2017
+[05/08/2017 02:21:25 pm]: data already in table: FILE: 2017, 083, 3573500274.861, 26624.000    Database: 728674, 2017, 83, 3573158582, 27522
+[05/08/2017 02:21:25 pm]: query : SELECT * FROM magnetometer WHERE `day` = 87 AND `year` = 2017
+[05/08/2017 02:21:26 pm]: data already in table: FILE: 2017, 087, 3573586624.876, 26987.000    Database: 729179, 2017, 87, 3573500581, 26623
+[05/08/2017 02:21:26 pm]: query : SELECT * FROM magnetometer WHERE `day` = 88 AND `year` = 2017
+[05/08/2017 02:21:26 pm]: data already in table: FILE: 2017, 088, 3573673088.938, 26904.000    Database: 729658, 2017, 88, 3573586982, 26994
+[05/08/2017 02:21:27 pm]: query : SELECT * FROM magnetometer WHERE `day` = 89 AND `year` = 2017
+[05/08/2017 02:21:27 pm]: data already in table: FILE: 2017, 089, 3573759454.469, 26913.000    Database: 730137, 2017, 89, 3573673383, 26913
+[05/08/2017 02:21:27 pm]: query : SELECT * FROM magnetometer WHERE `day` = 90 AND `year` = 2017
+[05/08/2017 02:21:28 pm]: data already in table: FILE: 2017, 090, 3573845857.238, 27039.000    Database: 730616, 2017, 90, 3573759801, 26916
+[05/08/2017 02:21:28 pm]: query : SELECT * FROM magnetometer WHERE `day` = 91 AND `year` = 2017
+[05/08/2017 02:21:29 pm]: data already in table: FILE: 2017, 091, 3573932223.852, 26947.000    Database: 731095, 2017, 91, 3573846181, 27043
+[05/08/2017 02:21:29 pm]: query : SELECT * FROM magnetometer WHERE `day` = 92 AND `year` = 2017
+[05/08/2017 02:21:30 pm]: data already in table: FILE: 2017, 092, 3574018664.969, 26947.000    Database: 731574, 2017, 92, 3573932581, 26960
+[05/08/2017 02:21:30 pm]: query : SELECT * FROM magnetometer WHERE `day` = 93 AND `year` = 2017
+[05/08/2017 02:21:30 pm]: data already in table: FILE: 2017, 093, 3574105070.616, 27097.000    Database: 732053, 2017, 93, 3574018983, 26965
+[05/08/2017 02:21:31 pm]: query : SELECT * FROM magnetometer WHERE `day` = 94 AND `year` = 2017
+[05/08/2017 02:21:31 pm]: data already in table: FILE: 2017, 094, 3574191514.472, 27340.000    Database: 732532, 2017, 94, 3574105383, 27097
+[05/08/2017 02:21:31 pm]: query : SELECT * FROM magnetometer WHERE `day` = 95 AND `year` = 2017
+[05/08/2017 02:21:32 pm]: data already in table: FILE: 2017, 095, 3574252641.112, 26507.000    Database: 733011, 2017, 95, 3574191781, 27348
+[05/08/2017 02:21:32 pm]: query : SELECT * FROM magnetometer WHERE `day` = 116 AND `year` = 2017
+[05/08/2017 02:21:33 pm]: data already in table: FILE: 2017, 116, 3576092322.568, 27522.000    Database: 733350, 2017, 116, 3576038867, 27933
+[05/08/2017 02:21:33 pm]: query : SELECT * FROM magnetometer WHERE `day` = 117 AND `year` = 2017
+[05/08/2017 02:21:33 pm]: data already in table: FILE: 2017, 117, 3576178647.082, 27146.000    Database: 733648, 2017, 117, 3576092581, 27535
+[05/08/2017 02:21:34 pm]: query : SELECT * FROM magnetometer WHERE `day` = 118 AND `year` = 2017
+[05/08/2017 02:21:34 pm]: data already in table: FILE: 2017, 118, 3576265045.783, 27035.000    Database: 734127, 2017, 118, 3576178980, 27154
+[05/08/2017 02:21:34 pm]: query : SELECT * FROM magnetometer WHERE `day` = 119 AND `year` = 2017
+[05/08/2017 02:21:35 pm]: data already in table: FILE: 2017, 119, 3576351594.855, 26977.000    Database: 734606, 2017, 119, 3576265382, 27031
+[05/08/2017 02:21:35 pm]: query : SELECT * FROM magnetometer WHERE `day` = 120 AND `year` = 2017
+[05/08/2017 02:21:35 pm]: data already in table: FILE: 2017, 120, 3576437841.072, 26840.000    Database: 735086, 2017, 120, 3576351781, 26983
+[05/08/2017 02:21:36 pm]: query : SELECT * FROM magnetometer WHERE `day` = 121 AND `year` = 2017
+[05/08/2017 02:21:36 pm]: data already in table: FILE: 2017, 121, 3576524402.193, 26641.000    Database: 735565, 2017, 121, 3576438180, 26835
+[05/08/2017 02:21:36 pm]: query : SELECT * FROM magnetometer WHERE `day` = 122 AND `year` = 2017
+[05/08/2017 02:21:37 pm]: data already in table: FILE: 2017, 122, 3576610794.937, 26228.000    Database: 736045, 2017, 122, 3576524582, 26644
+[05/08/2017 02:21:37 pm]: query : SELECT * FROM magnetometer WHERE `day` = 123 AND `year` = 2017
+[05/08/2017 02:21:38 pm]: data already in table: FILE: 2017, 123, 3576697197.313, 26204.000    Database: 736525, 2017, 123, 3576610981, 26234
+[05/08/2017 02:21:38 pm]: query : SELECT * FROM magnetometer WHERE `day` = 124 AND `year` = 2017
+[05/08/2017 02:21:39 pm]: data already in table: FILE: 2017, 124, 3576783433.300, 26405.000    Database: 737005, 2017, 124, 3576697380, 26209
+[05/08/2017 02:21:39 pm]: query : SELECT * FROM magnetometer WHERE `day` = 125 AND `year` = 2017
+[05/08/2017 02:21:40 pm]: data already in table: FILE: 2017, 125, 3576869994.495, 26388.000    Database: 737484, 2017, 125, 3576783781, 26417
+[05/08/2017 02:21:40 pm]: query : SELECT * FROM magnetometer WHERE `day` = 126 AND `year` = 2017
+[05/08/2017 02:21:41 pm]: data already in table: FILE: 2017, 126, 3576956233.525, 26423.000    Database: 737964, 2017, 126, 3576870180, 26395
+[05/08/2017 02:21:41 pm]: query : SELECT * FROM magnetometer WHERE `day` = 127 AND `year` = 2017
+[05/08/2017 02:21:42 pm]: data already in table: FILE: 2017, 127, 3577042636.277, 26230.000    Database: 738443, 2017, 127, 3576956582, 26432

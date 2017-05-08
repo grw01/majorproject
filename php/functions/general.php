@@ -14,14 +14,14 @@ function retrieveTable($selectedTable){
     $table;
     switch($selectedTable){
       case 'magnetometer':
-        $columnTitles = array("Year" => "year","Day" => "day","Time" => "time","Intensity" => "intensity");
-        $table = retrieveTableInfo($columnTitles, $selectedTable, "time");
+        $columnTitles = array("Year" => `year`,"Day" => `day`,"Time" => `time`,"Intensity" => `intensity`);
+        $table = retrieveTableInfo($columnTitles, $selectedTable, `time`);
         break;
         //CHANGE-NOTICE need to add case statements for the other data sources' tables
       default:
       //defaults to the farm magnetometer
-        $columnTitles = array("Year" => "year","Day" => "day","Time" => "time","Intensity" => "intensity");
-        $table = retrieveTableInfo($columnTitles, $selectedTable, "time");
+        $columnTitles = array("Year" => `year`,"Day" => `day`,"Time" => `time`,"Intensity" => `intensity`);
+        $table = retrieveTableInfo($columnTitles, $selectedTable, `time`);
     }
     return $table;
 
@@ -29,7 +29,7 @@ function retrieveTable($selectedTable){
 
   function retrieveTableInfo($columnTitles, $tableName, $sortKey){
     if(!isset($sortKey)){
-      $sortKey = "id";
+      $sortKey = `id`;
     }
     $columnString = implode( ', ', $columnTitles);
     $query = "SELECT $columnString FROM $tableName ORDER BY $sortKey";

@@ -122,6 +122,8 @@
         mkdir("tempData/".$folder_name);
       }
       $file_list = ftp_nlist($connection, $folder_name);
+      unset($file_list[count($file_list)-1]);
+
       foreach($file_list as $file_name){
         //regular expression matches the format in file 2013 and then 2014 and onwards
         //also ensures that it isn't a copy or a zip file
@@ -154,9 +156,8 @@
 
     $filepath = "./tempData/".$folderName."/";
     $fileArray = scandir($filepath);
-    unset($fileArray[0]);
-    unset($fileArray[1]);
-
+    unset($fileArray[0], $fileArray[1]);
+    logToFile("last record: ".(end($fileArray)));
     foreach($fileArray as $fileName){
       $day = "";
       if(preg_match($regExFormat1, $fileName)){

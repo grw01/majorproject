@@ -46,6 +46,8 @@ function prepareCanvas(){
 
 }
 
+//some of the offsets are arbitary and were derived from trial and error
+// due to the code that ensures that the canvas pixel ratio is correct
 function drawGraph(canvas, context){
   context.font="15px calibri bold";
   context.lineWidth = 1;

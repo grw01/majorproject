@@ -7,8 +7,8 @@
 	<title>Magnetosphere Data Visualisation</title>
 	<?php
 	  require_once "requirements.php";
-		//getDataFromFTP(); Move to async-update.php and add ajax call
-		updateDatabaseTable("magnetometer", "2017");
+		getDataFromFTP(); //Could move to async-update.php and add ajax call
+		updateDatabaseTable("magnetometer", date("Y"));
 	?>
 </head>
 <body>

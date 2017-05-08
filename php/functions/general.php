@@ -2,7 +2,9 @@
 function logToFile($txt){
 
   $myfile = fopen("logfile.txt", "a") or die("Unable to open file!");
-  $txt = $txt . "\n";
+  date_default_timezone_set('Europe/London');
+  $date = date('m/d/Y h:i:s a', time());
+  $txt = "[" . $date . "]: " . $txt . "\n";
   fwrite($myfile, $txt);
   fclose($myfile);
 }

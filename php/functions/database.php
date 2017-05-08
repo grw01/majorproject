@@ -71,7 +71,7 @@
       `id` INT(11)  NOT NULL AUTO_INCREMENT PRIMARY KEY,
       `year` INT(4) NOT NULL,
       `day` INT(3) NOT NULL,
-      `time` INT(11) NOT NULL ,
+      `time` BIGINT(12) NOT NULL ,
       `intensity` INT(11) NOT NULL )";
 
     queryDB($magnet_list_sql);
@@ -95,7 +95,7 @@
   }
 
   function getDataFromTable($tableName, $selectedYear, $selectedDay){
-    $query = "SELECT * FROM $tableName WHERE 'day' = $selectedDay AND 'year' = $selectedYear";
+    $query = "SELECT * FROM $tableName WHERE `day` = $selectedDay AND `year` = $selectedYear";
     logToFile("query : ".$query);
     $row = selectRowDB($query);
     if (!empty($row)){
@@ -129,7 +129,7 @@
 
         //at least temporary removal of data from 2013 since the time is stored in 1 int but in hours-minutes-seconds
         //since the start of the day and will require additional manipulation for use.
-        if(!$file_name == "/2013"){
+        if($file_name != "/2013"){
           //removes the extra files, copies and zips
           if(preg_match($regEx,$file_name)){
             $local_file = "tempData".$file_name;
@@ -187,28 +187,25 @@
         $lastRow = end($assocArray);
         $result = getDataFromTable("magnetometer", $lastRow["year"], (int)$lastRow["day"]);
         //checks if the last entry of the csv is already in the table, if so it will not be uploaded again
-        if($result == true){
-          echo("data already in table: ".implode($lastRow,", "));
-          logToFile("data already in table: ".implode($lastRow,", "));
-          break;
-        }/*else{
-          echo("data not in table: ".implode($lastRow,", "));
+        if($result != false){
+          logToFile("data already in table: FILE: ". implode($lastRow,", ") . "    Database: " . implode($result,", "));
+        }else{
           logToFile("data not in table: ".implode($lastRow,", "));
-          break;
-        }*/
-        $sql_query = "INSERT INTO magnetometer (year, day, time, intensity) values ";
+          $sql_query = "INSERT INTO magnetometer (year, day, time, intensity) values ";
 
-        $valuesArray = array();
-        foreach($assocArray as $row){
-          $year = (int) $row['year'];
-          $day = (int) $row['day'];
-          $time = (int) $row['time'];
-          $intensity = (int) $row['intensity'];
+          $valuesArray = array();
+          foreach($assocArray as $row){
+            $year = (int) $row['year'];
+            $day = (int) $row['day'];
+            $time = (string) $row['time'];//has to be set as string here or 2147483647 will be stored instead of actual value
+            $intensity = (int) $row['intensity'];
 
-          $valuesArray[] = "('$year', '$day', '$time', '$intensity')";
+            $valuesArray[] = "('$year', '$day', '$time', '$intensity')";
+          }
+          $sql_query .= implode(',', $valuesArray);
+          queryDB($sql_query);
         }
-        $sql_query .= implode(',', $valuesArray);
-        queryDB($sql_query);
+
       }
       //LOAD DATA INFILE does not seem to work for some reason, but doesn't return any errors
       //$sql_query = "LOAD DATA INFILE $fullPath INTO TABLE $tableName ('time', 'intensity', @discardTemperature) SET 'year' = $folderName, 'day' = $day";

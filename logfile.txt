@@ -1,183 +1,68 @@
-
-Array
-data not in table: 2015, 001, 3503001597.808, 34328.000
-query : SELECT * FROM magnetometer WHERE 'day' = 18 AND 'year' = 2016
-query : SELECT * FROM magnetometer WHERE 'day' = 19 AND 'year' = 2016
-query : SELECT * FROM magnetometer WHERE 'day' = 20 AND 'year' = 2016
-query : SELECT * FROM magnetometer WHERE 'day' = 21 AND 'year' = 2016
-query : SELECT * FROM magnetometer WHERE 'day' = 22 AND 'year' = 2016
-query : SELECT * FROM magnetometer WHERE 'day' = 36 AND 'year' = 2016
-query : SELECT * FROM magnetometer WHERE 'day' = 37 AND 'year' = 2016
-query : SELECT * FROM magnetometer WHERE 'day' = 38 AND 'year' = 2016
-query : SELECT * FROM magnetometer WHERE 'day' = 39 AND 'year' = 2016
-query : SELECT * FROM magnetometer WHERE 'day' = 40 AND 'year' = 2016
-query : SELECT * FROM magnetometer WHERE 'day' = 41 AND 'year' = 2016
-query : SELECT * FROM magnetometer WHERE 'day' = 42 AND 'year' = 2016
-query : SELECT * FROM magnetometer WHERE 'day' = 43 AND 'year' = 2016
-query : SELECT * FROM magnetometer WHERE 'day' = 50 AND 'year' = 2016
-query : SELECT * FROM magnetometer WHERE 'day' = 51 AND 'year' = 2016
-query : SELECT * FROM magnetometer WHERE 'day' = 52 AND 'year' = 2016
-query : SELECT * FROM magnetometer WHERE 'day' = 53 AND 'year' = 2016
-query : SELECT * FROM magnetometer WHERE 'day' = 54 AND 'year' = 2016
-query : SELECT * FROM magnetometer WHERE 'day' = 55 AND 'year' = 2016
-query : SELECT * FROM magnetometer WHERE 'day' = 56 AND 'year' = 2016
-query : SELECT * FROM magnetometer WHERE 'day' = 57 AND 'year' = 2016
-query : SELECT * FROM magnetometer WHERE 'day' = 58 AND 'year' = 2016
-query : SELECT * FROM magnetometer WHERE 'day' = 59 AND 'year' = 2016
-query : SELECT * FROM magnetometer WHERE 'day' = 60 AND 'year' = 2016
-query : SELECT * FROM magnetometer WHERE 'day' = 61 AND 'year' = 2016
-query : SELECT * FROM magnetometer WHERE 'day' = 62 AND 'year' = 2016
-query : SELECT * FROM magnetometer WHERE 'day' = 63 AND 'year' = 2016
-query : SELECT * FROM magnetometer WHERE 'day' = 64 AND 'year' = 2016
-query : SELECT * FROM magnetometer WHERE 'day' = 65 AND 'year' = 2016
-query : SELECT * FROM magnetometer WHERE 'day' = 66 AND 'year' = 2016
-query : SELECT * FROM magnetometer WHERE 'day' = 67 AND 'year' = 2016
-query : SELECT * FROM magnetometer WHERE 'day' = 68 AND 'year' = 2016
-query : SELECT * FROM magnetometer WHERE 'day' = 69 AND 'year' = 2016
-query : SELECT * FROM magnetometer WHERE 'day' = 70 AND 'year' = 2016
-query : SELECT * FROM magnetometer WHERE 'day' = 71 AND 'year' = 2016
-query : SELECT * FROM magnetometer WHERE 'day' = 72 AND 'year' = 2016
-query : SELECT * FROM magnetometer WHERE 'day' = 73 AND 'year' = 2016
-query : SELECT * FROM magnetometer WHERE 'day' = 74 AND 'year' = 2016
-query : SELECT * FROM magnetometer WHERE 'day' = 75 AND 'year' = 2016
-query : SELECT * FROM magnetometer WHERE 'day' = 76 AND 'year' = 2016
-query : SELECT * FROM magnetometer WHERE 'day' = 77 AND 'year' = 2016
-query : SELECT * FROM magnetometer WHERE 'day' = 78 AND 'year' = 2016
-query : SELECT * FROM magnetometer WHERE 'day' = 79 AND 'year' = 2016
-query : SELECT * FROM magnetometer WHERE 'day' = 80 AND 'year' = 2016
-query : SELECT * FROM magnetometer WHERE 'day' = 81 AND 'year' = 2016
-query : SELECT * FROM magnetometer WHERE 'day' = 82 AND 'year' = 2016
-query : SELECT * FROM magnetometer WHERE 'day' = 83 AND 'year' = 2016
-query : SELECT * FROM magnetometer WHERE 'day' = 84 AND 'year' = 2016
-query : SELECT * FROM magnetometer WHERE 'day' = 85 AND 'year' = 2016
-query : SELECT * FROM magnetometer WHERE 'day' = 86 AND 'year' = 2016
-query : SELECT * FROM magnetometer WHERE 'day' = 87 AND 'year' = 2016
-query : SELECT * FROM magnetometer WHERE 'day' = 88 AND 'year' = 2016
-query : SELECT * FROM magnetometer WHERE 'day' = 89 AND 'year' = 2016
-query : SELECT * FROM magnetometer WHERE 'day' = 90 AND 'year' = 2016
-query : SELECT * FROM magnetometer WHERE 'day' = 91 AND 'year' = 2016
-query : SELECT * FROM magnetometer WHERE 'day' = 92 AND 'year' = 2016
-query : SELECT * FROM magnetometer WHERE 'day' = 93 AND 'year' = 2016
-query : SELECT * FROM magnetometer WHERE 'day' = 94 AND 'year' = 2016
-query : SELECT * FROM magnetometer WHERE 'day' = 95 AND 'year' = 2016
-query : SELECT * FROM magnetometer WHERE 'day' = 96 AND 'year' = 2016
-query : SELECT * FROM magnetometer WHERE 'day' = 97 AND 'year' = 2016
-query : SELECT * FROM magnetometer WHERE 'day' = 98 AND 'year' = 2016
-query : SELECT * FROM magnetometer WHERE 'day' = 99 AND 'year' = 2016
-query : SELECT * FROM magnetometer WHERE 'day' = 100 AND 'year' = 2016
-query : SELECT * FROM magnetometer WHERE 'day' = 101 AND 'year' = 2016
-query : SELECT * FROM magnetometer WHERE 'day' = 102 AND 'year' = 2016
-query : SELECT * FROM magnetometer WHERE 'day' = 103 AND 'year' = 2016
-query : SELECT * FROM magnetometer WHERE 'day' = 104 AND 'year' = 2016
-query : SELECT * FROM magnetometer WHERE 'day' = 105 AND 'year' = 2016
-query : SELECT * FROM magnetometer WHERE 'day' = 106 AND 'year' = 2016
-query : SELECT * FROM magnetometer WHERE 'day' = 107 AND 'year' = 2016
-query : SELECT * FROM magnetometer WHERE 'day' = 108 AND 'year' = 2016
-query : SELECT * FROM magnetometer WHERE 'day' = 109 AND 'year' = 2016
-query : SELECT * FROM magnetometer WHERE 'day' = 110 AND 'year' = 2016
-query : SELECT * FROM magnetometer WHERE 'day' = 111 AND 'year' = 2016
-query : SELECT * FROM magnetometer WHERE 'day' = 112 AND 'year' = 2016
-query : SELECT * FROM magnetometer WHERE 'day' = 113 AND 'year' = 2016
-query : SELECT * FROM magnetometer WHERE 'day' = 114 AND 'year' = 2016
-query : SELECT * FROM magnetometer WHERE 'day' = 115 AND 'year' = 2016
-query : SELECT * FROM magnetometer WHERE 'day' = 116 AND 'year' = 2016
-query : SELECT * FROM magnetometer WHERE 'day' = 117 AND 'year' = 2016
-query : SELECT * FROM magnetometer WHERE 'day' = 118 AND 'year' = 2016
-query : SELECT * FROM magnetometer WHERE 'day' = 119 AND 'year' = 2016
-query : SELECT * FROM magnetometer WHERE 'day' = 120 AND 'year' = 2016
-query : SELECT * FROM magnetometer WHERE 'day' = 121 AND 'year' = 2016
-query : SELECT * FROM magnetometer WHERE 'day' = 122 AND 'year' = 2016
-query : SELECT * FROM magnetometer WHERE 'day' = 123 AND 'year' = 2016
-query : SELECT * FROM magnetometer WHERE 'day' = 124 AND 'year' = 2016
-query : SELECT * FROM magnetometer WHERE 'day' = 125 AND 'year' = 2016
-query : SELECT * FROM magnetometer WHERE 'day' = 126 AND 'year' = 2016
-query : SELECT * FROM magnetometer WHERE 'day' = 127 AND 'year' = 2016
-query : SELECT * FROM magnetometer WHERE 'day' = 128 AND 'year' = 2016
-query : SELECT * FROM magnetometer WHERE 'day' = 129 AND 'year' = 2016
-query : SELECT * FROM magnetometer WHERE 'day' = 130 AND 'year' = 2016
-query : SELECT * FROM magnetometer WHERE 'day' = 131 AND 'year' = 2016
-query : SELECT * FROM magnetometer WHERE 'day' = 132 AND 'year' = 2016
-query : SELECT * FROM magnetometer WHERE 'day' = 133 AND 'year' = 2016
-query : SELECT * FROM magnetometer WHERE 'day' = 134 AND 'year' = 2016
-query : SELECT * FROM magnetometer WHERE 'day' = 135 AND 'year' = 2016
-query : SELECT * FROM magnetometer WHERE 'day' = 136 AND 'year' = 2016
-query : SELECT * FROM magnetometer WHERE 'day' = 137 AND 'year' = 2016
-query : SELECT * FROM magnetometer WHERE 'day' = 138 AND 'year' = 2016
-query : SELECT * FROM magnetometer WHERE 'day' = 139 AND 'year' = 2016
-query : SELECT * FROM magnetometer WHERE 'day' = 140 AND 'year' = 2016
-query : SELECT * FROM magnetometer WHERE 'day' = 141 AND 'year' = 2016
-query : SELECT * FROM magnetometer WHERE 'day' = 142 AND 'year' = 2016
-query : SELECT * FROM magnetometer WHERE 'day' = 143 AND 'year' = 2016
-query : SELECT * FROM magnetometer WHERE 'day' = 144 AND 'year' = 2016
-query : SELECT * FROM magnetometer WHERE 'day' = 145 AND 'year' = 2016
-query : SELECT * FROM magnetometer WHERE 'day' = 146 AND 'year' = 2016
-query : SELECT * FROM magnetometer WHERE 'day' = 147 AND 'year' = 2016
-query : SELECT * FROM magnetometer WHERE 'day' = 148 AND 'year' = 2016
-query : SELECT * FROM magnetometer WHERE 'day' = 0 AND 'year' = 
-query : SELECT * FROM magnetometer WHERE 'day' = 354 AND 'year' = 2016
-query : SELECT * FROM magnetometer WHERE 'day' = 355 AND 'year' = 2016
-query : SELECT * FROM magnetometer WHERE 'day' = 356 AND 'year' = 2016
-query : SELECT * FROM magnetometer WHERE 'day' = 357 AND 'year' = 2016
-query : SELECT * FROM magnetometer WHERE 'day' = 33 AND 'year' = 2017
-query : SELECT * FROM magnetometer WHERE 'day' = 34 AND 'year' = 2017
-query : SELECT * FROM magnetometer WHERE 'day' = 35 AND 'year' = 2017
-query : SELECT * FROM magnetometer WHERE 'day' = 36 AND 'year' = 2017
-query : SELECT * FROM magnetometer WHERE 'day' = 37 AND 'year' = 2017
-query : SELECT * FROM magnetometer WHERE 'day' = 38 AND 'year' = 2017
-query : SELECT * FROM magnetometer WHERE 'day' = 39 AND 'year' = 2017
-query : SELECT * FROM magnetometer WHERE 'day' = 40 AND 'year' = 2017
-query : SELECT * FROM magnetometer WHERE 'day' = 80 AND 'year' = 2017
-query : SELECT * FROM magnetometer WHERE 'day' = 81 AND 'year' = 2017
-query : SELECT * FROM magnetometer WHERE 'day' = 82 AND 'year' = 2017
-query : SELECT * FROM magnetometer WHERE 'day' = 83 AND 'year' = 2017
-query : SELECT * FROM magnetometer WHERE 'day' = 87 AND 'year' = 2017
-query : SELECT * FROM magnetometer WHERE 'day' = 88 AND 'year' = 2017
-query : SELECT * FROM magnetometer WHERE 'day' = 89 AND 'year' = 2017
-query : SELECT * FROM magnetometer WHERE 'day' = 90 AND 'year' = 2017
-query : SELECT * FROM magnetometer WHERE 'day' = 91 AND 'year' = 2017
-query : SELECT * FROM magnetometer WHERE 'day' = 92 AND 'year' = 2017
-query : SELECT * FROM magnetometer WHERE 'day' = 93 AND 'year' = 2017
-query : SELECT * FROM magnetometer WHERE 'day' = 94 AND 'year' = 2017
-query : SELECT * FROM magnetometer WHERE 'day' = 95 AND 'year' = 2017
-query : SELECT * FROM magnetometer WHERE 'day' = 33 AND 'year' = 2017
-query : SELECT * FROM magnetometer WHERE 'day' = 34 AND 'year' = 2017
-query : SELECT * FROM magnetometer WHERE 'day' = 35 AND 'year' = 2017
-query : SELECT * FROM magnetometer WHERE 'day' = 36 AND 'year' = 2017
-query : SELECT * FROM magnetometer WHERE 'day' = 37 AND 'year' = 2017
-query : SELECT * FROM magnetometer WHERE 'day' = 38 AND 'year' = 2017
-query : SELECT * FROM magnetometer WHERE 'day' = 39 AND 'year' = 2017
-query : SELECT * FROM magnetometer WHERE 'day' = 40 AND 'year' = 2017
-query : SELECT * FROM magnetometer WHERE 'day' = 80 AND 'year' = 2017
-query : SELECT * FROM magnetometer WHERE 'day' = 81 AND 'year' = 2017
-query : SELECT * FROM magnetometer WHERE 'day' = 82 AND 'year' = 2017
-query : SELECT * FROM magnetometer WHERE 'day' = 83 AND 'year' = 2017
-query : SELECT * FROM magnetometer WHERE 'day' = 87 AND 'year' = 2017
-query : SELECT * FROM magnetometer WHERE 'day' = 88 AND 'year' = 2017
-query : SELECT * FROM magnetometer WHERE 'day' = 89 AND 'year' = 2017
-query : SELECT * FROM magnetometer WHERE 'day' = 90 AND 'year' = 2017
-query : SELECT * FROM magnetometer WHERE 'day' = 91 AND 'year' = 2017
-query : SELECT * FROM magnetometer WHERE 'day' = 92 AND 'year' = 2017
-query : SELECT * FROM magnetometer WHERE 'day' = 93 AND 'year' = 2017
-query : SELECT * FROM magnetometer WHERE 'day' = 94 AND 'year' = 2017
-query : SELECT * FROM magnetometer WHERE 'day' = 95 AND 'year' = 2017
-query : SELECT * FROM magnetometer WHERE 'day' = 33 AND 'year' = 2017
-query : SELECT * FROM magnetometer WHERE 'day' = 34 AND 'year' = 2017
-query : SELECT * FROM magnetometer WHERE 'day' = 35 AND 'year' = 2017
-query : SELECT * FROM magnetometer WHERE 'day' = 36 AND 'year' = 2017
-query : SELECT * FROM magnetometer WHERE 'day' = 37 AND 'year' = 2017
-query : SELECT * FROM magnetometer WHERE 'day' = 38 AND 'year' = 2017
-query : SELECT * FROM magnetometer WHERE 'day' = 39 AND 'year' = 2017
-query : SELECT * FROM magnetometer WHERE 'day' = 40 AND 'year' = 2017
-query : SELECT * FROM magnetometer WHERE 'day' = 80 AND 'year' = 2017
-query : SELECT * FROM magnetometer WHERE 'day' = 81 AND 'year' = 2017
-query : SELECT * FROM magnetometer WHERE 'day' = 82 AND 'year' = 2017
-query : SELECT * FROM magnetometer WHERE 'day' = 83 AND 'year' = 2017
-query : SELECT * FROM magnetometer WHERE 'day' = 87 AND 'year' = 2017
-query : SELECT * FROM magnetometer WHERE 'day' = 88 AND 'year' = 2017
-query : SELECT * FROM magnetometer WHERE 'day' = 89 AND 'year' = 2017
-query : SELECT * FROM magnetometer WHERE 'day' = 90 AND 'year' = 2017
-query : SELECT * FROM magnetometer WHERE 'day' = 91 AND 'year' = 2017
-query : SELECT * FROM magnetometer WHERE 'day' = 92 AND 'year' = 2017
-query : SELECT * FROM magnetometer WHERE 'day' = 93 AND 'year' = 2017
-query : SELECT * FROM magnetometer WHERE 'day' = 94 AND 'year' = 2017
-query : SELECT * FROM magnetometer WHERE 'day' = 95 AND 'year' = 2017
+[05/08/2017 11:58:01 am]: query : SELECT * FROM magnetometer WHERE `day` = 33 AND `year` = 2017
+[05/08/2017 11:58:01 am]: data already in table: FILE: 2017, 033, 3568924714.103, 27908.000    Database: 724011, 2017, 33, 3568875217, 27593
+[05/08/2017 11:58:02 am]: query : SELECT * FROM magnetometer WHERE `day` = 34 AND `year` = 2017
+[05/08/2017 11:58:02 am]: data already in table: FILE: 2017, 034, 3569011064.014, 28513.000    Database: 724287, 2017, 34, 3568924981, 27917
+[05/08/2017 11:58:03 am]: query : SELECT * FROM magnetometer WHERE `day` = 35 AND `year` = 2017
+[05/08/2017 11:58:03 am]: data already in table: FILE: 2017, 035, 3569097595.565, 28462.000    Database: 724766, 2017, 35, 3569011382, 28517
+[05/08/2017 11:58:04 am]: query : SELECT * FROM magnetometer WHERE `day` = 36 AND `year` = 2017
+[05/08/2017 11:58:04 am]: data already in table: FILE: 2017, 036, 3569183994.872, 28382.000    Database: 725246, 2017, 36, 3569097782, 28463
+[05/08/2017 11:58:04 am]: query : SELECT * FROM magnetometer WHERE `day` = 37 AND `year` = 2017
+[05/08/2017 11:58:05 am]: data already in table: FILE: 2017, 037, 3569270394.494, 28309.000    Database: 725726, 2017, 37, 3569184181, 28387
+[05/08/2017 11:58:05 am]: query : SELECT * FROM magnetometer WHERE `day` = 38 AND `year` = 2017
+[05/08/2017 11:58:06 am]: data already in table: FILE: 2017, 038, 3569356630.419, 28061.000    Database: 726206, 2017, 38, 3569270580, 28306
+[05/08/2017 11:58:06 am]: query : SELECT * FROM magnetometer WHERE `day` = 39 AND `year` = 2017
+[05/08/2017 11:58:06 am]: data already in table: FILE: 2017, 039, 3569443023.004, 28271.000    Database: 726685, 2017, 39, 3569356981, 28070
+[05/08/2017 11:58:07 am]: query : SELECT * FROM magnetometer WHERE `day` = 40 AND `year` = 2017
+[05/08/2017 11:58:07 am]: data already in table: FILE: 2017, 040, 3569497199.342, 28940.000    Database: 727164, 2017, 40, 3569443380, 28284
+[05/08/2017 11:58:07 am]: query : SELECT * FROM magnetometer WHERE `day` = 80 AND `year` = 2017
+[05/08/2017 11:58:08 am]: data already in table: FILE: 2017, 080, 3572985456.107, 28158.000    Database: 727464, 2017, 80, 3572940254, 27273
+[05/08/2017 11:58:08 am]: query : SELECT * FROM magnetometer WHERE `day` = 81 AND `year` = 2017
+[05/08/2017 11:58:08 am]: data already in table: FILE: 2017, 081, 3573071848.162, 27553.000    Database: 727716, 2017, 81, 3572985780, 28163
+[05/08/2017 11:58:09 am]: query : SELECT * FROM magnetometer WHERE `day` = 82 AND `year` = 2017
+[05/08/2017 11:58:09 am]: data already in table: FILE: 2017, 082, 3573158290.641, 27512.000    Database: 728195, 2017, 82, 3573072182, 27566
+[05/08/2017 11:58:10 am]: query : SELECT * FROM magnetometer WHERE `day` = 83 AND `year` = 2017
+[05/08/2017 11:58:10 am]: data already in table: FILE: 2017, 083, 3573500274.861, 26624.000    Database: 728674, 2017, 83, 3573158582, 27522
+[05/08/2017 11:58:11 am]: query : SELECT * FROM magnetometer WHERE `day` = 87 AND `year` = 2017
+[05/08/2017 11:58:11 am]: data already in table: FILE: 2017, 087, 3573586624.876, 26987.000    Database: 729179, 2017, 87, 3573500581, 26623
+[05/08/2017 11:58:11 am]: query : SELECT * FROM magnetometer WHERE `day` = 88 AND `year` = 2017
+[05/08/2017 11:58:12 am]: data already in table: FILE: 2017, 088, 3573673088.938, 26904.000    Database: 729658, 2017, 88, 3573586982, 26994
+[05/08/2017 11:58:12 am]: query : SELECT * FROM magnetometer WHERE `day` = 89 AND `year` = 2017
+[05/08/2017 11:58:13 am]: data already in table: FILE: 2017, 089, 3573759454.469, 26913.000    Database: 730137, 2017, 89, 3573673383, 26913
+[05/08/2017 11:58:13 am]: query : SELECT * FROM magnetometer WHERE `day` = 90 AND `year` = 2017
+[05/08/2017 11:58:13 am]: data already in table: FILE: 2017, 090, 3573845857.238, 27039.000    Database: 730616, 2017, 90, 3573759801, 26916
+[05/08/2017 11:58:14 am]: query : SELECT * FROM magnetometer WHERE `day` = 91 AND `year` = 2017
+[05/08/2017 11:58:14 am]: data already in table: FILE: 2017, 091, 3573932223.852, 26947.000    Database: 731095, 2017, 91, 3573846181, 27043
+[05/08/2017 11:58:15 am]: query : SELECT * FROM magnetometer WHERE `day` = 92 AND `year` = 2017
+[05/08/2017 11:58:15 am]: data already in table: FILE: 2017, 092, 3574018664.969, 26947.000    Database: 731574, 2017, 92, 3573932581, 26960
+[05/08/2017 11:58:15 am]: query : SELECT * FROM magnetometer WHERE `day` = 93 AND `year` = 2017
+[05/08/2017 11:58:16 am]: data already in table: FILE: 2017, 093, 3574105070.616, 27097.000    Database: 732053, 2017, 93, 3574018983, 26965
+[05/08/2017 11:58:16 am]: query : SELECT * FROM magnetometer WHERE `day` = 94 AND `year` = 2017
+[05/08/2017 11:58:17 am]: data already in table: FILE: 2017, 094, 3574191514.472, 27340.000    Database: 732532, 2017, 94, 3574105383, 27097
+[05/08/2017 11:58:17 am]: query : SELECT * FROM magnetometer WHERE `day` = 95 AND `year` = 2017
+[05/08/2017 11:58:17 am]: data already in table: FILE: 2017, 095, 3574252641.112, 26507.000    Database: 733011, 2017, 95, 3574191781, 27348
+[05/08/2017 11:58:18 am]: query : SELECT * FROM magnetometer WHERE `day` = 116 AND `year` = 2017
+[05/08/2017 11:58:18 am]: data not in table: 2017, 116, 3576092322.568, 27522.000
+[05/08/2017 11:58:18 am]: query : SELECT * FROM magnetometer WHERE `day` = 117 AND `year` = 2017
+[05/08/2017 11:58:19 am]: data not in table: 2017, 117, 3576178647.082, 27146.000
+[05/08/2017 11:58:19 am]: query : SELECT * FROM magnetometer WHERE `day` = 118 AND `year` = 2017
+[05/08/2017 11:58:19 am]: data not in table: 2017, 118, 3576265045.783, 27035.000
+[05/08/2017 11:58:20 am]: query : SELECT * FROM magnetometer WHERE `day` = 119 AND `year` = 2017
+[05/08/2017 11:58:20 am]: data not in table: 2017, 119, 3576351594.855, 26977.000
+[05/08/2017 11:58:21 am]: query : SELECT * FROM magnetometer WHERE `day` = 120 AND `year` = 2017
+[05/08/2017 11:58:21 am]: data not in table: 2017, 120, 3576437841.072, 26840.000
+[05/08/2017 11:58:22 am]: query : SELECT * FROM magnetometer WHERE `day` = 121 AND `year` = 2017
+[05/08/2017 11:58:22 am]: data not in table: 2017, 121, 3576524402.193, 26641.000
+[05/08/2017 11:58:22 am]: query : SELECT * FROM magnetometer WHERE `day` = 122 AND `year` = 2017
+[05/08/2017 11:58:23 am]: data not in table: 2017, 122, 3576610794.937, 26228.000
+[05/08/2017 11:58:23 am]: query : SELECT * FROM magnetometer WHERE `day` = 123 AND `year` = 2017
+[05/08/2017 11:58:23 am]: data not in table: 2017, 123, 3576697197.313, 26204.000
+[05/08/2017 11:58:24 am]: query : SELECT * FROM magnetometer WHERE `day` = 124 AND `year` = 2017
+[05/08/2017 11:58:24 am]: data not in table: 2017, 124, 3576783433.300, 26405.000
+[05/08/2017 11:58:24 am]: query : SELECT * FROM magnetometer WHERE `day` = 125 AND `year` = 2017
+[05/08/2017 11:58:25 am]: data not in table: 2017, 125, 3576869994.495, 26388.000
+[05/08/2017 11:58:25 am]: query : SELECT * FROM magnetometer WHERE `day` = 126 AND `year` = 2017
+[05/08/2017 11:58:26 am]: data not in table: 2017, 126, 3576956233.525, 26423.000
+[05/08/2017 11:58:26 am]: query : SELECT * FROM magnetometer WHERE `day` = 127 AND `year` = 2017
+[05/08/2017 11:58:27 am]: data not in table: 2017, 127, 3577042636.277, 26230.000
+[05/08/2017 11:58:27 am]: query : SELECT * FROM magnetometer WHERE `day` = 128 AND `year` = 2017
+[05/08/2017 11:58:27 am]: data not in table: 2017, 128, 3577085637.977, 25845.000

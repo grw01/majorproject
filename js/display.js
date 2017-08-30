@@ -79,7 +79,11 @@ function drawLine(context, x1, y1, x2, y2){
 function calculateTimeIntervalAndDraw(canvas){
   var context = canvas.getContext("2d");
   lsString = localStorage.getItem("magnetometer");
-  console.log("lsString: " + lsString);
+  if(lsString == ""){
+    console.log("no local data found");
+    return;
+  }
+  console.log("lsString: " + lsString + " end of lsString");
   parsedString = JSON.parse(lsString);
 
   var year = (document).getElementById("select-year").value;

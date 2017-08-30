@@ -10,12 +10,12 @@ function asyncGetDataFromTable(tableName){
     url: 'async-update.php',
     type: 'post',
     data: data,
-    success: function(data, status){
+    success: function(data){
       console.log("AJAX success data: " + data + " :end success data");
       localStorage.setItem(tableName, data);
     },
     error: function(xhr, desc, err){
-
+      console.log("AJAX failure");
     }
   });
 }

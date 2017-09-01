@@ -1,14 +1,19 @@
 /*----------------------START OF ajax-calls-------------------*/
-
-function asyncGetDataFromTable(tableName){
+//The depreceated syncronous request is used because otherwise
+//the following JS executes too quickly and fails to draw
+function asyncGetDataFromTable(tableName, year, day){
   var data = {
     'action': 'get_data_async',
-    'tableName': tableName
+    'tableName': tableName,
+    'year': year,
+    'day': day
   };
+  console.log("year " + year + " , day " + day);
 
   var ajaxCall = $.ajax({
     url: 'async-update.php',
     type: 'post',
+    async:false,
     data: data,
     success: function(data){
       //console.log("AJAX success data: " + data + " :end success data");

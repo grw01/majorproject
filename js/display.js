@@ -76,21 +76,19 @@ function drawLine(context, x1, y1, x2, y2){
   context.stroke();
 }
 
-function calculateTimeIntervalAndDraw(canvas){
+function calculateTimeIntervalAndDraw(canvas, year, day){
   var context = canvas.getContext("2d");
+
+  //console.log("month value: " + month + ", days value: " + days +  ", day(added): "+day);
+
   lsString = localStorage.getItem("magnetometer");
   if(lsString == ""){
     console.log("(Function calculate) no local data found");
+    alert("no data for chosen date");
     return;
   }
   //console.log("lsString: " + lsString + " end of lsString");
   parsedString = JSON.parse(lsString);
-
-  var year = (document).getElementById("select-year").value;
-  var month = (document).getElementById("select-month").value;
-  var days = (document).getElementById("select-day").value;
-  var day = +month + +days;
-  //console.log("month value: " + month + ", days value: " + days +  ", day(added): "+day);
 
   //console.log("parsedString:" + parsedString + " year: " + year + " day: " + day);
   var chosenDataArray = getChosenDateData(parsedString, year, (day+1));
@@ -120,10 +118,7 @@ function calculateTimeIntervalAndDraw(canvas){
       //console.log("x: " + (graphWidth*secondsPercent+25) + " y: " + (graphHeight-graphHeight*(intensity/100)+20));
     }
     context.stroke();
-  }else{
-    alert("no data for chosen date");
   }
-
 }
 
 function getChosenDateData(objArray, year, day){

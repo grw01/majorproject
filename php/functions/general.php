@@ -10,32 +10,32 @@ function logToFile($txt){
 }
 
 
-function retrieveTable($selectedTable){
+function retrieveTable($selectedTable, $year, $day){
     $table;
     switch($selectedTable){
       case 'magnetometer':
         $columnTitles = array("Year" => "year","Day" => "day","Time" => "time","Intensity" => "intensity");
-        $table = retrieveTableInfo($columnTitles, $selectedTable, "time");
+        $table = retrieveTableInfo($columnTitles, $selectedTable, $year, $day, "time");
         //logToFile("column titles1: ".implode(",",$columnTitles));
         break;
         //CHANGE-NOTICE need to add case statements for the other data sources' tables
       default:
       //defaults to the farm magnetometer
         $columnTitles = array("Year" => "year","Day" => "day","Time" => "time","Intensity" => "intensity");
-        $table = retrieveTableInfo($columnTitles, $selectedTable, "time");
+        $table = retrieveTableInfo($columnTitles, $selectedTable, $year, $day, "time");
     }
     //logToFile("column titles2: ".implode(",",$columnTitles));
     return $table;
 
 }
 
-  function retrieveTableInfo($columnTitles, $tableName, $sortKey){
+  function retrieveTableInfo($columnTitles, $tableName, $year, $day, $sortKey){
     if(!isset($sortKey)){
       $sortKey = "id";
     }
     $columnString = implode( ", ", $columnTitles);
     logToFile("column string: ".$columnString);
-    $query = "SELECT $columnString FROM `$tableName` WHERE year=2014 AND day=9 ORDER BY $sortKey";
+    $query = "SELECT $columnString FROM `$tableName` WHERE year=$year AND day=$day ORDER BY $sortKey";
     logToFile("retrieve table info query: ".$query);
     $tableInfo = selectDB($query);
     return $tableInfo;

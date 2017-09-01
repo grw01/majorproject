@@ -5,7 +5,7 @@ $(document).ready(function(){
     asyncGetDataFromTable("magnetometer");
     //CHANGE-NOTICE need to add other sources of data later
   }else{
-    console.log("magnetometer is not null");
+    console.log("local magnetometer data is not null");
     //CHANGE-NOTICE will need to be modified to add the other sources in an efficient manner
   }
 

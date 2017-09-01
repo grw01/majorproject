@@ -7,6 +7,7 @@
 	<title>Magnetosphere Data Visualisation</title>
 	<?php
 	  require_once "requirements.php";
+
 		//TEMP-COMMENT       //getDataFromFTP is infeasible,
 		                     //too much data to put in a file
 		//getDataFromFTP(); //Could move to async-update.php and add ajax call

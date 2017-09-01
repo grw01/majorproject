@@ -11,7 +11,7 @@ function asyncGetDataFromTable(tableName){
     type: 'post',
     data: data,
     success: function(data){
-      console.log("AJAX success data: " + data + " :end success data");
+      //console.log("AJAX success data: " + data + " :end success data");
       localStorage.setItem(tableName, data);
     },
     error: function(xhr, desc, err){

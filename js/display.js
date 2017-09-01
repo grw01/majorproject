@@ -83,7 +83,7 @@ function calculateTimeIntervalAndDraw(canvas){
     console.log("no local data found");
     return;
   }
-  console.log("lsString: " + lsString + " end of lsString");
+  //console.log("lsString: " + lsString + " end of lsString");
   parsedString = JSON.parse(lsString);
 
   var year = (document).getElementById("select-year").value;

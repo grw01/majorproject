@@ -96,9 +96,10 @@ function calculateTimeIntervalAndDraw(canvas){
   var chosenDataArray = getChosenDateData(parsedString, year, (day+1));
   var secondsInYear = 31557600;//365.25 days
   var secondsInDay = 86400;
-  var secondsPassedByChosenDay = ((year-1904)*secondsInYear)+(day*secondsInDay);
+  var secondsPassedByChosenDay = ((year-1904)*secondsInYear)+((day+1)*secondsInDay);
+  var intensityMax = 56000;
   //console.log("secondsPassedByChosenDay: " + secondsPassedByChosenDay);
-  console.log("chosenDataArray: " + chosenDataArray);
+  //console.log("chosenDataArray: " + chosenDataArray);
 
   if (chosenDataArray.length>0){
     var graphHeight = canvas.height-41;
@@ -109,13 +110,14 @@ function calculateTimeIntervalAndDraw(canvas){
     for (var i = 0; i < chosenDataArray.length; i++){
       var seconds = (chosenDataArray[i]["time"])-secondsPassedByChosenDay;
       var secondsPercent = seconds/secondsInDay;
-      var intensity = chosenDataArray[i]["intensity"];
-      //console.log("secondsPercent: " + secondsPercent + " intensity: " + intensity);
+      var intensity = (chosenDataArray[i]["intensity"])/intensityMax;
+      //console.log("seconds: " + seconds + " secondsPercent: " + secondsPercent + " intensity: " + intensity);
       if(i==0){
-        context.moveTo(graphWidth*secondsPercent+25, graphHeight-graphHeight*(intensity/100)+20);
+        context.moveTo(graphWidth*secondsPercent+25, graphHeight-graphHeight*(intensity)+20);
       }else{
-        context.lineTo(graphWidth*secondsPercent+25, graphHeight-graphHeight*(intensity/100)+20);
+        context.lineTo(graphWidth*secondsPercent+25, graphHeight-graphHeight*(intensity)+20);
       }
+      //console.log("x: " + (graphWidth*secondsPercent+25) + " y: " + (graphHeight-graphHeight*(intensity/100)+20));
     }
     context.stroke();
   }else{

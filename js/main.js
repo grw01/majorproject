@@ -2,7 +2,7 @@ $(document).ready(function(){
   canvas = prepareCanvas();
   if((localStorage.getItem("magnetometer") == "") || (localStorage.getItem("magnetometer") == null)){
     console.log("magnetometer is null");
-    asyncGetDataFromTable("magnetometer");
+    //asyncGetDataFromTable("magnetometer");
     //CHANGE-NOTICE need to add other sources of data later
   }else{
     console.log("local magnetometer data is not null");
@@ -11,6 +11,8 @@ $(document).ready(function(){
 
   $("#show-data").click(function(){
     canvas = prepareCanvas();
+    //CHANGE-NOTICE modify asyncGetDataFromTable to include
+    // year, month and day(or equivalent data)
     //asyncGetDataFromTable("magnetometer");
     calculateTimeIntervalAndDraw(canvas);
   });

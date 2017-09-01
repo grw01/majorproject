@@ -80,7 +80,7 @@ function calculateTimeIntervalAndDraw(canvas){
   var context = canvas.getContext("2d");
   lsString = localStorage.getItem("magnetometer");
   if(lsString == ""){
-    console.log("no local data found");
+    console.log("(Function calculate) no local data found");
     return;
   }
   //console.log("lsString: " + lsString + " end of lsString");
@@ -90,14 +90,15 @@ function calculateTimeIntervalAndDraw(canvas){
   var month = (document).getElementById("select-month").value;
   var days = (document).getElementById("select-day").value;
   var day = +month + +days;
-  console.log("month value: " + month + ", days value: " + days +  ", day(added): "+day);
+  //console.log("month value: " + month + ", days value: " + days +  ", day(added): "+day);
 
-  console.log("parsedString:" + parsedString + " year: " + year + " day: " + day);
+  //console.log("parsedString:" + parsedString + " year: " + year + " day: " + day);
   var chosenDataArray = getChosenDateData(parsedString, year, (day+1));
   var secondsInYear = 31557600;//365.25 days
   var secondsInDay = 86400;
   var secondsPassedByChosenDay = ((year-1904)*secondsInYear)+(day*secondsInDay);
-  console.log("secondsPassedByChosenDay: " + secondsPassedByChosenDay);
+  //console.log("secondsPassedByChosenDay: " + secondsPassedByChosenDay);
+  console.log("chosenDataArray: " + chosenDataArray);
 
   if (chosenDataArray.length>0){
     var graphHeight = canvas.height-41;
@@ -109,7 +110,7 @@ function calculateTimeIntervalAndDraw(canvas){
       var seconds = (chosenDataArray[i]["time"])-secondsPassedByChosenDay;
       var secondsPercent = seconds/secondsInDay;
       var intensity = chosenDataArray[i]["intensity"];
-      console.log("secondsPercent: " + secondsPercent + " intensity: " + intensity);
+      //console.log("secondsPercent: " + secondsPercent + " intensity: " + intensity);
       if(i==0){
         context.moveTo(graphWidth*secondsPercent+25, graphHeight-graphHeight*(intensity/100)+20);
       }else{

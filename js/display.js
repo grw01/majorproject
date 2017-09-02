@@ -90,7 +90,7 @@ function calculateTimeIntervalAndDraw(canvas, year, day){
   //console.log("lsString: " + lsString + " end of lsString");
   parsedString = JSON.parse(lsString);
 
-  //console.log("parsedString:" + parsedString + " year: " + year + " day: " + day);
+  //console.log("year: " + year + " day: " + day);
   var chosenDataArray = getChosenDateData(parsedString, year, (day+1));
   var secondsInYear = 31557600;//365.25 days
   var secondsInDay = 86400;
@@ -105,8 +105,8 @@ function calculateTimeIntervalAndDraw(canvas, year, day){
     context.lineWidth=1.5;
     context.beginPath();
 
-    for (var i = 0; i < chosenDataArray.length; i++){
-      var seconds = (chosenDataArray[i]["time"])-secondsPassedByChosenDay;
+    for (var i = 0; i < chosenDataArray.length; i++){                     //extra offset of half a day required for correct display
+      var seconds = (chosenDataArray[i]["time"])-(secondsPassedByChosenDay-secondsInDay*0.5);
       var secondsPercent = seconds/secondsInDay;
       var intensity = (chosenDataArray[i]["intensity"])/intensityMax;
       console.log("seconds: " + seconds + " secondsPercent: " + secondsPercent + " intensity: " + intensity);

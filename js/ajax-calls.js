@@ -24,7 +24,7 @@ function asyncGetDataFromTable(tableName, year, day){
     }
   });
 }
-
+  //CHANGE-NOTICE currently unused, bad idea to update database using user machine.
 function asyncGetTempData(){
   //should I overwrite with the new(and old) data,(takes longer, simple)
   //check the database and only get then upload new data,(more complicated, no needless data retrieval)

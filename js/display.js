@@ -55,6 +55,9 @@ function drawGraph(canvas, context){
   var graphWidth = canvas.width-30;
   context.fillStyle = "#ffffff";
   context.fillRect(25,20, graphWidth, graphHeight);
+  context.fillStyle = "#dcdcdc";
+  context.fillRect(0,0, 25, canvas.height);
+  context.fillRect(24, (graphHeight+20), canvas.width, 41);
   context.fillStyle = "#000000";
   for(i = 0; i<11; i++){
     drawY = (graphHeight+20)*(i/11)+30;
@@ -109,7 +112,7 @@ function calculateTimeIntervalAndDraw(canvas, year, day){
       var seconds = (chosenDataArray[i]["time"])-(secondsPassedByChosenDay-secondsInDay*0.5);
       var secondsPercent = seconds/secondsInDay;
       var intensity = (chosenDataArray[i]["intensity"])/intensityMax;
-      console.log("seconds: " + seconds + " secondsPercent: " + secondsPercent + " intensity: " + intensity);
+      //console.log("seconds: " + seconds + " secondsPercent: " + secondsPercent + " intensity: " + intensity);
       if(i==0){
         context.moveTo(graphWidth*secondsPercent+25, graphHeight-graphHeight*(intensity)+20);
       }else{

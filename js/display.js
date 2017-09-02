@@ -109,7 +109,7 @@ function calculateTimeIntervalAndDraw(canvas, year, day){
       var seconds = (chosenDataArray[i]["time"])-secondsPassedByChosenDay;
       var secondsPercent = seconds/secondsInDay;
       var intensity = (chosenDataArray[i]["intensity"])/intensityMax;
-      //console.log("seconds: " + seconds + " secondsPercent: " + secondsPercent + " intensity: " + intensity);
+      console.log("seconds: " + seconds + " secondsPercent: " + secondsPercent + " intensity: " + intensity);
       if(i==0){
         context.moveTo(graphWidth*secondsPercent+25, graphHeight-graphHeight*(intensity)+20);
       }else{

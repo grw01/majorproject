@@ -1,11 +1,3 @@
-<?php
-  //retrieve tables and store for use locally
-  //$magnetometerArray = retrieveTable("magnetometer");
- ?>
- <!--<script>
- var jsMagnetometerArray = <?php //echo json_encode($magnetometerArray);?>;
- </script>-->
-
 <h2>Choose Date</h2>
 <select id="select-year">
   <option value="2014">2014</option>

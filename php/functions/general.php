@@ -16,7 +16,6 @@ function retrieveTable($selectedTable, $year, $day){
       case 'magnetometer':
         $columnTitles = array("Year" => "year","Day" => "day","Time" => "time","Intensity" => "intensity");
         $table = retrieveTableInfo($columnTitles, $selectedTable, $year, $day, "time");
-        //logToFile("column titles1: ".implode(",",$columnTitles));
         break;
         //CHANGE-NOTICE need to add case statements for the other data sources' tables
       default:
@@ -24,7 +23,6 @@ function retrieveTable($selectedTable, $year, $day){
         $columnTitles = array("Year" => "year","Day" => "day","Time" => "time","Intensity" => "intensity");
         $table = retrieveTableInfo($columnTitles, $selectedTable, $year, $day, "time");
     }
-    //logToFile("column titles2: ".implode(",",$columnTitles));
     return $table;
 
 }

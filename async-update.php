@@ -3,7 +3,7 @@
   require_once "php/functions/general.php";
   //can't use requirements.php or the html will be included in the 'echo'
 
-//TO RETURN DATA FROM ASYNC PHP USE ECHO NOT RETURN
+//TO RETURN DATA FROM ASYNC PHP, USE ECHO NOT RETURN
 
   if(isset($_POST["action"])){
     if($_POST["action"]=="get_data_async"){

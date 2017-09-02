@@ -82,8 +82,6 @@ function drawLine(context, x1, y1, x2, y2){
 function calculateTimeIntervalAndDraw(canvas, year, day){
   var context = canvas.getContext("2d");
 
-  //console.log("month value: " + month + ", days value: " + days +  ", day(added): "+day);
-
   lsString = localStorage.getItem("magnetometer");
   if(lsString == ""){
     console.log("(Function calculate) no local data found");
@@ -100,7 +98,6 @@ function calculateTimeIntervalAndDraw(canvas, year, day){
   var secondsPassedByChosenDay = ((year-1904)*secondsInYear)+((day+1)*secondsInDay);
   var intensityMax = 56000;
   //console.log("secondsPassedByChosenDay: " + secondsPassedByChosenDay);
-  //console.log("chosenDataArray: " + chosenDataArray);
 
   if (chosenDataArray.length>0){
     var graphHeight = canvas.height-41;

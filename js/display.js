@@ -53,18 +53,22 @@ function drawGraph(canvas, context){
   context.lineWidth = 1;
   var graphHeight = canvas.height-41;
   var graphWidth = canvas.width-30;
+  //draws the background
   context.fillStyle = "#ffffff";
   context.fillRect(25,20, graphWidth, graphHeight);
   context.fillStyle = "#dcdcdc";
   context.fillRect(0,0, 25, canvas.height);
   context.fillRect(24, (graphHeight+20), canvas.width, 41);
   context.fillStyle = "#000000";
+
+  //draws the horizontal lines and labels
   for(i = 0; i<11; i++){
     drawY = (graphHeight+20)*(i/11)+30;
     numLabel = (10-i)*10;
     context.fillText(numLabel, 0, drawY);
     drawLine(context, 25, drawY, graphWidth+25, drawY);
   }
+  //draws the vertical lines and labels
   for(i = 0; i<25; i++){
     drawX = (graphWidth+23)*(i/25)+15;
     context.fillText(i, drawX, graphHeight+41);
@@ -96,7 +100,7 @@ function calculateTimeIntervalAndDraw(canvas, year, day){
   var secondsInYear = 31557600;//365.25 days
   var secondsInDay = 86400;
   var secondsPassedByChosenDay = ((year-1904)*secondsInYear)+((day+1)*secondsInDay);
-  var intensityMax = 56000;
+  var intensityMax = 56000; //chosen by checking the DB for the highest value(55961)
   //console.log("secondsPassedByChosenDay: " + secondsPassedByChosenDay);
 
   if (chosenDataArray.length>0){
@@ -109,7 +113,7 @@ function calculateTimeIntervalAndDraw(canvas, year, day){
       var seconds = (chosenDataArray[i]["time"])-(secondsPassedByChosenDay-secondsInDay*0.5);
       var secondsPercent = seconds/secondsInDay;
       var intensity = (chosenDataArray[i]["intensity"])/intensityMax;
-      //console.log("seconds: " + seconds + " secondsPercent: " + secondsPercent + " intensity: " + intensity);
+      console.log("seconds: " + seconds + " secondsPercent: " + secondsPercent + " intensity: " + intensity);
       if(i==0){
         context.moveTo(graphWidth*secondsPercent+25, graphHeight-graphHeight*(intensity)+20);
       }else{

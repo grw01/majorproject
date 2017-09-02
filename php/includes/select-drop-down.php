@@ -8,7 +8,6 @@
 
 <h2>Choose Date</h2>
 <select id="select-year">
-  <option value="2013">2013</option>
   <option value="2014">2014</option>
   <option value="2015">2015</option>
   <option class="leap-year" value="2016">2016</option>

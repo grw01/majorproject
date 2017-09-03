@@ -62,9 +62,9 @@ function drawGraph(canvas, context){
   context.fillStyle = "#000000";
 
   //draws the horizontal lines and labels
-  for(i = 0; i<8; i++){
-    drawY = (graphHeight+35)*(i/8)+30;
-    numLabel = (56-i*5);
+  for(i = 0; i<15; i++){
+    drawY = (graphHeight+35)*(i/16)+30;
+    numLabel = (56-i*2.5);
     context.fillText(numLabel, 0, drawY);
     drawLine(context, 25, drawY, graphWidth+25, drawY);
   }
@@ -96,11 +96,13 @@ function calculateTimeIntervalAndDraw(canvas, year, day){
   parsedString = JSON.parse(lsString);
 
   //console.log("year: " + year + " day: " + day);
-  var chosenDataArray = getChosenDateData(parsedString, year, (day+1));
-  var secondsInYear = 31557600;//365.25 days
+  var chosenDataArray = getChosenDateData(parsedString, year, day);
+  var secondsInYear = 31557600;//365.25 days: 31557600
   var secondsInDay = 86400;
-  var secondsPassedByChosenDay = ((year-1904)*secondsInYear)+((day+1)*secondsInDay);
-  var intensityMax = 56000; //chosen by checking the DB for the highest value(55961)
+  var secondsPassedByChosenDay = ((year-1904)*secondsInYear)+(day*secondsInDay);
+  var intensityMax = 35000; //chosen by checking the DB for the highest value(55961),
+                            //Then subtracting 21000, since only 1 value goes undeneath it,
+                            //and is most likely an outlier/mistake(1056)
   //console.log("secondsPassedByChosenDay: " + secondsPassedByChosenDay);
 
   if (chosenDataArray.length>0){
@@ -109,16 +111,20 @@ function calculateTimeIntervalAndDraw(canvas, year, day){
     context.lineWidth=1.5;
     context.beginPath();
 
-    for (var i = 0; i < chosenDataArray.length; i++){                     //extra offset of half a day required for correct display
-      var seconds = (chosenDataArray[i]["time"])-(secondsPassedByChosenDay-secondsInDay*0.5);
+    for (var i = 0; i < chosenDataArray.length; i++){
+      var seconds = (chosenDataArray[i]["time"])-(secondsPassedByChosenDay); //extra offset of half a day required for correct display
       var secondsPercent = seconds/secondsInDay;
       var intensity = chosenDataArray[i]["intensity"];
-      var intensityPercent = intensity/intensityMax;
-      console.log("seconds: " + seconds + " secondsPercent: " + secondsPercent + " intensity: " + intensity + " intensityPercent: " + intensityPercent);
+      var intensityPercent = (intensity-20000)/intensityMax;
+
       if(i==0){
-        context.moveTo(graphWidth*secondsPercent+25, graphHeight-graphHeight*(intensityPercent)+20);
+        console.log("FIRST VALUE FOR DAY---- secondsPassed: " + secondsPassedByChosenDay + " secondsInDay: " + seconds + " secondsPercent: " + secondsPercent + " intensity: " + intensity + " intensityPercent: " + intensityPercent);
+        context.moveTo(graphWidth*secondsPercent+25, ((graphHeight+41)-(graphHeight*intensityPercent)));
       }else{
-        context.lineTo(graphWidth*secondsPercent+25, graphHeight-graphHeight*(intensityPercent)+20);
+        context.lineTo(graphWidth*secondsPercent+25, ((graphHeight+41)-(graphHeight*intensityPercent)));
+      }
+      if(i+1==chosenDataArray.length){
+        console.log("LAST VALUE FOR DAY---- secondsInDay: " + seconds + " secondsPercent: " + secondsPercent + " intensity: " + intensity + " intensityPercent: " + intensityPercent);
       }
       //console.log("x: " + (graphWidth*secondsPercent+25) + " y: " + (graphHeight-graphHeight*(intensityPercent/100)+20));
     }
@@ -131,7 +137,7 @@ function getChosenDateData(objArray, year, day){
   var j = 0;
   for (var i = 0; i < objArray.length; i++) {
     var object = objArray[i];
-    if((object['year'] == year) && (object['day'] == day)){
+    if((object['year'] == year) && (object['day'] == (day+1))){//day+1 because drop-down starts on 0, the DB on 1
       relevantDataArray[j]=object;
       j++;
       //console.log('object ' + i + ', time: ' + object["time"]);

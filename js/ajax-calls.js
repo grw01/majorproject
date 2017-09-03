@@ -8,7 +8,7 @@ function asyncGetDataFromTable(tableName, year, day){
     'year': year,
     'day': day
   };
-  console.log("year " + year + " , day " + day);
+  console.log("year " + year + " , day " + day + "============================================");
 
   var ajaxCall = $.ajax({
     url: 'async-update.php',

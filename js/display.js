@@ -62,9 +62,9 @@ function drawGraph(canvas, context){
   context.fillStyle = "#000000";
 
   //draws the horizontal lines and labels
-  for(i = 0; i<11; i++){
-    drawY = (graphHeight+20)*(i/11)+30;
-    numLabel = (10-i)*10;
+  for(i = 0; i<8; i++){
+    drawY = (graphHeight+35)*(i/8)+30;
+    numLabel = (56-i*5);
     context.fillText(numLabel, 0, drawY);
     drawLine(context, 25, drawY, graphWidth+25, drawY);
   }
@@ -112,14 +112,15 @@ function calculateTimeIntervalAndDraw(canvas, year, day){
     for (var i = 0; i < chosenDataArray.length; i++){                     //extra offset of half a day required for correct display
       var seconds = (chosenDataArray[i]["time"])-(secondsPassedByChosenDay-secondsInDay*0.5);
       var secondsPercent = seconds/secondsInDay;
-      var intensity = (chosenDataArray[i]["intensity"])/intensityMax;
-      console.log("seconds: " + seconds + " secondsPercent: " + secondsPercent + " intensity: " + intensity);
+      var intensity = chosenDataArray[i]["intensity"];
+      var intensityPercent = intensity/intensityMax;
+      console.log("seconds: " + seconds + " secondsPercent: " + secondsPercent + " intensity: " + intensity + " intensityPercent: " + intensityPercent);
       if(i==0){
-        context.moveTo(graphWidth*secondsPercent+25, graphHeight-graphHeight*(intensity)+20);
+        context.moveTo(graphWidth*secondsPercent+25, graphHeight-graphHeight*(intensityPercent)+20);
       }else{
-        context.lineTo(graphWidth*secondsPercent+25, graphHeight-graphHeight*(intensity)+20);
+        context.lineTo(graphWidth*secondsPercent+25, graphHeight-graphHeight*(intensityPercent)+20);
       }
-      //console.log("x: " + (graphWidth*secondsPercent+25) + " y: " + (graphHeight-graphHeight*(intensity/100)+20));
+      //console.log("x: " + (graphWidth*secondsPercent+25) + " y: " + (graphHeight-graphHeight*(intensityPercent/100)+20));
     }
     context.stroke();
   }

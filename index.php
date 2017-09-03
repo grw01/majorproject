@@ -21,7 +21,7 @@
 	<main>
 		<div id="canvasDiv" class="center-children">
 			<div class="align-left">
-				<h3 id="Y-title">Intensity</h3>
+				<h3 id="Y-title">Intensity<div>(×1000)</div></h3>
 			</div>
 			<!--HighDef canvas created using JS
 			<canvas id="dataCanvas">

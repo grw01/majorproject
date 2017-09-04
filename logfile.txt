@@ -1082,3 +1082,99 @@
 [09/03/2017 05:49:16 pm]: column string: year, day, time, intensity
 [09/03/2017 05:49:16 pm]: retrieve table info query: SELECT year, day, time, intensity FROM `magnetometer` WHERE year=2014 AND day=10 ORDER BY time
 [09/03/2017 05:49:16 pm]: tablename: magnetometer year: 2014 day: 10
+[09/03/2017 05:51:41 pm]: column string: year, day, time, intensity
+[09/03/2017 05:51:41 pm]: retrieve table info query: SELECT year, day, time, intensity FROM `magnetometer` WHERE year=2015 AND day=1 ORDER BY time
+[09/03/2017 05:51:42 pm]: tablename: magnetometer year: 2015 day: 1
+[09/03/2017 05:52:05 pm]: column string: year, day, time, intensity
+[09/03/2017 05:52:05 pm]: retrieve table info query: SELECT year, day, time, intensity FROM `magnetometer` WHERE year=2016 AND day=1 ORDER BY time
+[09/03/2017 05:52:05 pm]: tablename: magnetometer year: 2016 day: 1
+[09/03/2017 05:52:05 pm]: Data not found
+[09/03/2017 05:52:09 pm]: column string: year, day, time, intensity
+[09/03/2017 05:52:09 pm]: retrieve table info query: SELECT year, day, time, intensity FROM `magnetometer` WHERE year=2016 AND day=91 ORDER BY time
+[09/03/2017 05:52:09 pm]: tablename: magnetometer year: 2016 day: 91
+[09/03/2017 05:52:21 pm]: column string: year, day, time, intensity
+[09/03/2017 05:52:21 pm]: retrieve table info query: SELECT year, day, time, intensity FROM `magnetometer` WHERE year=2016 AND day=33 ORDER BY time
+[09/03/2017 05:52:21 pm]: tablename: magnetometer year: 2016 day: 33
+[09/03/2017 05:52:21 pm]: Data not found
+[09/03/2017 05:52:32 pm]: column string: year, day, time, intensity
+[09/03/2017 05:52:32 pm]: retrieve table info query: SELECT year, day, time, intensity FROM `magnetometer` WHERE year=2016 AND day=86 ORDER BY time
+[09/03/2017 05:52:32 pm]: tablename: magnetometer year: 2016 day: 86
+[09/03/2017 05:52:56 pm]: column string: year, day, time, intensity
+[09/03/2017 05:52:56 pm]: retrieve table info query: SELECT year, day, time, intensity FROM `magnetometer` WHERE year=2017 AND day=60 ORDER BY time
+[09/03/2017 05:52:56 pm]: tablename: magnetometer year: 2017 day: 60
+[09/03/2017 05:52:56 pm]: Data not found
+[09/03/2017 05:53:02 pm]: column string: year, day, time, intensity
+[09/03/2017 05:53:02 pm]: retrieve table info query: SELECT year, day, time, intensity FROM `magnetometer` WHERE year=2017 AND day=33 ORDER BY time
+[09/03/2017 05:53:02 pm]: tablename: magnetometer year: 2017 day: 33
+[09/03/2017 05:53:11 pm]: column string: year, day, time, intensity
+[09/03/2017 05:53:11 pm]: retrieve table info query: SELECT year, day, time, intensity FROM `magnetometer` WHERE year=2017 AND day=34 ORDER BY time
+[09/03/2017 05:53:12 pm]: tablename: magnetometer year: 2017 day: 34
+[09/04/2017 07:50:18 am]: column string: year, day, time, intensity
+[09/04/2017 07:50:18 am]: retrieve table info query: SELECT year, day, time, intensity FROM `magnetometer` WHERE year=2014 AND day=10 ORDER BY time
+[09/04/2017 07:50:19 am]: tablename: magnetometer year: 2014 day: 10
+[09/04/2017 07:50:22 am]: column string: year, day, time, intensity
+[09/04/2017 07:50:22 am]: retrieve table info query: SELECT year, day, time, intensity FROM `magnetometer` WHERE year=2015 AND day=1 ORDER BY time
+[09/04/2017 07:50:23 am]: tablename: magnetometer year: 2015 day: 1
+[09/04/2017 07:50:30 am]: column string: year, day, time, intensity
+[09/04/2017 07:50:30 am]: retrieve table info query: SELECT year, day, time, intensity FROM `magnetometer` WHERE year=2016 AND day=1 ORDER BY time
+[09/04/2017 07:50:30 am]: tablename: magnetometer year: 2016 day: 1
+[09/04/2017 07:50:30 am]: Data not found
+[09/04/2017 07:50:36 am]: column string: year, day, time, intensity
+[09/04/2017 07:50:36 am]: retrieve table info query: SELECT year, day, time, intensity FROM `magnetometer` WHERE year=2016 AND day=33 ORDER BY time
+[09/04/2017 07:50:36 am]: tablename: magnetometer year: 2016 day: 33
+[09/04/2017 07:50:36 am]: Data not found
+[09/04/2017 07:50:40 am]: column string: year, day, time, intensity
+[09/04/2017 07:50:40 am]: retrieve table info query: SELECT year, day, time, intensity FROM `magnetometer` WHERE year=2016 AND day=60 ORDER BY time
+[09/04/2017 07:50:40 am]: tablename: magnetometer year: 2016 day: 60
+[09/04/2017 07:51:33 am]: column string: year, day, time, intensity
+[09/04/2017 07:51:33 am]: retrieve table info query: SELECT year, day, time, intensity FROM `magnetometer` WHERE year=2014 AND day=10 ORDER BY time
+[09/04/2017 07:51:33 am]: tablename: magnetometer year: 2014 day: 10
+[09/04/2017 07:51:41 am]: column string: year, day, time, intensity
+[09/04/2017 07:51:41 am]: retrieve table info query: SELECT year, day, time, intensity FROM `magnetometer` WHERE year=2016 AND day=60 ORDER BY time
+[09/04/2017 07:51:41 am]: tablename: magnetometer year: 2016 day: 60
+[09/04/2017 07:52:21 am]: column string: year, day, time, intensity
+[09/04/2017 07:52:21 am]: retrieve table info query: SELECT year, day, time, intensity FROM `magnetometer` WHERE year=2017 AND day=60 ORDER BY time
+[09/04/2017 07:52:21 am]: tablename: magnetometer year: 2017 day: 60
+[09/04/2017 07:52:21 am]: Data not found
+[09/04/2017 07:52:29 am]: column string: year, day, time, intensity
+[09/04/2017 07:52:29 am]: retrieve table info query: SELECT year, day, time, intensity FROM `magnetometer` WHERE year=2017 AND day=33 ORDER BY time
+[09/04/2017 07:52:29 am]: tablename: magnetometer year: 2017 day: 33
+[09/04/2017 07:54:17 am]: column string: year, day, time, intensity
+[09/04/2017 07:54:17 am]: retrieve table info query: SELECT year, day, time, intensity FROM `magnetometer` WHERE year=2014 AND day=10 ORDER BY time
+[09/04/2017 07:54:17 am]: tablename: magnetometer year: 2014 day: 10
+[09/04/2017 07:54:19 am]: column string: year, day, time, intensity
+[09/04/2017 07:54:19 am]: retrieve table info query: SELECT year, day, time, intensity FROM `magnetometer` WHERE year=2015 AND day=1 ORDER BY time
+[09/04/2017 07:54:20 am]: tablename: magnetometer year: 2015 day: 1
+[09/04/2017 07:54:27 am]: column string: year, day, time, intensity
+[09/04/2017 07:54:27 am]: retrieve table info query: SELECT year, day, time, intensity FROM `magnetometer` WHERE year=2016 AND day=60 ORDER BY time
+[09/04/2017 07:54:27 am]: tablename: magnetometer year: 2016 day: 60
+[09/04/2017 07:54:36 am]: column string: year, day, time, intensity
+[09/04/2017 07:54:36 am]: retrieve table info query: SELECT year, day, time, intensity FROM `magnetometer` WHERE year=2017 AND day=33 ORDER BY time
+[09/04/2017 07:54:37 am]: tablename: magnetometer year: 2017 day: 33
+[09/04/2017 07:54:41 am]: column string: year, day, time, intensity
+[09/04/2017 07:54:41 am]: retrieve table info query: SELECT year, day, time, intensity FROM `magnetometer` WHERE year=2017 AND day=34 ORDER BY time
+[09/04/2017 07:54:41 am]: tablename: magnetometer year: 2017 day: 34
+[09/04/2017 07:57:14 am]: column string: year, day, time, intensity
+[09/04/2017 07:57:14 am]: retrieve table info query: SELECT year, day, time, intensity FROM `magnetometer` WHERE year=2016 AND day=60 ORDER BY time
+[09/04/2017 07:57:14 am]: tablename: magnetometer year: 2016 day: 60
+[09/04/2017 07:57:22 am]: column string: year, day, time, intensity
+[09/04/2017 07:57:22 am]: retrieve table info query: SELECT year, day, time, intensity FROM `magnetometer` WHERE year=2016 AND day=60 ORDER BY time
+[09/04/2017 07:57:23 am]: tablename: magnetometer year: 2016 day: 60
+[09/04/2017 07:57:47 am]: column string: year, day, time, intensity
+[09/04/2017 07:57:47 am]: retrieve table info query: SELECT year, day, time, intensity FROM `magnetometer` WHERE year=2016 AND day=59 ORDER BY time
+[09/04/2017 07:57:48 am]: tablename: magnetometer year: 2016 day: 59
+[09/04/2017 07:58:13 am]: column string: year, day, time, intensity
+[09/04/2017 07:58:13 am]: retrieve table info query: SELECT year, day, time, intensity FROM `magnetometer` WHERE year=2016 AND day=60 ORDER BY time
+[09/04/2017 07:58:13 am]: tablename: magnetometer year: 2016 day: 60
+[09/04/2017 07:58:20 am]: column string: year, day, time, intensity
+[09/04/2017 07:58:20 am]: retrieve table info query: SELECT year, day, time, intensity FROM `magnetometer` WHERE year=2016 AND day=60 ORDER BY time
+[09/04/2017 07:58:20 am]: tablename: magnetometer year: 2016 day: 60
+[09/04/2017 07:58:27 am]: column string: year, day, time, intensity
+[09/04/2017 07:58:27 am]: retrieve table info query: SELECT year, day, time, intensity FROM `magnetometer` WHERE year=2016 AND day=60 ORDER BY time
+[09/04/2017 07:58:27 am]: tablename: magnetometer year: 2016 day: 60
+[09/04/2017 07:58:37 am]: column string: year, day, time, intensity
+[09/04/2017 07:58:37 am]: retrieve table info query: SELECT year, day, time, intensity FROM `magnetometer` WHERE year=2016 AND day=61 ORDER BY time
+[09/04/2017 07:58:37 am]: tablename: magnetometer year: 2016 day: 61
+[09/04/2017 07:58:44 am]: column string: year, day, time, intensity
+[09/04/2017 07:58:44 am]: retrieve table info query: SELECT year, day, time, intensity FROM `magnetometer` WHERE year=2016 AND day=90 ORDER BY time
+[09/04/2017 07:58:45 am]: tablename: magnetometer year: 2016 day: 90

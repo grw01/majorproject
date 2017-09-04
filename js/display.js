@@ -97,9 +97,12 @@ function calculateTimeIntervalAndDraw(canvas, year, day){
 
   //console.log("year: " + year + " day: " + day);
   var chosenDataArray = getChosenDateData(parsedString, year, day);
-  var secondsInYear = 31557600;//365.25 days: 31557600
+  var secondsInYear = 31536000;//365 days: 31536000  //365.25 days: 31557600
   var secondsInDay = 86400;
-  var secondsPassedByChosenDay = ((year-1904)*secondsInYear)+(day*secondsInDay);
+  var leapDays = 28;
+  if(year<2017){leapDays = 28}else{leapDays = 29}//accounts for the leap-years since 1904, trial and error indicates that
+                                                //leap days are added completely for each year, instead of defining year as 365.25 days
+  var secondsPassedByChosenDay = ((year-1904)*secondsInYear)+((day+leapDays)*secondsInDay);
   var intensityMax = 35000; //chosen by checking the DB for the highest value(55961),
                             //Then subtracting 21000, since only 1 value goes undeneath it,
                             //and is most likely an outlier/mistake(1056)

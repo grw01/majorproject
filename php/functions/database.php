@@ -108,7 +108,7 @@
   }
 
   //makes a directory that would temporarily hold the data
-  //(not feasible, slow, need to find a way of going directly from FTP to mysql server)
+  //CHANGE-NOTICE (not feasible, slow, need to find a way of going directly from FTP to mysql server)
   function getDataFromFTP(){
     $server = "ugexppc15.dph.aber.ac.uk";
     $connection = ftp_connect($server) or die("Could not connect to $server");

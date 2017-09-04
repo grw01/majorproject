@@ -83,6 +83,7 @@ function drawLine(context, x1, y1, x2, y2){
   context.stroke();
 }
 
+//CHANGE-NOTICE need to account for Daylight Saving
 function calculateTimeIntervalAndDraw(canvas, year, day){
   var context = canvas.getContext("2d");
 

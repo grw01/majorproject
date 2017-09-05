@@ -151,7 +151,6 @@ function calculateTimeIntervalAndDraw(canvas, year, day){
       if(i+1==chosenDataArray.length){
         console.log("LAST VALUE FOR DAY---- secondsInDay: " + seconds + " secondsPercent: " + secondsPercent + " intensity: " + intensity + " intensityPercent: " + intensityPercent);
       }
-      //console.log("x: " + (graphWidth*secondsPercent+25) + " y: " + (graphHeight-graphHeight*(intensityPercent/100)+20));
     }
     context.stroke();
   }

@@ -53,3 +53,4 @@
   <option value="30">31</option>
 </select>
 <button id="show-data" type="button">Go</button>
+<h3 style="display:none" id="daylight_saving">Daylight Saving</h3>

@@ -32,9 +32,7 @@ function retrieveTable($selectedTable, $year, $day){
       $sortKey = "id";
     }
     $columnString = implode( ", ", $columnTitles);
-    logToFile("column string: ".$columnString);
     $query = "SELECT $columnString FROM `$tableName` WHERE year=$year AND day=$day ORDER BY $sortKey";
-    logToFile("retrieve table info query: ".$query);
     $tableInfo = selectDB($query);
     return $tableInfo;
   }

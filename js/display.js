@@ -101,9 +101,30 @@ function calculateTimeIntervalAndDraw(canvas, year, day){
   var secondsInYear = 31536000;//365 days: 31536000  //365.25 days: 31557600
   var secondsInDay = 86400;
   var leapDays = 28;
-  if(year<2017){leapDays = 28}else{leapDays = 29}//accounts for the leap-years since 1904, trial and error indicates that
-                                                //leap days are added completely for each year, instead of defining year as 365.25 days
-  var secondsPassedByChosenDay = ((year-1904)*secondsInYear)+((day+leapDays)*secondsInDay);
+  var daylightSaving = 0; //will be used to subtract 3600 seconds if in daylight saving time
+  if(year<2017){leapDays = 28}else{leapDays = 29}//accounts for the leap-years since 1904, trial and error indicates that leap days are added completely for each year, instead of defining year as 365.25 days
+
+  /*decided that if statement would be better than case statement since there are multiple conditions but only 1
+  answer,(changing daylightSaving to 3600 instead of 0) so it will take up less space,
+  added extra statement to show/hide "Daylight Saving" label since it needs to display a day longer than the
+  variable needs to be 3600*/
+
+  if((year==2014 && day>87 && day<298)||
+  (year==2015 && day>86 && day<298)||
+  (year==2016 && day>86 && day<304)||
+  (year==2017 && day>83 && day<302)){
+    daylightSaving=3600;
+  }
+  if((year==2014 && day>87 && day<299)||
+  (year==2015 && day>86 && day<299)||
+  (year==2016 && day>86 && day<305)||
+  (year==2017 && day>83 && day<303)){
+    $('#daylight_saving').show();
+  }else {
+    $('#daylight_saving').hide();
+  }
+
+  var secondsPassedByChosenDay = ((year-1904)*secondsInYear)+(((day+leapDays)*secondsInDay)-daylightSaving);
   var intensityMax = 35000; //chosen by checking the DB for the highest value(55961),
                             //Then subtracting 21000, since only 1 value goes undeneath it,
                             //and is most likely an outlier/mistake(1056)
